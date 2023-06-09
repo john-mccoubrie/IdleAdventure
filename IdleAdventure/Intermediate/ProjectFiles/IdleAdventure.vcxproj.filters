@@ -69,6 +69,15 @@
     <ClCompile Include="..\..\Source\IdleAdventure\Private\Game\IdleGameModeBase.cpp">
       <Filter>Source\IdleAdventure\Private\Game</Filter>
     </ClCompile>
+    <Filter Include="Source\IdleAdventure\Private\Interact">
+      <UniqueIdentifier>{DDEA8F52-803B-3E64-A563-346B3D050528}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\Interact\TargetInterface.cpp">
+      <Filter>Source\IdleAdventure\Private\Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\Interact\TreeBase.cpp">
+      <Filter>Source\IdleAdventure\Private\Interact</Filter>
+    </ClCompile>
     <Filter Include="Source\IdleAdventure\Private\Player">
       <UniqueIdentifier>{C34FB3F9-DA63-31E2-A327-66F66917EB3D}</UniqueIdentifier>
     </Filter>
@@ -92,6 +101,15 @@
     </Filter>
     <ClInclude Include="..\..\Source\IdleAdventure\Public\Game\IdleGameModeBase.h">
       <Filter>Source\IdleAdventure\Public\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\IdleAdventure\Public\Interact">
+      <UniqueIdentifier>{E513085C-589C-3DF0-9A77-D3E335182EDE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\Interact\TargetInterface.h">
+      <Filter>Source\IdleAdventure\Public\Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\Interact\TreeBase.h">
+      <Filter>Source\IdleAdventure\Public\Interact</Filter>
     </ClInclude>
     <Filter Include="Source\IdleAdventure\Public\Player">
       <UniqueIdentifier>{250F88E5-9DBC-356C-9530-3123AD3FCB71}</UniqueIdentifier>

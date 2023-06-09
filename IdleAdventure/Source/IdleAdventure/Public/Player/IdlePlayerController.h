@@ -9,7 +9,7 @@
 class UInputMappingContext;
 class UInputAction;
 struct FInputActionValue;
-//class IEnemyInterface;
+class ITargetInterface;
 
 UCLASS()
 class IDLEADVENTURE_API AIdlePlayerController : public APlayerController
@@ -36,6 +36,6 @@ private:
 	void Move(const FInputActionValue& InputActionValue);
 
 	void CursorTrace();
-	//IEnemyInterface* LastActor;
-	//IEnemyInterface* ThisActor;
+	ITargetInterface* LastActor;
+	ITargetInterface* ThisActor;
 };

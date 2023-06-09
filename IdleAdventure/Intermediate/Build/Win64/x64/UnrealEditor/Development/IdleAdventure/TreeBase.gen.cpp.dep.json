@@ -1,0 +1,17 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\treebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\x64\\idleadventureeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\idleadventure\\definitions.idleadventure.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\public\\interact\\treebase.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\public\\interact\\targetinterface.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\targetinterface.generated.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\treebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

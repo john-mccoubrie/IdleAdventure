@@ -48,11 +48,9 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIdlePlayerController_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "//class IEnemyInterface;\n" },
 		{ "HideCategories", "Collision Rendering Transformation" },
 		{ "IncludePath", "Player/IdlePlayerController.h" },
 		{ "ModuleRelativePath", "Public/Player/IdlePlayerController.h" },
-		{ "ToolTip", "class IEnemyInterface;" },
 	};
 #endif
 #if WITH_METADATA
@@ -110,9 +108,9 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AIdlePlayerController, AIdlePlayerController::StaticClass, TEXT("AIdlePlayerController"), &Z_Registration_Info_UClass_AIdlePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdlePlayerController), 765788017U) },
+		{ Z_Construct_UClass_AIdlePlayerController, AIdlePlayerController::StaticClass, TEXT("AIdlePlayerController"), &Z_Registration_Info_UClass_AIdlePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdlePlayerController), 4279032589U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_3897862565(TEXT("/Script/IdleAdventure"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_893216489(TEXT("/Script/IdleAdventure"),
 		Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
