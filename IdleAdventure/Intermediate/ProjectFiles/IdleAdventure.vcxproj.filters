@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\IdleAdventure.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\IdleAdventure.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\IdleAdventureEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{ED49A36C-4FD5-37E5-A2AC-E11BEF4F21CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens">
+      <UniqueIdentifier>{28125F47-4973-377C-9D77-EBC3C72EC856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\HoloLens\Config">
+      <UniqueIdentifier>{D3BF39CB-FA64-39E2-A327-B5021BA69773}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\HoloLens\Config\HoloLensEngine.ini">
+      <Filter>Platforms\HoloLens\Config</Filter>
+    </None>
+    <Filter Include="Source\IdleAdventure">
+      <UniqueIdentifier>{227F351E-F628-3500-A074-5D2A19933E34}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\IdleAdventure\IdleAdventure.Build.cs">
+      <Filter>Source\IdleAdventure</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\IdleAdventure\IdleAdventure.cpp">
+      <Filter>Source\IdleAdventure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\IdleAdventure\IdleAdventure.h">
+      <Filter>Source\IdleAdventure</Filter>
+    </ClInclude>
+    <Filter Include="Source\IdleAdventure\Private">
+      <UniqueIdentifier>{285B7563-650F-3073-BB25-80BA9BFE2BAC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\IdleCharacterBase.cpp">
+      <Filter>Source\IdleAdventure\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\IdleAdventure\Private\Character">
+      <UniqueIdentifier>{C1332521-F704-3EAD-AAD4-38C8E652AF0F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\Character\IdleCharacter.cpp">
+      <Filter>Source\IdleAdventure\Private\Character</Filter>
+    </ClCompile>
+    <Filter Include="Source\IdleAdventure\Private\Game">
+      <UniqueIdentifier>{E7898C21-129B-3624-A4B8-14B56B334269}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\Game\IdleGameModeBase.cpp">
+      <Filter>Source\IdleAdventure\Private\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\IdleAdventure\Private\Player">
+      <UniqueIdentifier>{C34FB3F9-DA63-31E2-A327-66F66917EB3D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\Player\IdlePlayerController.cpp">
+      <Filter>Source\IdleAdventure\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\IdleAdventure\Public">
+      <UniqueIdentifier>{C2A482CF-E52D-38E6-8BDA-2611C8AA4D1F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\IdleCharacterBase.h">
+      <Filter>Source\IdleAdventure\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\IdleAdventure\Public\Character">
+      <UniqueIdentifier>{04552B31-19A9-3768-9183-8EF8D084F7D6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\Character\IdleCharacter.h">
+      <Filter>Source\IdleAdventure\Public\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\IdleAdventure\Public\Game">
+      <UniqueIdentifier>{1AFF4BA1-B372-386F-99D0-9CF8BD79F0EF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\Game\IdleGameModeBase.h">
+      <Filter>Source\IdleAdventure\Public\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\IdleAdventure\Public\Player">
+      <UniqueIdentifier>{250F88E5-9DBC-356C-9530-3123AD3FCB71}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\Player\IdlePlayerController.h">
+      <Filter>Source\IdleAdventure\Public\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

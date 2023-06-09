@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "IdleAdventure",
+			"Path": "C:\\Users\\John\\Documents\\GitHub\\IdleAdventure\\IdleAdventure\\Source\\IdleAdventure.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "IdleAdventureEditor",
+			"Path": "C:\\Users\\John\\Documents\\GitHub\\IdleAdventure\\IdleAdventure\\Source\\IdleAdventureEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
