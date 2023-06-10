@@ -1,0 +1,20 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\private\\abilitysystem\\idleattributeset.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\x64\\idleadventureeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\idleadventure\\definitions.idleadventure.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\public\\abilitysystem\\idleattributeset.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\attributeset.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\engine\\datatable.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\public\\datatableutils.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\datatable.generated.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\attributeset.generated.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\idleattributeset.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

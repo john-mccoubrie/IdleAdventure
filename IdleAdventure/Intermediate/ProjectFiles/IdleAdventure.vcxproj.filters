@@ -57,6 +57,15 @@
     <ClCompile Include="..\..\Source\IdleAdventure\Private\IdleCharacterBase.cpp">
       <Filter>Source\IdleAdventure\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\IdleAdventure\Private\AbilitySystem">
+      <UniqueIdentifier>{E1F425DE-6C19-3FE8-89BE-3A95A2B53DE9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\AbilitySystem\IdleAbilitySystemComponent.cpp">
+      <Filter>Source\IdleAdventure\Private\AbilitySystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\AbilitySystem\IdleAttributeSet.cpp">
+      <Filter>Source\IdleAdventure\Private\AbilitySystem</Filter>
+    </ClCompile>
     <Filter Include="Source\IdleAdventure\Private\Character">
       <UniqueIdentifier>{C1332521-F704-3EAD-AAD4-38C8E652AF0F}</UniqueIdentifier>
     </Filter>
@@ -84,11 +93,23 @@
     <ClCompile Include="..\..\Source\IdleAdventure\Private\Player\IdlePlayerController.cpp">
       <Filter>Source\IdleAdventure\Private\Player</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\Player\IdlePlayerState.cpp">
+      <Filter>Source\IdleAdventure\Private\Player</Filter>
+    </ClCompile>
     <Filter Include="Source\IdleAdventure\Public">
       <UniqueIdentifier>{C2A482CF-E52D-38E6-8BDA-2611C8AA4D1F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\IdleAdventure\Public\IdleCharacterBase.h">
       <Filter>Source\IdleAdventure\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\IdleAdventure\Public\AbilitySystem">
+      <UniqueIdentifier>{7192F203-66E5-3E7C-9E67-BFCE25F3E239}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\AbilitySystem\IdleAbilitySystemComponent.h">
+      <Filter>Source\IdleAdventure\Public\AbilitySystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\AbilitySystem\IdleAttributeSet.h">
+      <Filter>Source\IdleAdventure\Public\AbilitySystem</Filter>
     </ClInclude>
     <Filter Include="Source\IdleAdventure\Public\Character">
       <UniqueIdentifier>{04552B31-19A9-3768-9183-8EF8D084F7D6}</UniqueIdentifier>
@@ -115,6 +136,9 @@
       <UniqueIdentifier>{250F88E5-9DBC-356C-9530-3123AD3FCB71}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\IdleAdventure\Public\Player\IdlePlayerController.h">
+      <Filter>Source\IdleAdventure\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\Player\IdlePlayerState.h">
       <Filter>Source\IdleAdventure\Public\Player</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,17 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\private\\player\\idleplayerstate.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\x64\\idleadventureeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\idleadventure\\definitions.idleadventure.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\public\\player\\idleplayerstate.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\idleplayerstate.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
