@@ -7,6 +7,8 @@
         "Includes": [
             "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\idleadventure\\definitions.idleadventure.h",
             "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\public\\player\\idleplayerstate.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysysteminterface.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysysteminterface.generated.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
             "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\idleplayerstate.generated.h"

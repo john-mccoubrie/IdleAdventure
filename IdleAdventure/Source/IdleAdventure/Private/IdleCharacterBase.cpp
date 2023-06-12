@@ -13,6 +13,11 @@ AIdleCharacterBase::AIdleCharacterBase()
 
 }
 
+UAbilitySystemComponent* AIdleCharacterBase::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
 void AIdleCharacterBase::BeginPlay()
 {
 	Super::BeginPlay();

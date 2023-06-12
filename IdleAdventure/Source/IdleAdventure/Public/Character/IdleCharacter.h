@@ -16,5 +16,10 @@ class IDLEADVENTURE_API AIdleCharacter : public AIdleCharacterBase
 
 public:
 	AIdleCharacter();
+	virtual void PossessedBy(AController* NewController) override;
+	virtual void OnRep_PlayerState() override;
+
+private:
+	void InitAbilityActorInfo();
 	
 };

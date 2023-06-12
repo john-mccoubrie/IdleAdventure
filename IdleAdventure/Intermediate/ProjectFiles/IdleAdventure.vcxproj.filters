@@ -66,6 +66,12 @@
     <ClCompile Include="..\..\Source\IdleAdventure\Private\AbilitySystem\IdleAttributeSet.cpp">
       <Filter>Source\IdleAdventure\Private\AbilitySystem</Filter>
     </ClCompile>
+    <Filter Include="Source\IdleAdventure\Private\Actor">
+      <UniqueIdentifier>{EA4AFA0F-0949-368B-BBE5-77DE2D27CB53}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\Actor\IdleEffectActor.cpp">
+      <Filter>Source\IdleAdventure\Private\Actor</Filter>
+    </ClCompile>
     <Filter Include="Source\IdleAdventure\Private\Character">
       <UniqueIdentifier>{C1332521-F704-3EAD-AAD4-38C8E652AF0F}</UniqueIdentifier>
     </Filter>
@@ -110,6 +116,12 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\IdleAdventure\Public\AbilitySystem\IdleAttributeSet.h">
       <Filter>Source\IdleAdventure\Public\AbilitySystem</Filter>
+    </ClInclude>
+    <Filter Include="Source\IdleAdventure\Public\Actor">
+      <UniqueIdentifier>{6CFFB1A5-162B-394F-9F66-3CE5A72D697E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\Actor\IdleEffectActor.h">
+      <Filter>Source\IdleAdventure\Public\Actor</Filter>
     </ClInclude>
     <Filter Include="Source\IdleAdventure\Public\Character">
       <UniqueIdentifier>{04552B31-19A9-3768-9183-8EF8D084F7D6}</UniqueIdentifier>

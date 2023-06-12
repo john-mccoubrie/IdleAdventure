@@ -80,9 +80,9 @@ void EmptyLinkFunctionForGeneratedCodeIdleCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Character_IdleCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AIdleCharacter, AIdleCharacter::StaticClass, TEXT("AIdleCharacter"), &Z_Registration_Info_UClass_AIdleCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdleCharacter), 4003054195U) },
+		{ Z_Construct_UClass_AIdleCharacter, AIdleCharacter::StaticClass, TEXT("AIdleCharacter"), &Z_Registration_Info_UClass_AIdleCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdleCharacter), 2894172524U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Character_IdleCharacter_h_919455883(TEXT("/Script/IdleAdventure"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Character_IdleCharacter_h_3727362756(TEXT("/Script/IdleAdventure"),
 		Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Character_IdleCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Character_IdleCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
