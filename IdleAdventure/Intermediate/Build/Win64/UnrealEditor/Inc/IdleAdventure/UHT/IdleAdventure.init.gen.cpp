@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeIdleAdventure_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x767EDDD5,
-				0x0C83615C,
+				0xEE82D110,
+				0xC3AF7A3B,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_IdleAdventure.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_IdleAdventure.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_IdleAdventure(Z_Construct_UPackage__Script_IdleAdventure, TEXT("/Script/IdleAdventure"), Z_Registration_Info_UPackage__Script_IdleAdventure, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x767EDDD5, 0x0C83615C));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_IdleAdventure(Z_Construct_UPackage__Script_IdleAdventure, TEXT("/Script/IdleAdventure"), Z_Registration_Info_UPackage__Script_IdleAdventure, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEE82D110, 0xC3AF7A3B));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

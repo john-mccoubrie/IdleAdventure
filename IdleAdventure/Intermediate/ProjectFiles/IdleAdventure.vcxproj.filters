@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <None Include="..\..\IdleAdventure.uproject" />
     <Filter Include="Source">
@@ -16,6 +16,9 @@
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -102,6 +105,12 @@
     <ClCompile Include="..\..\Source\IdleAdventure\Private\Player\IdlePlayerState.cpp">
       <Filter>Source\IdleAdventure\Private\Player</Filter>
     </ClCompile>
+    <Filter Include="Source\IdleAdventure\Private\UI">
+      <UniqueIdentifier>{5C20D5DB-E00D-33D0-B3E6-A57F2C1F001C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\UI\IdleWidgetController.cpp">
+      <Filter>Source\IdleAdventure\Private\UI</Filter>
+    </ClCompile>
     <Filter Include="Source\IdleAdventure\Public">
       <UniqueIdentifier>{C2A482CF-E52D-38E6-8BDA-2611C8AA4D1F}</UniqueIdentifier>
     </Filter>
@@ -152,6 +161,12 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\IdleAdventure\Public\Player\IdlePlayerState.h">
       <Filter>Source\IdleAdventure\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Source\IdleAdventure\Public\UI">
+      <UniqueIdentifier>{21E2BA10-C0AD-320C-99E3-1CEDF340EEF4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\UI\IdleWidgetController.h">
+      <Filter>Source\IdleAdventure\Public\UI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
