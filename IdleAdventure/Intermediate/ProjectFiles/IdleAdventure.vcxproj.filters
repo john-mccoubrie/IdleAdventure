@@ -111,6 +111,9 @@
     <ClCompile Include="..\..\Source\IdleAdventure\Private\UI\IdleWidgetController.cpp">
       <Filter>Source\IdleAdventure\Private\UI</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\UI\UITest.cpp">
+      <Filter>Source\IdleAdventure\Private\UI</Filter>
+    </ClCompile>
     <Filter Include="Source\IdleAdventure\Public">
       <UniqueIdentifier>{C2A482CF-E52D-38E6-8BDA-2611C8AA4D1F}</UniqueIdentifier>
     </Filter>
@@ -166,6 +169,9 @@
       <UniqueIdentifier>{21E2BA10-C0AD-320C-99E3-1CEDF340EEF4}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\IdleAdventure\Public\UI\IdleWidgetController.h">
+      <Filter>Source\IdleAdventure\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\UI\UITest.h">
       <Filter>Source\IdleAdventure\Public\UI</Filter>
     </ClInclude>
   </ItemGroup>
