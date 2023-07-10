@@ -57,9 +57,6 @@
     <Filter Include="Source\IdleAdventure\Private">
       <UniqueIdentifier>{285B7563-650F-3073-BB25-80BA9BFE2BAC}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\IdleAdventure\Private\IdleCharacterBase.cpp">
-      <Filter>Source\IdleAdventure\Private</Filter>
-    </ClCompile>
     <Filter Include="Source\IdleAdventure\Private\AbilitySystem">
       <UniqueIdentifier>{E1F425DE-6C19-3FE8-89BE-3A95A2B53DE9}</UniqueIdentifier>
     </Filter>
@@ -108,18 +105,18 @@
     <Filter Include="Source\IdleAdventure\Private\UI">
       <UniqueIdentifier>{5C20D5DB-E00D-33D0-B3E6-A57F2C1F001C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\IdleAdventure\Private\UI\IdleWidgetController.cpp">
-      <Filter>Source\IdleAdventure\Private\UI</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\IdleAdventure\Private\UI\UITest.cpp">
       <Filter>Source\IdleAdventure\Private\UI</Filter>
+    </ClCompile>
+    <Filter Include="Source\IdleAdventure\Private\UI\WidgetController">
+      <UniqueIdentifier>{F1DB5C0C-FA3E-3FF7-8594-C268BDAB0E16}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\UI\WidgetController\OverlayWidgetController.cpp">
+      <Filter>Source\IdleAdventure\Private\UI\WidgetController</Filter>
     </ClCompile>
     <Filter Include="Source\IdleAdventure\Public">
       <UniqueIdentifier>{C2A482CF-E52D-38E6-8BDA-2611C8AA4D1F}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\IdleAdventure\Public\IdleCharacterBase.h">
-      <Filter>Source\IdleAdventure\Public</Filter>
-    </ClInclude>
     <Filter Include="Source\IdleAdventure\Public\AbilitySystem">
       <UniqueIdentifier>{7192F203-66E5-3E7C-9E67-BFCE25F3E239}</UniqueIdentifier>
     </Filter>
@@ -168,11 +165,30 @@
     <Filter Include="Source\IdleAdventure\Public\UI">
       <UniqueIdentifier>{21E2BA10-C0AD-320C-99E3-1CEDF340EEF4}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\IdleAdventure\Public\UI\IdleWidgetController.h">
-      <Filter>Source\IdleAdventure\Public\UI</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\IdleAdventure\Public\UI\UITest.h">
       <Filter>Source\IdleAdventure\Public\UI</Filter>
     </ClInclude>
+    <Filter Include="Source\IdleAdventure\Public\UI\WidgetController">
+      <UniqueIdentifier>{0AB3C677-A53D-3E9E-8239-6D0853A8CF73}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\UI\WidgetController\OverlayWidgetController.h">
+      <Filter>Source\IdleAdventure\Public\UI\WidgetController</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\UI\WidgetController\IdleWidgetController.h">
+      <Filter>Source\IdleAdventure\Public\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\IdleAdventure\Public\Character\IdleCharacterBase.h">
+      <Filter>Source\IdleAdventure\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\UI\WidgetController\IdleWidgetController.cpp">
+      <Filter>Source\IdleAdventure\Private\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IdleAdventure\Private\Character\IdleCharacterBase.cpp">
+      <Filter>Source\IdleAdventure\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
