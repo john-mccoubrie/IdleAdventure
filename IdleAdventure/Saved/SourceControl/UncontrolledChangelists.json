@@ -6,7 +6,9 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/BP_BarProgressBar.uasset",
-				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset"
+				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset",
+				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.uasset",
+				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Maps/StartupMap.umap"
 			]
 		}
 	]

@@ -1548,3 +1548,107 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.10-18.17.02:924][378]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
 [2023.07.10-18.17.02:959][381]LogPlayLevel: Display: Destroying online subsystem :Context_6
 [2023.07.10-18.17.29:403][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.07.10-18.19.19:992][725]LogContentBrowser: Attempting asset rename: WBP_BarProgressBar -> WBP_BaseProgressBar
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar_C' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.SKEL_WBP_BaseProgressBar_C' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar:UpdateBoxSize.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar_C:PreConstruct' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.SKEL_WBP_BaseProgressBar_C:PreConstruct' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar:UpdateBackgroundBrush.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:012][725]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar:SetGlobeImage.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.PackageMetaData'
+[2023.07.10-18.19.20:015][725]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.19.20:083][725]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar
+[2023.07.10-18.19.20:083][725]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BaseProgressBarD0F6185348BA6034A7F19ABF7EAABE92.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.uasset'
+[2023.07.10-18.19.20:094][725]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 909 ms)
+[2023.07.10-18.19.20:125][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.07.10-18.19.20:146][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.07.10-18.19.20:165][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2023.07.10-18.19.20:171][725]AssetCheck: New page: Asset Save: WBP_BaseProgressBar
+[2023.07.10-18.19.20:171][725]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar
+[2023.07.10-18.19.23:676][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.19.23:756][141]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.07.10-18.19.23:765][141]LogSavePackage: Moving output files for package: /Game/Maps/StartupMap
+[2023.07.10-18.19.23:765][141]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/StartupMap61A9535F4C71BBD5588F2CA1AB751741.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Maps/StartupMap.umap'
+[2023.07.10-18.19.23:772][141]LogFileHelpers: Saving map 'StartupMap' took 0.036
+[2023.07.10-18.19.23:776][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 1.01 sec)
+[2023.07.10-18.19.23:781][141]AssetCheck: New page: Asset Save: StartupMap
+[2023.07.10-18.19.23:781][141]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/StartupMap.StartupMap
+[2023.07.10-18.19.31:236][561]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2023.07.10-18.19.31:244][561]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.07.10-18.19.31:248][561]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.07.10-18.19.31:256][562]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.07.10-18.19.41:576][773]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> WBP_WoodcuttingXPBar
+[2023.07.10-18.19.41:582][773]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.07.10-18.19.44:132][ 65]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_WoodcuttingXPBar.WBP_WoodcuttingXPBar
+[2023.07.10-18.19.44:133][ 65]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.10-18.19.44:133][ 65]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.10-18.19.44:147][ 65]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.10-18.19.44:148][ 65]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.10-18.20.17:325][  1]BlueprintLog: New page: Compile WBP_WoodcuttingXPBar
+[2023.07.10-18.20.17:356][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.07.10-18.20.18:571][135]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2023.07.10-18.20.18:571][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.10-18.20.18:578][135]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.07.10-18.20.18:578][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.10-18.22.40:506][515]BlueprintLog: New page: Compile WBP_BaseProgressBar
+[2023.07.10-18.22.40:542][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.07.10-18.22.41:180][585]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.22.41:243][585]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar
+[2023.07.10-18.22.41:244][585]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BaseProgressBarD01DED9C4258B885BD077A9882398057.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.uasset'
+[2023.07.10-18.22.41:249][585]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 1.08 sec)
+[2023.07.10-18.22.41:255][585]AssetCheck: New page: Asset Save: WBP_BaseProgressBar
+[2023.07.10-18.22.41:255][585]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar
+[2023.07.10-18.24.30:563][617]BlueprintLog: New page: Compile WBP_BaseProgressBar
+[2023.07.10-18.24.30:599][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.10-18.24.34:665][ 95]BlueprintLog: New page: Compile WBP_BaseProgressBar
+[2023.07.10-18.24.34:700][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.07.10-18.24.35:221][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.24.35:293][150]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar
+[2023.07.10-18.24.35:294][150]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BaseProgressBarBA5DEC2D46AFFF4B4D09FAA6FA2DE368.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.uasset'
+[2023.07.10-18.24.35:301][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.16 sec)
+[2023.07.10-18.24.35:306][150]AssetCheck: New page: Asset Save: WBP_BaseProgressBar
+[2023.07.10-18.24.35:306][150]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar
+[2023.07.10-18.25.49:135][619]BlueprintLog: New page: Compile WBP_BaseProgressBar
+[2023.07.10-18.25.49:170][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.07.10-18.26.43:702][995]BlueprintLog: New page: Compile WBP_BaseProgressBar
+[2023.07.10-18.26.43:740][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.07.10-18.27.51:646][822]BlueprintLog: New page: Compile WBP_BaseProgressBar
+[2023.07.10-18.27.51:682][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.07.10-18.27.52:459][908]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.27.52:533][908]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar
+[2023.07.10-18.27.52:533][908]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BaseProgressBar22C6DA2B4C2AE0A7A367F48216613004.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.uasset'
+[2023.07.10-18.27.52:539][908]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 1.24 sec)
+[2023.07.10-18.27.52:544][908]AssetCheck: New page: Asset Save: WBP_BaseProgressBar
+[2023.07.10-18.27.52:544][908]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar
+[2023.07.10-18.27.57:475][490]BlueprintLog: New page: Collapse to Function
+[2023.07.10-18.28.21:848][279]BlueprintLog: New page: Compile WBP_BaseProgressBar
+[2023.07.10-18.28.21:884][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.07.10-18.28.22:485][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.28.22:557][344]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar
+[2023.07.10-18.28.22:558][344]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BaseProgressBarFA105FF1455652C5E0A951A51947D341.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.uasset'
+[2023.07.10-18.28.22:563][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 1.31 sec)
+[2023.07.10-18.28.22:567][344]AssetCheck: New page: Asset Save: WBP_BaseProgressBar
+[2023.07.10-18.28.22:567][344]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar
+[2023.07.10-18.28.27:968][979]BlueprintLog: New page: Compile WBP_BaseProgressBar
+[2023.07.10-18.28.28:004][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.07.10-18.28.28:664][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.28.28:730][ 45]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar
+[2023.07.10-18.28.28:730][ 45]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BaseProgressBarB475B1574EF400BAA0BEC68EF5FEAC86.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.uasset'
+[2023.07.10-18.28.28:737][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 1.39 sec)
+[2023.07.10-18.28.28:741][ 45]AssetCheck: New page: Asset Save: WBP_BaseProgressBar
+[2023.07.10-18.28.28:741][ 45]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.WBP_BaseProgressBar
+[2023.07.10-18.28.30:304][227]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.07.10-18.28.30:305][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.10-18.28.30:309][227]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.07.10-18.28.30:309][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.10-18.28.30:344][227]LogViewport: Scene viewport resized to 1564x725, mode Windowed.
+[2023.07.10-18.28.30:371][228]LogViewport: Scene viewport resized to 1564x716, mode Windowed.
+[2023.07.10-18.28.30:430][229]LogViewport: Scene viewport resized to 1564x704, mode Windowed.
+[2023.07.10-18.28.33:491][585]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_WoodcuttingXPBar.WBP_WoodcuttingXPBar
+[2023.07.10-18.28.33:491][585]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.10-18.28.33:492][585]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.10-18.28.33:507][585]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.10-18.28.33:507][585]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
