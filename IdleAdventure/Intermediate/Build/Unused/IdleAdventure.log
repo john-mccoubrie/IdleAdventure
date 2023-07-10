@@ -2,11 +2,6 @@
   Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" IdleAdventureEditor Win64 Development -Project="C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\IdleAdventure.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\John\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\John\Documents\GitHub\IdleAdventure).
-  Invalidating makefile for IdleAdventureEditor (source file removed)
-  Parsing headers for IdleAdventureEditor
-    Running Internal UnrealHeaderTool C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\IdleAdventure.uproject C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Intermediate\Build\Win64\IdleAdventureEditor\Development\IdleAdventureEditor.uhtmanifest -WarningsAsErrors -installed
-  Total of 7 written
-  Reflection code generated for IdleAdventureEditor in 1.4377807 seconds
   Building IdleAdventureEditor...
   Using Visual Studio 2022 14.34.31946 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -15,24 +10,24 @@
   [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in IdleAdventureEditor.Target.cs.
   [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
   [Upgrade]
-  [Adaptive Build] Excluded from IdleAdventure unity file: OverlayWidgetController.cpp
+  [Adaptive Build] Excluded from IdleAdventure unity file: IdleUserWidget.cpp, IdleWidgetController.cpp, IdleHUD.cpp
   Determining max actions to execute in parallel (8 physical cores, 8 logical cores)
     Executing up to 8 processes, one per physical core
-    Requested 1.5 GB free memory per action, 7.17 GB available: limiting max parallel actions to 4
-  Building 12 actions with 4 processes...
-  [1/12] Compile [x64] IdleAdventure.init.gen.cpp
-  [2/12] Compile [x64] OverlayWidgetController.gen.cpp
-  [3/12] Compile [x64] IdleCharacterBase.gen.cpp
-  [4/12] Compile [x64] IdleCharacterBase.cpp
-  [5/12] Compile [x64] IdleCharacter.gen.cpp
+    Requested 1.5 GB free memory per action, 3.82 GB available: limiting max parallel actions to 2
+  Building 12 actions with 2 processes...
+  [1/12] Compile [x64] IdleHUD.cpp
+  [2/12] Compile [x64] IdleWidgetController.cpp
+  [3/12] Compile [x64] IdleUserWidget.cpp
+  [4/12] Compile [x64] IdleWidgetController.gen.cpp
+  [5/12] Compile [x64] IdleUserWidget.gen.cpp
   [6/12] Compile [x64] OverlayWidgetController.cpp
-  [7/12] Compile [x64] IdleWidgetController.gen.cpp
-  [8/12] Compile [x64] IdleWidgetController.cpp
-  [9/12] Compile [x64] IdleCharacter.cpp
-  [10/12] Link [x64] UnrealEditor-IdleAdventure.lib
-     Creating library C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Intermediate\Build\Win64\x64\UnrealEditor\Development\IdleAdventure\UnrealEditor-IdleAdventure.lib and object C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Intermediate\Build\Win64\x64\UnrealEditor\Development\IdleAdventure\UnrealEditor-IdleAdventure.exp
-  [11/12] Link [x64] UnrealEditor-IdleAdventure.dll
-     Creating library C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Intermediate\Build\Win64\x64\UnrealEditor\Development\IdleAdventure\UnrealEditor-IdleAdventure.suppressed.lib and object C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Intermediate\Build\Win64\x64\UnrealEditor\Development\IdleAdventure\UnrealEditor-IdleAdventure.suppressed.exp
+  [7/12] Compile [x64] IdleAdventure.init.gen.cpp
+  [8/12] Compile [x64] IdleHUD.gen.cpp
+  [9/12] Compile [x64] OverlayWidgetController.gen.cpp
+  [10/12] Link [x64] UnrealEditor-IdleAdventure-0001.lib
+     Creating library C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Intermediate\Build\Win64\x64\UnrealEditor\Development\IdleAdventure\UnrealEditor-IdleAdventure-0001.lib and object C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Intermediate\Build\Win64\x64\UnrealEditor\Development\IdleAdventure\UnrealEditor-IdleAdventure-0001.exp
+  [11/12] Link [x64] UnrealEditor-IdleAdventure-0001.dll
+     Creating library C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Intermediate\Build\Win64\x64\UnrealEditor\Development\IdleAdventure\UnrealEditor-IdleAdventure-0001.suppressed.lib and object C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Intermediate\Build\Win64\x64\UnrealEditor\Development\IdleAdventure\UnrealEditor-IdleAdventure-0001.suppressed.exp
   [12/12] WriteMetadata IdleAdventureEditor.target
-  Total time in Parallel executor: 14.00 seconds
-  Total execution time: 17.76 seconds
+  Total time in Parallel executor: 35.85 seconds
+  Total execution time: 36.49 seconds

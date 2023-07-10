@@ -1156,3 +1156,131 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.10-17.11.38:879][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
 [2023.07.10-17.11.38:935][146]LogPlayLevel: Display: Destroying online subsystem :Context_1
 [2023.07.10-17.11.46:260][544]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.07.10-17.13.20:628][181]LogDerivedDataCache: C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.203 and deleted 0 files with total size 0 MiB and 5 empty folders. Scanned 1294 files in 2098 folders with total size 201 MiB.
+[2023.07.10-17.14.01:228][730]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.07.10-17.14.18:205][348]Running C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/IdleAdventure.uproject" -game -rocket -progress
+[2023.07.10-17.14.18:312][348]Using bundled DotNet SDK version: 6.0.302
+[2023.07.10-17.14.18:312][348]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/IdleAdventure.uproject" -game -rocket -progress
+[2023.07.10-17.14.19:925][348]Log file: C:\Users\John\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.07.10-17.14.20:932][348]
+[2023.07.10-17.14.20:932][348]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.07.10-17.14.20:932][348]See the log file for detailed information
+[2023.07.10-17.14.20:932][348]
+[2023.07.10-17.14.20:932][348]
+[2023.07.10-17.14.20:932][348]Generating VisualStudio2022 project files:
+[2023.07.10-17.14.21:041][348]Discovering modules, targets and source code for project...
+[2023.07.10-17.14.26:189][348]Binding IntelliSense data...
+[2023.07.10-17.14.31:729][348]Binding IntelliSense data... 100%
+[2023.07.10-17.14.31:730][348]Writing project files...
+[2023.07.10-17.14.47:979][348]Writing project files... 33%
+[2023.07.10-17.14.48:081][348]Writing project files... 100%
+[2023.07.10-17.14.48:585][348]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.07.10-17.14.49:401][348]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Source/IdleAdventure/Private/UI/HUD/IdleHUD.cpp'.
+[2023.07.10-17.14.49:403][348]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.07.10-17.15.17:822][131]LogLiveCoding: Display:    Creating library C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Binaries\Win64\UnrealEditor-IdleAdventure.patch_0.lib and object C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Binaries\Win64\UnrealEditor-IdleAdventure.patch_0.exp
+[2023.07.10-17.15.17:890][133]LogClass: UPackage /Script/IdleAdventure Reload.
+[2023.07.10-17.15.17:890][133]LogClass: Could not find existing class IdleHUD in package /Script/IdleAdventure for reload, assuming new or modified class
+[2023.07.10-17.15.17:935][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.07.10-17.15.17:957][134]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2023.07.10-17.15.17:957][134]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.07.10-17.16.13:950][409]Running C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/IdleAdventure.uproject" -game -rocket -progress
+[2023.07.10-17.16.14:055][409]Using bundled DotNet SDK version: 6.0.302
+[2023.07.10-17.16.14:055][409]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/IdleAdventure.uproject" -game -rocket -progress
+[2023.07.10-17.16.14:659][409]Log file: C:\Users\John\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2023.07.10-17.16.15:667][409]
+[2023.07.10-17.16.15:667][409]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2023.07.10-17.16.15:667][409]See the log file for detailed information
+[2023.07.10-17.16.15:667][409]
+[2023.07.10-17.16.15:667][409]
+[2023.07.10-17.16.15:667][409]Generating VisualStudio2022 project files:
+[2023.07.10-17.16.15:667][409]Discovering modules, targets and source code for project...
+[2023.07.10-17.16.20:602][409]Binding IntelliSense data...
+[2023.07.10-17.16.24:837][409]Binding IntelliSense data... 100%
+[2023.07.10-17.16.24:837][409]Writing project files...
+[2023.07.10-17.16.33:317][409]Writing project files... 100%
+[2023.07.10-17.16.33:624][409]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.07.10-17.16.33:749][409]LogSlate: Window 'Add C++ Class' being destroyed
+[2023.07.10-17.17.38:733][415]LogLiveCoding: Display:    Creating library C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Binaries\Win64\UnrealEditor-IdleAdventure.patch_1.lib and object C:\Users\John\Documents\GitHub\IdleAdventure\IdleAdventure\Binaries\Win64\UnrealEditor-IdleAdventure.patch_1.exp
+[2023.07.10-17.17.38:896][416]LogClass: UPackage /Script/IdleAdventure Reload.
+[2023.07.10-17.17.38:896][416]LogClass: Could not find existing class IdleUserWidget in package /Script/IdleAdventure for reload, assuming new or modified class
+[2023.07.10-17.17.38:932][416]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.07.10-17.17.39:175][417]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2023.07.10-17.17.39:175][417]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2023.07.10-17.28.37:392][ 61]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.10-17.28.43:020][711]LogViewport: Scene viewport resized to 1564x728, mode Windowed.
+[2023.07.10-17.28.43:046][712]LogViewport: Scene viewport resized to 1564x719, mode Windowed.
+[2023.07.10-17.28.43:100][713]LogViewport: Scene viewport resized to 1564x707, mode Windowed.
+[2023.07.10-17.28.43:141][714]LogViewport: Scene viewport resized to 1564x704, mode Windowed.
+[2023.07.10-17.28.49:362][313]LogLiveCoding: Display: Console will be hidden but remain running in the background. Restart to disable completely.
+[2023.07.10-17.28.55:344][993]LogSlate: Window 'Editor Preferences' being destroyed
+[2023.07.10-17.28.55:355][993]LogSlate: Window 'Editor Preferences' being destroyed
+[2023.07.10-17.29.36:228][453]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0001.dll
+[2023.07.10-17.29.37:234][457]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.10-17.29.37:293][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.07.10-17.29.37:304][457]LogClass: UPackage /Script/IdleAdventure Reload.
+[2023.07.10-17.29.37:304][457]LogClass: UClass IdleWidgetController Reload.
+[2023.07.10-17.29.37:304][457]LogClass: UClass OverlayWidgetController Reload.
+[2023.07.10-17.29.37:311][457]LogClass: Could not find existing class IdleWidgetController in package /Script/IdleAdventure for reload, assuming new or modified class
+[2023.07.10-17.29.37:311][457]LogClass: Function SetWidgetControllerParams is new or belongs to a modified class.
+[2023.07.10-17.29.37:311][457]LogClass: Could not find existing class OverlayWidgetController in package /Script/IdleAdventure for reload, assuming new or modified class
+[2023.07.10-17.29.37:339][457]Re-instancing IdleWidgetController after reload.
+[2023.07.10-17.29.37:349][457]Re-instancing OverlayWidgetController after reload.
+[2023.07.10-17.29.37:533][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.07.10-17.29.37:624][457]Display: HotReload took  0.4s.
+[2023.07.10-17.29.37:624][457]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes changed, 12 classes unchanged, 1 scriptstruct new, 4 functions remapped, 1 scriptstruct remapped
+[2023.07.10-17.29.43:783][632]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.10-17.29.43:788][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.10-17.29.43:789][632]PIE: New page: PIE session: StartupMap (Jul 10, 2023, 9:29:43 AM)
+[2023.07.10-17.29.43:810][632]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.10-17.29.43:813][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003368s)
+[2023.07.10-17.29.43:813][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.003405s)
+[2023.07.10-17.29.43:814][632]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.10-17.29.43:814][632]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.10-17.29.43:815][632]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.10-17.29.43:815][632]LogPlayLevel: PIE: World Init took: (0.001890s)
+[2023.07.10-17.29.43:825][632]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.07.10-17.29.43:826][632]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.07.10-17.29.43:827][632]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.10-17.29.43:827][632]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.10-17.29.43:827][632]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.10-17.29.43:827][632]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.10-17.29.43:827][632]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.10-17.29.43:827][632]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.10-17.29.43:827][632]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.10-17.29.43:827][632]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.10-17.29.43:827][632]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.10-17.29.43:827][632]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.10-17.29.43:827][632]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.10-17.29.43:830][632]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.10-17.29.43:871][632]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.10-17.29.43:871][632]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.10-17.29.43:871][632]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.10-17.29.43:871][632]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.10-17.29.43:872][632]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.07.10-17.29.43:872][632]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.07.10-17.29.43:873][632]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.07.10-17.29.43:873][632]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.07.10-17.29.43:873][632]LogInit: FAudioDevice initialized with ID 3.
+[2023.07.10-17.29.43:873][632]LogAudio: Display: Audio Device (ID: 3) registered with world 'StartupMap'.
+[2023.07.10-17.29.43:873][632]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2023.07.10-17.29.43:881][632]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.10-17.29.43:882][632]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.10-13.29.43
+[2023.07.10-17.29.43:882][632]LogWorld: Bringing up level for play took: 0.000935
+[2023.07.10-17.29.43:884][632]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2023.07.10-17.29.43:888][632]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.10-17.29.43:888][632]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.10-17.29.43:888][632]PIE: Server logged in
+[2023.07.10-17.29.43:889][632]PIE: Play in editor total start time 0.101 seconds.
+[2023.07.10-17.29.46:521][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.10-17.29.46:522][930]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.10-17.29.46:522][930]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.10-17.29.46:523][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.10-17.29.46:534][930]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.10-17.29.46:538][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.10-17.29.46:559][930]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.10-17.29.46:559][930]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2023.07.10-17.29.46:559][930]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.07.10-17.29.46:566][930]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.07.10-17.29.46:572][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.10-17.29.46:574][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.07.10-17.29.46:596][932]LogPlayLevel: Display: Destroying online subsystem :Context_3
