@@ -1284,3 +1284,267 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.10-17.29.46:572][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.07.10-17.29.46:574][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
 [2023.07.10-17.29.46:596][932]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.07.10-17.32.53:685][684]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2023.07.10-17.32.53:685][684]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2023.07.10-17.32.57:579][ 69]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.07.10-17.32.57:592][ 69]LogContentBrowser: Creating deferred item: NewFolder
+[2023.07.10-17.32.57:599][ 70]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.07.10-17.32.59:898][341]LogContentBrowser: Attempting asset rename: NewFolder -> UI
+[2023.07.10-17.32.59:898][341]LogContentBrowser: End creating deferred item NewFolder
+[2023.07.10-17.33.03:974][800]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.07.10-17.33.03:980][800]LogContentBrowser: Creating deferred item: NewFolder
+[2023.07.10-17.33.04:002][802]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.07.10-17.33.05:687][998]LogContentBrowser: Attempting asset rename: NewFolder -> HUD
+[2023.07.10-17.33.05:688][998]LogContentBrowser: End creating deferred item NewFolder
+[2023.07.10-17.33.08:153][246]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.07.10-17.33.08:168][246]LogContentBrowser: Creating deferred item: NewFolder
+[2023.07.10-17.33.08:176][247]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.07.10-17.33.10:435][513]LogContentBrowser: Attempting asset rename: NewFolder -> Overlay
+[2023.07.10-17.33.10:435][513]LogContentBrowser: End creating deferred item NewFolder
+[2023.07.10-17.33.12:851][769]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.07.10-17.33.12:872][769]LogContentBrowser: Creating deferred item: NewFolder
+[2023.07.10-17.33.12:880][770]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.07.10-17.33.16:685][224]LogContentBrowser: Attempting asset rename: NewFolder -> ProgressBar
+[2023.07.10-17.33.16:686][224]LogContentBrowser: End creating deferred item NewFolder
+[2023.07.10-17.33.19:509][530]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.07.10-17.33.19:527][530]LogContentBrowser: Creating deferred item: NewFolder
+[2023.07.10-17.33.19:534][531]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.07.10-17.33.22:033][830]LogContentBrowser: Attempting asset rename: NewFolder -> WidgetController
+[2023.07.10-17.33.22:033][830]LogContentBrowser: End creating deferred item NewFolder
+[2023.07.10-17.34.31:339][318]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2023.07.10-17.34.31:348][318]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.07.10-17.34.31:351][318]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.07.10-17.34.31:371][320]LogContentBrowser: Renaming the item being created (Deferred Item: NewWidgetBlueprint).
+[2023.07.10-17.34.38:619][847]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> NewWidgetBlueprint
+[2023.07.10-17.34.38:640][847]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.07.10-17.35.00:725][452]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> BP_BarProgressBar
+[2023.07.10-17.35.00:789][452]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.SKEL_BP_BarProgressBar_C' ref from Metadata '/Game/Blueprints/UI/ProgressBar/NewWidgetBlueprint.PackageMetaData'
+[2023.07.10-17.35.00:790][452]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.BP_BarProgressBar_C' ref from Metadata '/Game/Blueprints/UI/ProgressBar/NewWidgetBlueprint.PackageMetaData'
+[2023.07.10-17.35.00:790][452]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.BP_BarProgressBar:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/UI/ProgressBar/NewWidgetBlueprint.PackageMetaData'
+[2023.07.10-17.35.00:790][452]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.BP_BarProgressBar:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/UI/ProgressBar/NewWidgetBlueprint.PackageMetaData'
+[2023.07.10-17.35.00:790][452]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.BP_BarProgressBar:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/UI/ProgressBar/NewWidgetBlueprint.PackageMetaData'
+[2023.07.10-17.35.00:799][452]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-17.35.00:877][452]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.007599 seconds
+[2023.07.10-17.35.00:895][452]LogSerialization: UsePackageTrailer: 'true'
+[2023.07.10-17.35.00:904][452]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/BP_BarProgressBar
+[2023.07.10-17.35.00:904][452]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/BP_BarProgressBarDEA9E6D448F707870ED048A7DA0385D3.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/BP_BarProgressBar.uasset'
+[2023.07.10-17.35.00:920][452]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms
+[2023.07.10-17.35.00:942][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.07.10-17.35.00:952][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.07.10-17.35.00:960][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2023.07.10-17.35.00:963][452]AssetCheck: New page: Asset Save: BP_BarProgressBar
+[2023.07.10-17.35.00:964][452]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.BP_BarProgressBar
+[2023.07.10-17.35.05:633][  8]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.BP_BarProgressBar
+[2023.07.10-17.35.05:635][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.10-17.35.05:635][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.10-17.35.05:646][  8]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.10-17.35.05:646][  8]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.10-17.35.05:655][  8]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2023.07.10-17.35.07:253][  8]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2023.07.10-17.35.07:256][  8]LogSlate: Took 0.001698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.07.10-17.37.16:322][912]LogSlate: Window 'BP_BarProgressBar' being destroyed
+[2023.07.10-17.37.23:502][726]LogContentBrowser: Attempting asset rename: BP_BarProgressBar -> WBP_BarProgressBar
+[2023.07.10-17.37.23:522][726]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar_C' ref from Metadata '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.PackageMetaData'
+[2023.07.10-17.37.23:522][726]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.SKEL_WBP_BarProgressBar_C' ref from Metadata '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.PackageMetaData'
+[2023.07.10-17.37.23:522][726]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.PackageMetaData'
+[2023.07.10-17.37.23:522][726]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.PackageMetaData'
+[2023.07.10-17.37.23:522][726]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.PackageMetaData'
+[2023.07.10-17.37.23:522][726]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.SKEL_WBP_BarProgressBar_C:PreConstruct' ref from Metadata '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.PackageMetaData'
+[2023.07.10-17.37.23:522][726]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.SKEL_WBP_BarProgressBar_C:Construct' ref from Metadata '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.PackageMetaData'
+[2023.07.10-17.37.23:522][726]LogMetaData: Removing '/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.SKEL_WBP_BarProgressBar_C:Tick' ref from Metadata '/Game/Blueprints/UI/ProgressBar/BP_BarProgressBar.PackageMetaData'
+[2023.07.10-17.37.23:522][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-17.37.23:592][726]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-17.37.23:592][726]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBar184D66974FD92C03B2F4829A83C6C847.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-17.37.23:603][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 201 ms)
+[2023.07.10-17.37.23:647][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.07.10-17.37.23:666][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.07.10-17.37.23:684][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.07.10-17.37.23:690][726]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-17.37.23:690][726]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-17.37.51:504][994]LogSlate: Took 0.001540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2023.07.10-17.38.07:140][857]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-17.38.07:174][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.07.10-17.38.18:010][146]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-17.38.18:039][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.07.10-17.38.29:641][511]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-17.38.29:671][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.07.10-17.39.12:144][391]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-17.39.12:175][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.07.10-17.39.29:129][391]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-17.39.29:161][391]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.07.10-17.39.38:042][422]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-17.39.38:074][422]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.07.10-17.39.52:931][133]BlueprintLog: New page: Collapse to Function
+[2023.07.10-17.40.04:952][553]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-17.40.04:983][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.10-17.40.06:011][671]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-17.40.06:064][671]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-17.40.06:065][671]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBar5AC4135640C7F0E1F0C16D85C47A7FDB.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-17.40.06:070][671]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 260 ms)
+[2023.07.10-17.40.06:075][671]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-17.40.06:075][671]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-17.40.51:947][109]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-17.40.51:979][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.07.10-17.41.20:585][527]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.07.10-17.41.20:585][527]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.07.10-17.41.49:201][943]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.07.10-17.42.20:725][678]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-17.42.20:763][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.07.10-17.42.21:310][734]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-17.42.21:362][734]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-17.42.21:362][734]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBarAF9351C542DF29B911C1F791466FD7F9.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-17.42.21:368][734]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 318 ms)
+[2023.07.10-17.42.21:372][734]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-17.42.21:373][734]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-18.03.33:961][755]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.03.33:995][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.07.10-18.03.42:723][377]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.03.42:756][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.07.10-18.05.42:226][411]LogSlate: Took 0.001574 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.07.10-18.05.53:448][668]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.05.53:479][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.10-18.06.16:308][352]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/UI/XPBar/xp_bar.xp_bar
+[2023.07.10-18.06.16:310][352]LogTexture: Display: Building textures: /Game/Assets/UI/XPBar/xp_bar.xp_bar (BGRA8, 801x14 x1x1x1) (Required Memory Estimate: 0.390465 MB), EncodeSpeed: Fast
+[2023.07.10-18.06.16:512][352]LogViewport: Scene viewport resized to 1905x1258, mode Windowed.
+[2023.07.10-18.06.30:680][974]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Assets/UI/XPBar/xp_frame.xp_frame
+[2023.07.10-18.06.30:683][974]LogTexture: Display: Building textures: /Game/Assets/UI/XPBar/xp_frame.xp_frame (BGRA8, 1816x79 x1x1x1) (Required Memory Estimate: 4.258244 MB), EncodeSpeed: Fast
+[2023.07.10-18.06.30:723][974]LogViewport: Scene viewport resized to 1905x1296, mode Windowed.
+[2023.07.10-18.06.30:795][975]LogViewport: Scene viewport resized to 1905x1277, mode Windowed.
+[2023.07.10-18.06.30:823][976]LogViewport: Scene viewport resized to 1905x1258, mode Windowed.
+[2023.07.10-18.06.59:453][158]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.06.59:485][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.07.10-18.07.23:261][429]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.07.23:293][429]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.07.10-18.07.32:285][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.07.32:331][374]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-18.07.32:332][374]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBar70C9C89449C9F67269924AACA1C76E8E.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-18.07.32:337][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 370 ms)
+[2023.07.10-18.07.32:342][374]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-18.07.32:342][374]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-18.07.45:669][935]BlueprintLog: New page: Collapse to Function
+[2023.07.10-18.08.20:072][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.07.10-18.08.20:074][978]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.022
+[2023.07.10-18.08.20:076][978]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar] ([2] browsable assets)...
+[2023.07.10-18.08.20:078][978]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar]
+[2023.07.10-18.08.20:078][978]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar]
+[2023.07.10-18.08.20:085][978]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar_Auto1
+[2023.07.10-18.08.20:085][978]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBar_Auto1F08A9A7345815127B8B8E6866B4ECBEC.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/Autosaves/Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar_Auto1.uasset'
+[2023.07.10-18.08.20:085][978]LogFileHelpers: Auto-saving content packages took 0.011
+[2023.07.10-18.08.51:989][136]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.08.52:022][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.07.10-18.08.52:910][217]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.08.52:966][217]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-18.08.52:967][217]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBar27C78AB9410943ED66BF2CAEC2EC444A.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-18.08.52:973][217]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 434 ms)
+[2023.07.10-18.08.52:978][217]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-18.08.52:978][217]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-18.09.43:089][171]LogSlate: Window 'Color Picker' being destroyed
+[2023.07.10-18.10.34:276][268]LogSlate: Window 'Color Picker' being destroyed
+[2023.07.10-18.10.35:964][468]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.10.35:998][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.07.10-18.10.36:776][546]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.10.36:825][546]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-18.10.36:826][546]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBar16C5F625474F8B4913FF0FA19C03D7FD.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-18.10.36:830][546]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 487 ms)
+[2023.07.10-18.10.36:835][546]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-18.10.36:835][546]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-18.11.53:237][890]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.11.53:269][890]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.07.10-18.13.21:683][ 73]LogDerivedDataCache: C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.258 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1301 files in 2101 folders with total size 201 MiB.
+[2023.07.10-18.14.01:015][224]LogSlate: Window 'Color Picker' being destroyed
+[2023.07.10-18.14.06:351][846]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.14.06:386][846]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.07.10-18.14.07:148][930]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.14.07:210][930]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-18.14.07:210][930]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBar4B6AA7E64DAE3E9EAF77E29912F86327.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-18.14.07:215][930]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 554 ms)
+[2023.07.10-18.14.07:220][930]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-18.14.07:220][930]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-18.14.35:827][301]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.14.35:861][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.07.10-18.14.36:490][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.14.36:537][369]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-18.14.36:538][369]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBar2A8202AA40F5DEB09FF63AA1EADEA1B6.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-18.14.36:544][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 608 ms)
+[2023.07.10-18.14.36:548][369]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-18.14.36:548][369]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-18.14.49:038][853]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.14.49:071][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.07.10-18.14.49:764][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.14.49:836][926]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-18.14.49:836][926]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBar559B830B4446C2A1FB339FA193320CF8.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-18.14.49:841][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 685 ms)
+[2023.07.10-18.14.49:846][926]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-18.14.49:846][926]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-18.15.33:280][ 77]BlueprintLog: New page: Collapse to Function
+[2023.07.10-18.15.44:253][374]BlueprintLog: New page: Compile WBP_BarProgressBar
+[2023.07.10-18.15.44:289][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.07.10-18.15.45:112][462]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.15.45:181][462]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-18.15.45:181][462]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBarC6A61DD6453CA5F32B6BDDBFAD77EA16.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-18.15.45:187][462]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 759 ms)
+[2023.07.10-18.15.45:192][462]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-18.15.45:192][462]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-18.16.58:745][968]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.10-18.16.58:807][968]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar
+[2023.07.10-18.16.58:808][968]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/WBP_BarProgressBarCC565C254F343F20B376C2BFCA903F69.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset'
+[2023.07.10-18.16.58:813][968]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 828 ms)
+[2023.07.10-18.16.58:819][968]AssetCheck: New page: Asset Save: WBP_BarProgressBar
+[2023.07.10-18.16.58:819][968]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/UI/ProgressBar/WBP_BarProgressBar.WBP_BarProgressBar
+[2023.07.10-18.17.00:494][157]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.10-18.17.00:499][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.10-18.17.00:499][157]PIE: New page: PIE session: StartupMap (Jul 10, 2023, 10:17:00 AM)
+[2023.07.10-18.17.00:520][157]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.10-18.17.00:523][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003308s)
+[2023.07.10-18.17.00:523][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.003355s)
+[2023.07.10-18.17.00:523][157]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.10-18.17.00:523][157]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.10-18.17.00:524][157]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.10-18.17.00:525][157]LogPlayLevel: PIE: World Init took: (0.001620s)
+[2023.07.10-18.17.00:545][157]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.07.10-18.17.00:547][157]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.07.10-18.17.00:547][157]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.10-18.17.00:547][157]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.10-18.17.00:547][157]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.10-18.17.00:547][157]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.10-18.17.00:547][157]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.10-18.17.00:547][157]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.10-18.17.00:547][157]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.10-18.17.00:547][157]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.10-18.17.00:547][157]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.10-18.17.00:547][157]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.10-18.17.00:547][157]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.10-18.17.00:550][157]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.10-18.17.00:586][157]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.10-18.17.00:586][157]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.10-18.17.00:586][157]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.10-18.17.00:586][157]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.10-18.17.00:586][157]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2023.07.10-18.17.00:586][157]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2023.07.10-18.17.00:588][157]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2023.07.10-18.17.00:588][157]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2023.07.10-18.17.00:588][157]LogInit: FAudioDevice initialized with ID 4.
+[2023.07.10-18.17.00:588][157]LogAudio: Display: Audio Device (ID: 4) registered with world 'StartupMap'.
+[2023.07.10-18.17.00:588][157]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2023.07.10-18.17.00:594][157]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.10-18.17.00:595][157]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.10-14.17.00
+[2023.07.10-18.17.00:595][157]LogWorld: Bringing up level for play took: 0.000850
+[2023.07.10-18.17.00:597][157]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2023.07.10-18.17.00:599][157]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.10-18.17.00:599][157]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.10-18.17.00:599][157]PIE: Server logged in
+[2023.07.10-18.17.00:600][157]PIE: Play in editor total start time 0.101 seconds.
+[2023.07.10-18.17.02:890][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.10-18.17.02:890][378]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.10-18.17.02:890][378]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.10-18.17.02:890][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.10-18.17.02:892][378]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.10-18.17.02:896][378]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.10-18.17.02:915][378]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.10-18.17.02:915][378]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2023.07.10-18.17.02:915][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.07.10-18.17.02:917][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2023.07.10-18.17.02:923][378]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.10-18.17.02:924][378]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.07.10-18.17.02:959][381]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.07.10-18.17.29:403][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
