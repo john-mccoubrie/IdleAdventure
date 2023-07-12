@@ -9,9 +9,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeIdleHUD() {}
 // Cross Module References
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AHUD();
 	IDLEADVENTURE_API UClass* Z_Construct_UClass_AIdleHUD();
 	IDLEADVENTURE_API UClass* Z_Construct_UClass_AIdleHUD_NoRegister();
+	IDLEADVENTURE_API UClass* Z_Construct_UClass_UIdleUserWidget_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_IdleAdventure();
 // End Cross Module References
 	void AIdleHUD::StaticRegisterNativesAIdleHUD()
@@ -28,6 +30,15 @@ void EmptyLinkFunctionForGeneratedCodeIdleHUD() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OverlayWidget_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_OverlayWidget;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_OverlayWidgetClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_OverlayWidgetClass;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -37,13 +48,30 @@ void EmptyLinkFunctionForGeneratedCodeIdleHUD() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIdleHUD_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Rendering Actor Input Replication" },
 		{ "IncludePath", "UI/HUD/IdleHUD.h" },
 		{ "ModuleRelativePath", "Public/UI/HUD/IdleHUD.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidget_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/UI/HUD/IdleHUD.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidget = { "OverlayWidget", nullptr, (EPropertyFlags)0x0014000000080008, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AIdleHUD, OverlayWidget), Z_Construct_UClass_UIdleUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidget_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidget_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidgetClass_MetaData[] = {
+		{ "Category", "IdleHUD" },
+		{ "ModuleRelativePath", "Public/UI/HUD/IdleHUD.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidgetClass = { "OverlayWidgetClass", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AIdleHUD, OverlayWidgetClass), Z_Construct_UClass_UClass, Z_Construct_UClass_UIdleUserWidget_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidgetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidgetClass_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIdleHUD_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidget,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIdleHUD_Statics::NewProp_OverlayWidgetClass,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AIdleHUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AIdleHUD>::IsAbstract,
 	};
@@ -53,11 +81,11 @@ void EmptyLinkFunctionForGeneratedCodeIdleHUD() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AIdleHUD_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AIdleHUD_Statics::PropPointers),
 		0,
 		0x009002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_AIdleHUD_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AIdleHUD_Statics::Class_MetaDataParams))
@@ -82,9 +110,9 @@ void EmptyLinkFunctionForGeneratedCodeIdleHUD() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_UI_HUD_IdleHUD_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AIdleHUD, AIdleHUD::StaticClass, TEXT("AIdleHUD"), &Z_Registration_Info_UClass_AIdleHUD, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdleHUD), 3194441216U) },
+		{ Z_Construct_UClass_AIdleHUD, AIdleHUD::StaticClass, TEXT("AIdleHUD"), &Z_Registration_Info_UClass_AIdleHUD, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdleHUD), 3591039489U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_UI_HUD_IdleHUD_h_3569436389(TEXT("/Script/IdleAdventure"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_UI_HUD_IdleHUD_h_418342957(TEXT("/Script/IdleAdventure"),
 		Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_UI_HUD_IdleHUD_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_UI_HUD_IdleHUD_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

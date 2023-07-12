@@ -5,12 +5,15 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/BP_BarProgressBar.uasset",
-				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset",
 				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BaseProgressBar.uasset",
 				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Maps/StartupMap.umap",
 				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_WoodcuttingXPBar.uasset",
-				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset"
+				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset",
+				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/Character/Game/BP_IdleGameMode.uasset",
+				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/HUD/BP_IdleHUD.uasset",
+				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/Character/IdleCharacter/ABP_IdleCharacter.uasset",
+				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/BP_BarProgressBar.uasset",
+				"C:/Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/UI/ProgressBar/WBP_BarProgressBar.uasset"
 			]
 		}
 	]
