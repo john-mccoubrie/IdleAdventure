@@ -3,12 +3,34 @@
 
 #include "UI/HUD/IdleHUD.h"
 #include "UI/IdleUserWidget.h"
+#include "UI/WidgetController/OverlayWidgetController.h"
 
-void AIdleHUD::BeginPlay()
+UOverlayWidgetController* AIdleHUD::GetOverlayWidgetController(const FWidgetControllerParams& WCParams)
 {
-	Super::BeginPlay();
+	
+	if (OverlayWidgetController == nullptr)
+	{
+		OverlayWidgetController = NewObject<UOverlayWidgetController>(this, OverlayWidgetControllerClass);
+		OverlayWidgetController->SetWidgetControllerParams(WCParams);
+
+		return OverlayWidgetController;
+	}
+	return OverlayWidgetController;
+
+}
+
+void AIdleHUD::InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySystemComponent* ASC, UAttributeSet* AS)
+{
+	checkf(OverlayWidgetClass, TEXT("Overlay Widget Class uninitialized, please fill out BP_IdleHUD"));
+	checkf(OverlayWidgetControllerClass, TEXT("Overlay Widget Controller Class uninitialized, please fill out BP_IdleHUD"));
 
 	UUserWidget* Widget = CreateWidget<UUserWidget>(GetWorld(), OverlayWidgetClass);
-	Widget->AddToViewport();
+	OverlayWidget = Cast<UIdleUserWidget>(Widget);
 
+	const FWidgetControllerParams WidgetControllerParams(PC, PS, ASC, AS);
+	UOverlayWidgetController* WidgetController = GetOverlayWidgetController(WidgetControllerParams);
+
+	OverlayWidget->SetWidgetController(WidgetController);
+
+	Widget->AddToViewport();
 }

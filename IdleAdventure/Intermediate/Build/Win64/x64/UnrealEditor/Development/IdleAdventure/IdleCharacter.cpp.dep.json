@@ -82,6 +82,8 @@
             "c:\\program files\\epic games\\ue_5.2\\engine\\plugins\\runtime\\gameplayabilities\\source\\gameplayabilities\\public\\abilitysystemreplicationproxyinterface.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemreplicationproxyinterface.generated.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\plugins\\runtime\\gameplayabilities\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplayabilities\\uht\\abilitysystemcomponent.generated.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\public\\player\\idleplayercontroller.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\idleplayercontroller.generated.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementcomponent.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\ai\\navigation\\navigationavoidancetypes.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\navigationavoidancetypes.generated.h",
@@ -103,7 +105,14 @@
             "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\public\\player\\idleplayerstate.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
             "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
-            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\idleplayerstate.generated.h"
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\idleplayerstate.generated.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\source\\idleadventure\\public\\ui\\hud\\idlehud.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\hud.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\hudhitbox.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\source\\runtime\\engine\\classes\\gameframework\\debugtextinfo.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\debugtextinfo.generated.h",
+            "c:\\program files\\epic games\\ue_5.2\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\hud.generated.h",
+            "c:\\users\\john\\documents\\github\\idleadventure\\idleadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\idleadventure\\uht\\idlehud.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

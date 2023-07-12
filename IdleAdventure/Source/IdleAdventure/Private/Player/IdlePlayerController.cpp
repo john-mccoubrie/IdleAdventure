@@ -22,8 +22,10 @@ void AIdlePlayerController::BeginPlay()
 	check(IdleContext);
 
 	UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer());
-	check(Subsystem);
-	Subsystem->AddMappingContext(IdleContext, 0);
+	if (Subsystem)
+	{
+		Subsystem->AddMappingContext(IdleContext, 0);
+	}
 
 	bShowMouseCursor = true;
 	DefaultMouseCursor = EMouseCursor::Default;

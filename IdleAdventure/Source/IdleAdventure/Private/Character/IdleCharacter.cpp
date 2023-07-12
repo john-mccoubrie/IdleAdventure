@@ -1,7 +1,9 @@
 #include "Character/IdleCharacter.h"
 #include "AbilitySystemComponent.h"
+#include "Player/IdlePlayerController.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Player/IdlePlayerState.h"
+#include "UI/HUD/IdleHUD.h"
 
 AIdleCharacter::AIdleCharacter()
 {
@@ -38,4 +40,12 @@ void AIdleCharacter::InitAbilityActorInfo()
 	IdlePlayerState->GetAbilitySystemComponent()->InitAbilityActorInfo(IdlePlayerState, this);
 	AbilitySystemComponent = IdlePlayerState->GetAbilitySystemComponent();
 	AttributeSet = IdlePlayerState->GetAttributeSet();
+
+	if (AIdlePlayerController* IdlePlayerController = Cast<AIdlePlayerController>(GetController()))
+	{
+		if (AIdleHUD* IdleHUD = Cast<AIdleHUD>(IdlePlayerController->GetHUD()))
+		{
+			IdleHUD->InitOverlay(IdlePlayerController, IdlePlayerState, AbilitySystemComponent, AttributeSet);
+		}
+	}
 }

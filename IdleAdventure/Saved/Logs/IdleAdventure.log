@@ -1414,3 +1414,28 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.12-13.22.50:223][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
 [2023.07.12-13.22.50:266][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_14
 [2023.07.12-13.22.54:738][343]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.07.12-13.48.09:210][601]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2023.07.12-13.48.09:210][601]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2023.07.12-14.11.41:827][838]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.07.12-14.15.16:099][714]LogDerivedDataCache: C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.288 and deleted 4 files with total size 0 MiB and 7 empty folders. Scanned 1299 files in 2097 folders with total size 201 MiB.
+[2023.07.12-14.16.58:436][559]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0010.dll
+[2023.07.12-14.16.59:446][563]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.12-14.16.59:516][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.07.12-14.16.59:527][563]LogClass: UPackage /Script/IdleAdventure Reload.
+[2023.07.12-14.16.59:527][563]LogClass: UClass IdleHUD Reload.
+[2023.07.12-14.16.59:537][563]LogClass: Could not find existing class IdleHUD in package /Script/IdleAdventure for reload, assuming new or modified class
+[2023.07.12-14.16.59:570][563]Re-instancing IdleHUD after reload.
+[2023.07.12-14.16.59:733][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2023.07.12-14.16.59:791][563]Display: HotReload took  0.3s.
+[2023.07.12-14.16.59:791][563]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 13 classes unchanged, 1 scriptstruct unchanged, 5 functions remapped, 1 scriptstruct remapped
+[2023.07.12-14.22.00:706][465]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0013.dll
+[2023.07.12-14.22.01:379][468]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.12-14.22.01:570][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.07.12-14.22.01:585][468]LogClass: UPackage /Script/IdleAdventure Reload.
+[2023.07.12-14.22.01:585][468]LogClass: UClass IdleUserWidget Reload.
+[2023.07.12-14.22.01:606][468]LogClass: Could not find existing class IdleUserWidget in package /Script/IdleAdventure for reload, assuming new or modified class
+[2023.07.12-14.22.01:606][468]LogClass: Function SetWidgetController is new or belongs to a modified class.
+[2023.07.12-14.22.01:637][468]Re-instancing IdleUserWidget after reload.
+[2023.07.12-14.22.01:939][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.07.12-14.22.01:983][468]Display: HotReload took  0.6s.
+[2023.07.12-14.22.01:983][468]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 13 classes unchanged, 1 scriptstruct unchanged, 5 functions remapped, 1 scriptstruct remapped
