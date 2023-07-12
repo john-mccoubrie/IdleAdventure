@@ -1425,3 +1425,67 @@ LogConfig: Set CVar [[r.Occlusion.SingleRHIThreadStall:1]]
 [2023.07.12-15.04.04:030][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.07.12-15.04.04:032][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
 [2023.07.12-15.04.04:049][934]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.07.12-15.12.25:908][212]LogVSAccessor: Couldn't get item operations. Visual Studio may still be initializing.
+[2023.07.12-15.12.25:912][213]LogAutomationController: Ignoring very large delta of 8.03 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.07.12-15.12.25:915][213]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2023.07.12-15.23.53:737][273]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0020.dll
+[2023.07.12-15.23.54:758][277]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.12-15.23.54:840][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.07.12-15.23.55:076][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2023.07.12-15.23.55:177][277]Display: HotReload took  0.4s.
+[2023.07.12-15.23.55:178][277]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.12-15.24.18:689][638]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.12-15.24.18:695][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.12-15.24.18:695][638]PIE: New page: PIE session: StartupMap (Jul 12, 2023, 7:24:18 AM)
+[2023.07.12-15.24.18:723][638]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.12-15.24.18:729][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006298s)
+[2023.07.12-15.24.18:729][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.006344s)
+[2023.07.12-15.24.18:729][638]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.12-15.24.18:730][638]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.12-15.24.18:730][638]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.12-15.24.18:730][638]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2023.07.12-15.24.18:792][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.07.12-15.24.18:793][638]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.07.12-15.24.18:793][638]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.12-15.24.18:793][638]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.12-15.24.18:793][638]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.12-15.24.18:793][638]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.12-15.24.18:793][638]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.12-15.24.18:793][638]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.12-15.24.18:793][638]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.12-15.24.18:793][638]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.12-15.24.18:793][638]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.12-15.24.18:793][638]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.12-15.24.18:793][638]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.12-15.24.18:795][638]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.12-15.24.18:834][638]LogAudioMixer: Display: Using Audio Hardware Device XB273U (NVIDIA High Definition Audio)
+[2023.07.12-15.24.18:834][638]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.12-15.24.18:834][638]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.12-15.24.18:834][638]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.12-15.24.18:835][638]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.07.12-15.24.18:835][638]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.07.12-15.24.18:837][638]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.07.12-15.24.18:837][638]LogInit: FAudioDevice initialized with ID 6.
+[2023.07.12-15.24.18:837][638]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.07.12-15.24.18:837][638]LogAudio: Display: Audio Device (ID: 6) registered with world 'StartupMap'.
+[2023.07.12-15.24.18:837][638]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.07.12-15.24.18:839][638]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.12-15.24.18:840][638]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.12-11.24.18
+[2023.07.12-15.24.18:840][638]LogWorld: Bringing up level for play took: 0.000839
+[2023.07.12-15.24.18:842][638]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.07.12-15.24.18:847][638]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.12-15.24.18:847][638]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.12-15.24.18:847][638]PIE: Server logged in
+[2023.07.12-15.24.18:847][638]PIE: Play in editor total start time 0.154 seconds.
+[2023.07.12-15.24.32:495][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-15.24.32:495][253]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.12-15.24.32:495][253]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.12-15.24.32:496][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-15.24.32:505][253]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.12-15.24.32:517][253]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.12-15.24.32:550][253]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.12-15.24.32:550][253]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.07.12-15.24.32:550][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.07.12-15.24.32:552][253]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.07.12-15.24.32:558][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.07.12-15.24.32:578][254]LogPlayLevel: Display: Destroying online subsystem :Context_13

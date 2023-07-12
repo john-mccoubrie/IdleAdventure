@@ -12,3 +12,24 @@ void UOverlayWidgetController::BroadcastInitialValues()
 	OnMaxEXPChanged.Broadcast(IdleAttributeSet->GetMaxWoodcutExp());
 
 }
+
+void UOverlayWidgetController::BindCallbacksToDependencies()
+{
+	const UIdleAttributeSet* IdleAttributeSet = CastChecked<UIdleAttributeSet>(AttributeSet);
+
+	AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(
+		IdleAttributeSet->GetWoodcutExpAttribute()).AddUObject(this, &UOverlayWidgetController::EXPChanged);
+
+	AbilitySystemComponent->GetGameplayAttributeValueChangeDelegate(
+		IdleAttributeSet->GetMaxWoodcutExpAttribute()).AddUObject(this, &UOverlayWidgetController::MaxEXPChanged);
+}
+
+void UOverlayWidgetController::EXPChanged(const FOnAttributeChangeData& Data) const
+{
+	OnEXPChanged.Broadcast(Data.NewValue);
+}
+
+void UOverlayWidgetController::MaxEXPChanged(const FOnAttributeChangeData& Data) const
+{
+	OnMaxEXPChanged.Broadcast(Data.NewValue);
+}

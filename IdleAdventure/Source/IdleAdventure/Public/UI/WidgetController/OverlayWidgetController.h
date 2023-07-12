@@ -16,11 +16,16 @@ class IDLEADVENTURE_API UOverlayWidgetController : public UIdleWidgetController
 	
 public:
 	virtual void BroadcastInitialValues() override;
+	virtual void BindCallbacksToDependencies() override;
 
 	UPROPERTY(BlueprintAssignable, Category = "GAS|Attributes")
 		FOnEXPChangedSignature OnEXPChanged;
 
 	UPROPERTY(BlueprintAssignable, Category = "GAS|Attributes")
 		FOnMaxEXPChangedSignature OnMaxEXPChanged;
+
+protected:
+	void EXPChanged(const FOnAttributeChangeData& Data) const;
+	void MaxEXPChanged(const FOnAttributeChangeData& Data) const;
 
 };

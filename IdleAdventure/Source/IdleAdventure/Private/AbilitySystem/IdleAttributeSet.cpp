@@ -3,7 +3,7 @@
 
 UIdleAttributeSet::UIdleAttributeSet()
 {
-	InitWoodcutExp(100.f);
+	InitWoodcutExp(0.f);
 	InitMaxWoodcutExp(100.f);
 }
 

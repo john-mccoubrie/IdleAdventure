@@ -18,5 +18,5 @@ void UIdleWidgetController::BroadcastInitialValues()
 
 void UIdleWidgetController::BindCallbacksToDependencies()
 {
-
+	
 }
