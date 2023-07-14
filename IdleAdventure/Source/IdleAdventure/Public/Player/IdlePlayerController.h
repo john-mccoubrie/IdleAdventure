@@ -32,12 +32,14 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = "Input")
 	TObjectPtr<UInputAction> MoveAction;
+	UPROPERTY(EditAnywhere, Category = "Input")
+	TObjectPtr<UInputAction> ClickAction;
 
 	void Move(const FInputActionValue& InputActionValue);
+	void ClickTree(const FInputActionValue& InputActionValue);
 
 	void CursorTrace();
 	void ObjectClicked();
-	//FActor OtherTree;
 	TObjectPtr<ITargetInterface> LastActor;
 	TObjectPtr<ITargetInterface> ThisActor;
 };

@@ -23,7 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeIdleAdventure_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xEE1107F2,
+				0x159BE183,
 				0x24E9D8E6,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -31,5 +31,5 @@ void EmptyLinkFunctionForGeneratedCodeIdleAdventure_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_IdleAdventure.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_IdleAdventure(Z_Construct_UPackage__Script_IdleAdventure, TEXT("/Script/IdleAdventure"), Z_Registration_Info_UPackage__Script_IdleAdventure, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEE1107F2, 0x24E9D8E6));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_IdleAdventure(Z_Construct_UPackage__Script_IdleAdventure, TEXT("/Script/IdleAdventure"), Z_Registration_Info_UPackage__Script_IdleAdventure, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x159BE183, 0x24E9D8E6));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

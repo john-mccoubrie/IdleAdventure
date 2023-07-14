@@ -14,7 +14,6 @@ void AIdlePlayerController::PlayerTick(float DeltaTime)
 	Super::PlayerTick(DeltaTime);
 
 	CursorTrace();
-	ObjectClicked();
 }
 
 void AIdlePlayerController::BeginPlay()
@@ -44,6 +43,7 @@ void AIdlePlayerController::SetupInputComponent()
 	UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(InputComponent);
 
 	EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AIdlePlayerController::Move);
+	EnhancedInputComponent->BindAction(ClickAction, ETriggerEvent::Triggered, this, &AIdlePlayerController::ClickTree);
 }
 
 void AIdlePlayerController::Move(const FInputActionValue& InputActionValue)
@@ -61,6 +61,11 @@ void AIdlePlayerController::Move(const FInputActionValue& InputActionValue)
 		ControlledPawn->AddMovementInput(RightDirection, InputAxisVector.X);
 	}
 
+}
+
+void AIdlePlayerController::ClickTree(const FInputActionValue& InputActionValue)
+{
+	ObjectClicked();
 }
 
 void AIdlePlayerController::CursorTrace()
@@ -129,10 +134,15 @@ void AIdlePlayerController::ObjectClicked()
 	GetHitResultUnderCursor(ECC_Visibility, false, TreeHit);
 	if (!TreeHit.bBlockingHit) return;
 
-	//LastActor = ThisActor;
-	//ThisActor = Cast<ITargetInterface>(TreeHit.GetComponent());
-
-	if (TreeHit.GetComponent()->ComponentTags.Contains("Tree"))
+	//and in range of the tree
+	//player location - hit location = desired range
+	//maybe handle the click here
+	float InRange = 400.f;
+	APawn* PlayerPawn = GetPawn<APawn>();
+	FVector PlayerLocation = PlayerPawn->GetActorLocation();
+	FVector TreeLocation = TreeHit.GetActor()->GetActorLocation();
+	float Distance = FVector::Distance(PlayerLocation, TreeLocation);
+	if (TreeHit.GetComponent()->ComponentTags.Contains("Tree") && Distance < InRange)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Tree Hit"));
 	}

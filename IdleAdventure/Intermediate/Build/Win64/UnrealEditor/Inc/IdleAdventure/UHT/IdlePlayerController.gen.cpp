@@ -38,6 +38,10 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_MoveAction_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_MoveAction;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_ClickAction_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPtrPropertyParams NewProp_ClickAction;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -67,9 +71,17 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AIdlePlayerController, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_MoveAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_MoveAction_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_ClickAction_MetaData[] = {
+		{ "Category", "Input" },
+		{ "ModuleRelativePath", "Public/Player/IdlePlayerController.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPtrPropertyParams Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_ClickAction = { "ClickAction", nullptr, (EPropertyFlags)0x0044000000000001, UECodeGen_Private::EPropertyGenFlags::Object | UECodeGen_Private::EPropertyGenFlags::ObjectPtr, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AIdlePlayerController, ClickAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_ClickAction_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_ClickAction_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIdlePlayerController_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_IdleContext,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_MoveAction,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIdlePlayerController_Statics::NewProp_ClickAction,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AIdlePlayerController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AIdlePlayerController>::IsAbstract,
@@ -108,9 +120,9 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AIdlePlayerController, AIdlePlayerController::StaticClass, TEXT("AIdlePlayerController"), &Z_Registration_Info_UClass_AIdlePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdlePlayerController), 4279032589U) },
+		{ Z_Construct_UClass_AIdlePlayerController, AIdlePlayerController::StaticClass, TEXT("AIdlePlayerController"), &Z_Registration_Info_UClass_AIdlePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdlePlayerController), 1852746831U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_893216489(TEXT("/Script/IdleAdventure"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_3792736654(TEXT("/Script/IdleAdventure"),
 		Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

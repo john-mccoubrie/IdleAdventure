@@ -2251,3 +2251,2043 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.14-14.49.26:371][267]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Blueprints/Input/IMC_IdleContext.IMC_IdleContext
 [2023.07.14-14.49.26:371][267]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Blueprints/Input/InputActions/IA_ClickObject.IA_ClickObject
 [2023.07.14-14.49.39:737][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.07.14-14.56.57:390][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.07.14-14.56.57:391][293]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartupMap' took 0.022
+[2023.07.14-14.56.57:392][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Input/IMC_IdleContext] ([1] browsable assets)...
+[2023.07.14-14.56.57:392][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Input/IMC_IdleContext]
+[2023.07.14-14.56.57:393][293]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Input/IMC_IdleContext_Auto2
+[2023.07.14-14.56.57:393][293]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/IMC_IdleContext_Auto20AAE8BD946CA9BFAB2C108BA6DFCB999.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/Autosaves/Game/Blueprints/Input/IMC_IdleContext_Auto2.uasset'
+[2023.07.14-14.56.57:394][293]LogFileHelpers: Auto-saving content packages took 0.002
+[2023.07.14-14.59.50:366][812]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0025.dll
+[2023.07.14-14.59.51:036][815]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-14.59.51:104][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.07.14-14.59.51:115][815]LogClass: UClass IdlePlayerController Reload.
+[2023.07.14-14.59.51:132][815]LogClass: Could not find existing class IdlePlayerController in package /Script/IdleAdventure for reload, assuming new or modified class
+[2023.07.14-14.59.51:167][815]Re-instancing IdlePlayerController after reload.
+[2023.07.14-14.59.51:314][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.07.14-14.59.51:365][815]Display: HotReload took  0.3s.
+[2023.07.14-14.59.51:365][815]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 13 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-14.59.55:109][ 23]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-14.59.55:114][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-14.59.55:114][ 23]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 6:59:55 AM)
+[2023.07.14-14.59.55:151][ 23]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-14.59.55:153][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002519s)
+[2023.07.14-14.59.55:153][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002552s)
+[2023.07.14-14.59.55:153][ 23]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-14.59.55:153][ 23]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-14.59.55:154][ 23]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-14.59.55:154][ 23]LogPlayLevel: PIE: World Init took: (0.000768s)
+[2023.07.14-14.59.55:216][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.07.14-14.59.55:217][ 23]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.07.14-14.59.55:217][ 23]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-14.59.55:217][ 23]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-14.59.55:217][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-14.59.55:217][ 23]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-14.59.55:217][ 23]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-14.59.55:217][ 23]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-14.59.55:217][ 23]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-14.59.55:217][ 23]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-14.59.55:217][ 23]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-14.59.55:217][ 23]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-14.59.55:217][ 23]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-14.59.55:219][ 23]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-14.59.55:254][ 23]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-14.59.55:254][ 23]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-14.59.55:254][ 23]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-14.59.55:254][ 23]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-14.59.55:255][ 23]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.07.14-14.59.55:255][ 23]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.07.14-14.59.55:256][ 23]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.07.14-14.59.55:257][ 23]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.07.14-14.59.55:257][ 23]LogInit: FAudioDevice initialized with ID 9.
+[2023.07.14-14.59.55:257][ 23]LogAudio: Display: Audio Device (ID: 9) registered with world 'StartupMap'.
+[2023.07.14-14.59.55:257][ 23]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.07.14-14.59.55:259][ 23]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-14.59.55:260][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-10.59.55
+[2023.07.14-14.59.55:260][ 23]LogWorld: Bringing up level for play took: 0.000847
+[2023.07.14-14.59.55:262][ 23]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.07.14-14.59.55:265][ 23]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-14.59.55:265][ 23]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-14.59.55:265][ 23]PIE: Server logged in
+[2023.07.14-14.59.55:266][ 23]PIE: Play in editor total start time 0.152 seconds.
+[2023.07.14-14.59.59:710][542]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:719][543]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:727][544]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:735][545]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:743][546]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:752][547]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:760][548]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:769][549]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:777][550]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:785][551]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:793][552]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:802][553]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:810][554]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:818][555]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:827][556]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:835][557]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:843][558]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:852][559]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:860][560]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:868][561]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:876][562]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:885][563]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:893][564]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:902][565]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:910][566]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:918][567]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:927][568]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:935][569]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:943][570]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:952][571]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:960][572]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:968][573]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:976][574]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:985][575]LogTemp: Warning: Tree Hit
+[2023.07.14-14.59.59:993][576]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:002][577]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:010][578]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:018][579]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:027][580]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:035][581]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:043][582]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:052][583]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:060][584]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:068][585]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:077][586]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:085][587]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:094][588]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:102][589]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:110][590]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:119][591]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:126][592]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:135][593]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:144][594]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:152][595]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:160][596]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:168][597]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:176][598]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:185][599]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:193][600]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:202][601]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:211][602]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:219][603]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:227][604]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:235][605]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:243][606]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:252][607]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:260][608]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:269][609]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:277][610]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:285][611]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:293][612]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:302][613]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:310][614]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:319][615]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:326][616]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:335][617]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:344][618]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:352][619]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:360][620]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:369][621]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:377][622]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:385][623]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:393][624]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:402][625]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:410][626]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:419][627]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:427][628]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:435][629]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:443][630]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:452][631]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:460][632]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:468][633]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:477][634]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:485][635]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:494][636]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:502][637]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:511][638]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:520][639]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:528][640]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:536][641]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:544][642]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:552][643]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:561][644]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:569][645]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:577][646]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:586][647]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:594][648]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:602][649]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:610][650]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:619][651]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:627][652]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:635][653]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:644][654]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:652][655]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:660][656]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:669][657]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:677][658]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:685][659]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:694][660]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:702][661]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:710][662]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:719][663]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:727][664]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:735][665]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:744][666]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:752][667]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:760][668]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:769][669]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.00:777][670]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.02:651][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.00.02:651][888]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.00.02:651][888]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.00.02:651][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.00.02:656][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.00.02:660][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.00.02:681][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.00.02:682][888]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.07.14-15.00.02:682][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.07.14-15.00.02:683][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.07.14-15.00.02:712][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.07.14-15.00.02:772][889]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.07.14-15.00.15:566][  3]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0026.dll
+[2023.07.14-15.00.16:574][  7]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.00.16:640][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.07.14-15.00.16:785][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.07.14-15.00.16:837][  7]Display: HotReload took  0.3s.
+[2023.07.14-15.00.16:837][  7]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.00.22:475][121]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.00.22:479][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.00.22:479][121]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:00:22 AM)
+[2023.07.14-15.00.22:531][121]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.00.22:532][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002431s)
+[2023.07.14-15.00.22:532][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002466s)
+[2023.07.14-15.00.22:532][121]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.00.22:532][121]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.00.22:533][121]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.00.22:533][121]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2023.07.14-15.00.22:585][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.07.14-15.00.22:588][121]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.07.14-15.00.22:588][121]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.00.22:588][121]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.00.22:588][121]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.00.22:588][121]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.00.22:588][121]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.00.22:589][121]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.00.22:589][121]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.00.22:589][121]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.00.22:589][121]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.00.22:589][121]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.00.22:589][121]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.00.22:591][121]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.00.22:625][121]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.00.22:625][121]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.00.22:625][121]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.00.22:625][121]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.00.22:625][121]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.07.14-15.00.22:625][121]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.07.14-15.00.22:627][121]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.07.14-15.00.22:627][121]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.07.14-15.00.22:627][121]LogInit: FAudioDevice initialized with ID 10.
+[2023.07.14-15.00.22:627][121]LogAudio: Display: Audio Device (ID: 10) registered with world 'StartupMap'.
+[2023.07.14-15.00.22:628][121]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.07.14-15.00.22:630][121]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.00.22:631][121]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.00.22
+[2023.07.14-15.00.22:631][121]LogWorld: Bringing up level for play took: 0.000778
+[2023.07.14-15.00.22:633][121]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2023.07.14-15.00.22:636][121]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.00.22:636][121]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.00.22:636][121]PIE: Server logged in
+[2023.07.14-15.00.22:636][121]PIE: Play in editor total start time 0.158 seconds.
+[2023.07.14-15.00.28:361][798]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:369][799]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:377][800]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:385][801]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:394][802]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:402][803]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:411][804]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:419][805]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:427][806]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:435][807]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:444][808]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:452][809]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:460][810]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:468][811]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:477][812]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:485][813]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:494][814]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:502][815]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:511][816]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:519][817]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.28:527][818]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:352][157]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:361][158]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:370][159]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:378][160]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:386][161]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:395][162]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:403][163]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:412][164]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:419][165]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:428][166]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:436][167]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:444][168]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:452][169]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:462][170]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:470][171]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:479][172]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:486][173]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:494][174]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:503][175]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:512][176]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:520][177]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:529][178]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:537][179]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:545][180]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:553][181]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:561][182]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:572][183]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:578][184]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:586][185]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:595][186]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:603][187]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:612][188]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:619][189]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:629][190]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:636][191]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.31:645][192]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:561][302]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:569][303]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:578][304]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:587][305]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:595][306]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:603][307]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:611][308]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:620][309]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:628][310]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:636][311]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:645][312]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:653][313]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:661][314]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:669][315]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:678][316]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:686][317]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:695][318]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:703][319]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:711][320]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:719][321]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:728][322]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:737][323]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:744][324]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:753][325]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:761][326]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:769][327]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:778][328]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:786][329]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:796][330]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:803][331]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:811][332]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.32:819][333]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:120][609]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:128][610]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:137][611]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:145][612]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:154][613]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:162][614]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:170][615]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:179][616]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:187][617]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:195][618]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:204][619]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:212][620]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:220][621]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:228][622]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:236][623]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:246][624]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:254][625]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:262][626]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:270][627]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:278][628]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:287][629]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:296][630]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:303][631]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:312][632]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:320][633]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:329][634]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:337][635]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:345][636]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:353][637]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:362][638]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:370][639]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:378][640]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:386][641]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:395][642]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:404][643]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:412][644]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:420][645]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:429][646]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:437][647]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:445][648]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:454][649]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:462][650]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:470][651]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:479][652]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:487][653]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:495][654]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:503][655]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:512][656]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:520][657]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:529][658]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:537][659]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:545][660]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:553][661]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:562][662]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:570][663]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:579][664]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:587][665]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:595][666]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:604][667]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:612][668]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:621][669]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.35:629][670]LogTemp: Warning: Tree Hit
+[2023.07.14-15.00.37:211][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.00.37:211][857]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.00.37:211][857]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.00.37:211][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.00.37:215][857]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.00.37:219][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.00.37:237][857]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.14-15.00.37:238][857]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.07.14-15.00.37:238][857]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.07.14-15.00.37:240][857]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.07.14-15.00.37:244][857]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.00.37:259][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.07.14-15.00.37:300][858]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.07.14-15.01.56:732][907]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_IdlePlayerState.BP_IdlePlayerState
+[2023.07.14-15.01.56:733][907]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.01.56:733][907]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.01.58:509][103]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.01.58:509][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.01.58:520][103]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_IdlePlayerState.BP_IdlePlayerState
+[2023.07.14-15.01.58:520][103]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.01.58:520][103]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.02.02:536][571]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.02.02:537][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.02.07:587][108]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/Player/BP_IdlePlayerController.BP_IdlePlayerController
+[2023.07.14-15.02.07:587][108]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.02.07:587][108]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.02.09:733][352]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.02.09:733][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.02.09:741][352]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/Player/BP_IdlePlayerController.BP_IdlePlayerController
+[2023.07.14-15.02.09:741][352]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.02.09:742][352]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.02.46:547][666]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0027.dll
+[2023.07.14-15.02.47:219][669]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.02.47:297][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.07.14-15.02.47:308][669]LogClass: UPackage /Script/IdleAdventure Reload.
+[2023.07.14-15.02.47:308][669]LogClass: UClass IdlePlayerController Reload.
+[2023.07.14-15.02.47:320][669]LogClass: Could not find existing class IdlePlayerController in package /Script/IdleAdventure for reload, assuming new or modified class
+[2023.07.14-15.02.47:350][669]Re-instancing IdlePlayerController after reload.
+[2023.07.14-15.02.47:506][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.07.14-15.02.47:550][669]Display: HotReload took  0.3s.
+[2023.07.14-15.02.47:550][669]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 13 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.02.52:708][174]BlueprintLog: New page: Compile BP_IdlePlayerController
+[2023.07.14-15.02.52:794][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.07.14-15.02.53:448][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.14-15.02.53:494][245]LogSavePackage: Moving output files for package: /Game/Blueprints/Character/Player/BP_IdlePlayerController
+[2023.07.14-15.02.53:495][245]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/BP_IdlePlayerController9556A9564D5873A976AA09B9CDD0DD76.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/Character/Player/BP_IdlePlayerController.uasset'
+[2023.07.14-15.02.53:500][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 217 ms)
+[2023.07.14-15.02.53:506][245]AssetCheck: New page: Asset Save: BP_IdlePlayerController
+[2023.07.14-15.02.53:506][245]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Character/Player/BP_IdlePlayerController.BP_IdlePlayerController
+[2023.07.14-15.02.55:735][496]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.02.55:741][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.02.55:741][496]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:02:55 AM)
+[2023.07.14-15.02.55:791][496]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.02.55:793][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002439s)
+[2023.07.14-15.02.55:793][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002471s)
+[2023.07.14-15.02.55:793][496]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.02.55:793][496]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.02.55:794][496]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.02.55:794][496]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2023.07.14-15.02.55:837][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.07.14-15.02.55:844][496]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.07.14-15.02.55:845][496]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.02.55:845][496]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.02.55:845][496]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.02.55:845][496]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.02.55:845][496]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.02.55:845][496]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.02.55:845][496]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.02.55:845][496]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.02.55:845][496]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.02.55:845][496]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.02.55:845][496]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.02.55:847][496]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.02.55:882][496]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.02.55:882][496]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.02.55:882][496]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.02.55:882][496]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.02.55:883][496]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.07.14-15.02.55:883][496]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.07.14-15.02.55:884][496]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.07.14-15.02.55:884][496]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.07.14-15.02.55:884][496]LogInit: FAudioDevice initialized with ID 11.
+[2023.07.14-15.02.55:884][496]LogAudio: Display: Audio Device (ID: 11) registered with world 'StartupMap'.
+[2023.07.14-15.02.55:884][496]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2023.07.14-15.02.55:887][496]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.02.55:888][496]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.02.55
+[2023.07.14-15.02.55:888][496]LogWorld: Bringing up level for play took: 0.000811
+[2023.07.14-15.02.55:890][496]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.07.14-15.02.55:892][496]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.02.55:892][496]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.02.55:892][496]PIE: Server logged in
+[2023.07.14-15.02.55:893][496]PIE: Play in editor total start time 0.154 seconds.
+[2023.07.14-15.02.56:502][552]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:510][553]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:518][554]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:526][555]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:534][556]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:543][557]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:551][558]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:559][559]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:568][560]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:576][561]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:584][562]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:593][563]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:601][564]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:609][565]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:617][566]LogTemp: Warning: Left Click
+[2023.07.14-15.02.56:626][567]LogTemp: Warning: Left Click
+[2023.07.14-15.02.58:460][787]LogTemp: Warning: Left Click
+[2023.07.14-15.02.58:469][788]LogTemp: Warning: Left Click
+[2023.07.14-15.02.58:477][789]LogTemp: Warning: Left Click
+[2023.07.14-15.02.58:485][790]LogTemp: Warning: Left Click
+[2023.07.14-15.02.58:494][791]LogTemp: Warning: Left Click
+[2023.07.14-15.02.58:502][792]LogTemp: Warning: Left Click
+[2023.07.14-15.02.58:510][793]LogTemp: Warning: Left Click
+[2023.07.14-15.02.58:518][794]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:031][855]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:039][856]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:049][857]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:057][858]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:066][859]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:076][860]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:084][861]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:092][862]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:101][863]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:108][864]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:182][873]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:192][874]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:200][875]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:208][876]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:216][877]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:224][878]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:233][879]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:316][889]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:324][890]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:333][891]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:342][892]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:350][893]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:357][894]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:425][902]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:433][903]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:442][904]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:450][905]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:459][906]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:468][907]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:475][908]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:483][909]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:492][910]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:569][919]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:577][920]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:586][921]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:596][922]LogTemp: Warning: Left Click
+[2023.07.14-15.02.59:602][923]LogTemp: Warning: Left Click
+[2023.07.14-15.03.00:145][988]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:153][989]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:162][990]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:170][991]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:179][992]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:187][993]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:195][994]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:203][995]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:212][996]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:220][997]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:228][998]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:237][999]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:245][  0]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:253][  1]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:261][  2]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:269][  3]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:278][  4]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:287][  5]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:295][  6]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:303][  7]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:312][  8]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:320][  9]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:328][ 10]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:336][ 11]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:345][ 12]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:354][ 13]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:362][ 14]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:370][ 15]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:379][ 16]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:387][ 17]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:395][ 18]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:403][ 19]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:412][ 20]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:420][ 21]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:428][ 22]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:436][ 23]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:445][ 24]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:453][ 25]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:462][ 26]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:470][ 27]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:478][ 28]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:487][ 29]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:495][ 30]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:503][ 31]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:512][ 32]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:520][ 33]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:528][ 34]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:536][ 35]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:545][ 36]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:553][ 37]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:561][ 38]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:569][ 39]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:578][ 40]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:587][ 41]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:595][ 42]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:603][ 43]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:612][ 44]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:620][ 45]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:628][ 46]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:637][ 47]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:645][ 48]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:653][ 49]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:662][ 50]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:670][ 51]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:678][ 52]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:686][ 53]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:695][ 54]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:703][ 55]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:712][ 56]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:720][ 57]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:728][ 58]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:737][ 59]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:745][ 60]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:753][ 61]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:761][ 62]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:770][ 63]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:778][ 64]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:786][ 65]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:794][ 66]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:803][ 67]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:812][ 68]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:819][ 69]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:828][ 70]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.00:836][ 71]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:229][118]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:238][119]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:246][120]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:254][121]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:263][122]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:271][123]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:279][124]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:287][125]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:296][126]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:303][127]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:312][128]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:320][129]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:329][130]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:338][131]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:338][131]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:346][132]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:346][132]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:354][133]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:354][133]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:362][134]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:362][134]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:370][135]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:370][135]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:379][136]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:379][136]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:388][137]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:388][137]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:396][138]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:396][138]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:404][139]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:404][139]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:413][140]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:413][140]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:422][141]LogTemp: Warning: Left Click
+[2023.07.14-15.03.01:422][141]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:429][142]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:437][143]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:446][144]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:454][145]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:463][146]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:471][147]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:479][148]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:488][149]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:496][150]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:504][151]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.01:952][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.03.01:952][201]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.03.01:952][201]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.03.01:952][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.03.01:955][201]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.03.01:959][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.03.01:977][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.03.01:977][201]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2023.07.14-15.03.01:977][201]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.07.14-15.03.01:979][201]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.07.14-15.03.01:984][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.07.14-15.03.02:029][202]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.07.14-15.03.44:243][450]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0028.dll
+[2023.07.14-15.03.44:919][453]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.03.44:995][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.07.14-15.03.45:178][453]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.07.14-15.03.45:220][453]Display: HotReload took  0.3s.
+[2023.07.14-15.03.45:220][453]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.03.47:026][573]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.03.47:033][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.03.47:033][573]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:03:47 AM)
+[2023.07.14-15.03.47:033][573]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.03.47:035][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002544s)
+[2023.07.14-15.03.47:035][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002571s)
+[2023.07.14-15.03.47:035][573]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.03.47:035][573]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.03.47:036][573]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.03.47:036][573]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2023.07.14-15.03.47:095][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.07.14-15.03.47:097][573]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.07.14-15.03.47:097][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.03.47:098][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.03.47:098][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.03.47:098][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.03.47:098][573]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.03.47:098][573]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.03.47:098][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.03.47:098][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.03.47:098][573]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.03.47:098][573]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.03.47:098][573]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.03.47:100][573]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.03.47:135][573]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.03.47:135][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.03.47:135][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.03.47:135][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.03.47:135][573]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2023.07.14-15.03.47:135][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2023.07.14-15.03.47:137][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2023.07.14-15.03.47:137][573]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2023.07.14-15.03.47:137][573]LogInit: FAudioDevice initialized with ID 12.
+[2023.07.14-15.03.47:137][573]LogAudio: Display: Audio Device (ID: 12) registered with world 'StartupMap'.
+[2023.07.14-15.03.47:137][573]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2023.07.14-15.03.47:140][573]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.03.47:140][573]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.03.47
+[2023.07.14-15.03.47:141][573]LogWorld: Bringing up level for play took: 0.000826
+[2023.07.14-15.03.47:142][573]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.07.14-15.03.47:145][573]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.03.47:145][573]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.03.47:145][573]PIE: Server logged in
+[2023.07.14-15.03.47:146][573]PIE: Play in editor total start time 0.113 seconds.
+[2023.07.14-15.03.47:563][609]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:570][610]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:579][611]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:587][612]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:595][613]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:603][614]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:612][615]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:621][616]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:629][617]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:638][618]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:645][619]LogTemp: Warning: Left Click
+[2023.07.14-15.03.47:654][620]LogTemp: Warning: Left Click
+[2023.07.14-15.03.48:984][776]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.48:991][777]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:000][778]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:007][779]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:016][780]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:025][781]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:033][782]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:041][783]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:050][784]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:058][785]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:066][786]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:075][787]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:083][788]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:091][789]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:099][790]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:108][791]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:117][792]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:124][793]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:133][794]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:141][795]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:149][796]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:157][797]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:166][798]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:174][799]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:183][800]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:191][801]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:200][802]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:208][803]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:216][804]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:224][805]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:224][805]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:232][806]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:232][806]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:241][807]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:241][807]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:249][808]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:249][808]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:257][809]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:257][809]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:266][810]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:266][810]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:274][811]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:274][811]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:282][812]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:282][812]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:291][813]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:291][813]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:300][814]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:307][815]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:316][816]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:324][817]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:333][818]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:341][819]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:349][820]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:358][821]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:366][822]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:374][823]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:383][824]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:391][825]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:399][826]LogTemp: Warning: Tree Hit
+[2023.07.14-15.03.49:784][872]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:791][873]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:800][874]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:808][875]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:816][876]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:824][877]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:833][878]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:908][887]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:916][888]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:924][889]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:933][890]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:941][891]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:949][892]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:957][893]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:966][894]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:975][895]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:983][896]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:991][897]LogTemp: Warning: Left Click
+[2023.07.14-15.03.49:999][898]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:008][899]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:142][915]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:149][916]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:157][917]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:166][918]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:175][919]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:183][920]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:191][921]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:199][922]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:208][923]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:216][924]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:225][925]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:233][926]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:241][927]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:250][928]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:258][929]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:266][930]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:275][931]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:283][932]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:292][933]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:459][953]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:466][954]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:474][955]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:484][956]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:492][957]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:500][958]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:508][959]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:517][960]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:525][961]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:533][962]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:541][963]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:550][964]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:558][965]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:667][978]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:675][979]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:682][980]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:691][981]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:699][982]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:708][983]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:716][984]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:725][985]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:733][986]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:741][987]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:749][988]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:757][989]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:766][990]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:774][991]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:917][  8]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:925][  9]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:933][ 10]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:941][ 11]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:949][ 12]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:957][ 13]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:966][ 14]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:975][ 15]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:983][ 16]LogTemp: Warning: Left Click
+[2023.07.14-15.03.50:991][ 17]LogTemp: Warning: Left Click
+[2023.07.14-15.03.51:000][ 18]LogTemp: Warning: Left Click
+[2023.07.14-15.03.51:008][ 19]LogTemp: Warning: Left Click
+[2023.07.14-15.03.51:017][ 20]LogTemp: Warning: Left Click
+[2023.07.14-15.03.51:025][ 21]LogTemp: Warning: Left Click
+[2023.07.14-15.03.51:033][ 22]LogTemp: Warning: Left Click
+[2023.07.14-15.03.51:042][ 23]LogTemp: Warning: Left Click
+[2023.07.14-15.03.51:050][ 24]LogTemp: Warning: Left Click
+[2023.07.14-15.03.51:058][ 25]LogTemp: Warning: Left Click
+[2023.07.14-15.03.52:091][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.03.52:091][146]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.03.52:091][146]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.03.52:092][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.03.52:095][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.03.52:098][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.03.52:115][146]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.14-15.03.52:115][146]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2023.07.14-15.03.52:115][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.07.14-15.03.52:117][146]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2023.07.14-15.03.52:120][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.03.52:123][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2023.07.14-15.03.52:188][148]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.07.14-15.04.03:615][262]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0029.dll
+[2023.07.14-15.04.04:290][265]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.04.04:353][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.07.14-15.04.04:473][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.07.14-15.04.04:519][265]Display: HotReload took  0.2s.
+[2023.07.14-15.04.04:519][265]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.04.27:340][333]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0030.dll
+[2023.07.14-15.04.28:015][336]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.04.28:130][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.07.14-15.04.28:261][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.07.14-15.04.28:306][336]Display: HotReload took  0.3s.
+[2023.07.14-15.04.28:306][336]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.04.31:473][431]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.04.31:478][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.04.31:478][431]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:04:31 AM)
+[2023.07.14-15.04.31:511][431]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.04.31:513][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002425s)
+[2023.07.14-15.04.31:513][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002456s)
+[2023.07.14-15.04.31:513][431]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.04.31:513][431]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.04.31:514][431]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.04.31:514][431]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2023.07.14-15.04.31:566][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.07.14-15.04.31:570][431]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.07.14-15.04.31:570][431]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.04.31:570][431]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.04.31:570][431]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.04.31:570][431]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.04.31:570][431]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.04.31:570][431]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.04.31:570][431]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.04.31:571][431]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.04.31:571][431]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.04.31:571][431]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.04.31:571][431]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.04.31:573][431]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.04.31:606][431]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.04.31:607][431]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.04.31:607][431]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.04.31:607][431]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.04.31:607][431]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2023.07.14-15.04.31:607][431]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2023.07.14-15.04.31:609][431]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2023.07.14-15.04.31:609][431]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2023.07.14-15.04.31:609][431]LogInit: FAudioDevice initialized with ID 13.
+[2023.07.14-15.04.31:609][431]LogAudio: Display: Audio Device (ID: 13) registered with world 'StartupMap'.
+[2023.07.14-15.04.31:609][431]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2023.07.14-15.04.31:612][431]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.04.31:612][431]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.04.31
+[2023.07.14-15.04.31:613][431]LogWorld: Bringing up level for play took: 0.000747
+[2023.07.14-15.04.31:614][431]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.07.14-15.04.31:617][431]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.04.31:617][431]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.04.31:617][431]PIE: Server logged in
+[2023.07.14-15.04.31:618][431]PIE: Play in editor total start time 0.139 seconds.
+[2023.07.14-15.04.32:301][498]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:309][499]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:317][500]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:325][501]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:334][502]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:342][503]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:351][504]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:359][505]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:367][506]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:375][507]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:384][508]LogTemp: Warning: Left Click
+[2023.07.14-15.04.32:392][509]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:834][682]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:835][682]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:842][683]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:842][683]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:851][684]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:851][684]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:859][685]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:859][685]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:867][686]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:867][686]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:876][687]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:876][687]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:884][688]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:884][688]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:892][689]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:892][689]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:901][690]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:901][690]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:909][691]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:909][691]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.33:917][692]LogTemp: Warning: Left Click
+[2023.07.14-15.04.33:917][692]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.34:935][814]LogTemp: Warning: Left Click
+[2023.07.14-15.04.34:935][814]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.34:943][815]LogTemp: Warning: Left Click
+[2023.07.14-15.04.34:943][815]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.34:951][816]LogTemp: Warning: Left Click
+[2023.07.14-15.04.34:951][816]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.34:960][817]LogTemp: Warning: Left Click
+[2023.07.14-15.04.34:960][817]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.34:968][818]LogTemp: Warning: Left Click
+[2023.07.14-15.04.34:968][818]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.34:976][819]LogTemp: Warning: Left Click
+[2023.07.14-15.04.34:976][819]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.34:984][820]LogTemp: Warning: Left Click
+[2023.07.14-15.04.34:984][820]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.34:993][821]LogTemp: Warning: Left Click
+[2023.07.14-15.04.34:993][821]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.35:001][822]LogTemp: Warning: Left Click
+[2023.07.14-15.04.35:001][822]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.35:009][823]LogTemp: Warning: Left Click
+[2023.07.14-15.04.35:009][823]LogTemp: Warning: Tree Hit
+[2023.07.14-15.04.35:931][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.04.35:931][930]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.04.35:931][930]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.04.35:932][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.04.35:935][930]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.04.35:938][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.04.35:955][930]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.14-15.04.35:955][930]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2023.07.14-15.04.35:955][930]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.07.14-15.04.35:957][930]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2023.07.14-15.04.35:961][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.04.35:963][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.07.14-15.04.36:017][931]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.07.14-15.04.45:013][ 24]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0031.dll
+[2023.07.14-15.04.45:681][ 27]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.04.45:755][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.14-15.04.45:884][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.07.14-15.04.45:920][ 27]Display: HotReload took  0.2s.
+[2023.07.14-15.04.45:920][ 27]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.11.47:110][290]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0032.dll
+[2023.07.14-15.11.48:113][294]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.11.48:218][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.07.14-15.11.48:370][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.07.14-15.11.48:421][294]Display: HotReload took  0.3s.
+[2023.07.14-15.11.48:422][294]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.11.51:024][438]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.11.51:030][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.11.51:030][438]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:11:51 AM)
+[2023.07.14-15.11.51:052][438]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.11.51:053][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002474s)
+[2023.07.14-15.11.51:053][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002516s)
+[2023.07.14-15.11.51:053][438]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.11.51:054][438]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.11.51:054][438]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.11.51:054][438]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2023.07.14-15.11.51:110][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.07.14-15.11.51:112][438]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.07.14-15.11.51:112][438]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.11.51:112][438]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.11.51:112][438]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.11.51:112][438]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.11.51:112][438]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.11.51:112][438]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.11.51:112][438]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.11.51:112][438]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.11.51:112][438]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.11.51:112][438]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.11.51:113][438]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.11.51:114][438]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.11.51:148][438]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.11.51:148][438]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.11.51:148][438]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.11.51:148][438]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.11.51:149][438]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2023.07.14-15.11.51:149][438]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2023.07.14-15.11.51:151][438]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2023.07.14-15.11.51:151][438]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2023.07.14-15.11.51:151][438]LogInit: FAudioDevice initialized with ID 14.
+[2023.07.14-15.11.51:151][438]LogAudio: Display: Audio Device (ID: 14) registered with world 'StartupMap'.
+[2023.07.14-15.11.51:151][438]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2023.07.14-15.11.51:154][438]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.11.51:155][438]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.11.51
+[2023.07.14-15.11.51:155][438]LogWorld: Bringing up level for play took: 0.000815
+[2023.07.14-15.11.51:156][438]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.07.14-15.11.51:159][438]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.11.51:159][438]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.11.51:159][438]PIE: Server logged in
+[2023.07.14-15.11.51:160][438]PIE: Play in editor total start time 0.13 seconds.
+[2023.07.14-15.11.52:080][535]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:088][536]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:096][537]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:104][538]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:113][539]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:121][540]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:129][541]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:138][542]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:146][543]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:155][544]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:163][545]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:171][546]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:179][547]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:187][548]LogTemp: Warning: In Range!
+[2023.07.14-15.11.52:196][549]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:547][ 71]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:555][ 72]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:563][ 73]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:571][ 74]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:580][ 75]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:588][ 76]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:596][ 77]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:605][ 78]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:613][ 79]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:621][ 80]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:630][ 81]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:638][ 82]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:646][ 83]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:655][ 84]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:663][ 85]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:672][ 86]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:680][ 87]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:688][ 88]LogTemp: Warning: In Range!
+[2023.07.14-15.11.56:697][ 89]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:081][135]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:089][136]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:097][137]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:105][138]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:113][139]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:121][140]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:130][141]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:138][142]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:147][143]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:155][144]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:163][145]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:172][146]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:180][147]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:189][148]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:197][149]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:205][150]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:213][151]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:222][152]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:230][153]LogTemp: Warning: In Range!
+[2023.07.14-15.11.57:238][154]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:198][389]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:198][389]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:206][390]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:206][390]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:214][391]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:214][391]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:222][392]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:222][392]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:230][393]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:230][393]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:239][394]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:239][394]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:247][395]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:248][395]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:256][396]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:256][396]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:264][397]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:264][397]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:272][398]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:272][398]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:281][399]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:281][399]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:289][400]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:289][400]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:296][401]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:296][401]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:305][402]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:305][402]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:313][403]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:313][403]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:321][404]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:321][404]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:330][405]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:330][405]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:338][406]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:338][406]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:346][407]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:346][407]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:355][408]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:355][408]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:363][409]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:363][409]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:372][410]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:372][410]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:380][411]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:380][411]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:388][412]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:388][412]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:397][413]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:397][413]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:405][414]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:405][414]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:413][415]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:413][415]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:422][416]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:422][416]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:430][417]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:430][417]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:438][418]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:438][418]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:447][419]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:447][419]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:455][420]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:455][420]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:464][421]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:464][421]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:472][422]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:472][422]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:480][423]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:480][423]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:489][424]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:489][424]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:497][425]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:497][425]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:505][426]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:505][426]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:514][427]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:514][427]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:522][428]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:522][428]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:530][429]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:530][429]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:539][430]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:539][430]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:547][431]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:547][431]LogTemp: Warning: Tree Hit
+[2023.07.14-15.11.59:556][432]LogTemp: Warning: In Range!
+[2023.07.14-15.11.59:556][432]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:331][525]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:331][525]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:339][526]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:339][526]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:347][527]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:347][527]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:355][528]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:355][528]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:364][529]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:364][529]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:372][530]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:372][530]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:380][531]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:380][531]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:388][532]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:388][532]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:397][533]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:397][533]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:405][534]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:405][534]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:413][535]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:413][535]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:421][536]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:421][536]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:430][537]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:430][537]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:438][538]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:438][538]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:446][539]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:446][539]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:455][540]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:455][540]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:463][541]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:463][541]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:471][542]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:471][542]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:480][543]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:480][543]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:488][544]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:488][544]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:496][545]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:496][545]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:505][546]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:505][546]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:513][547]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:513][547]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:521][548]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:521][548]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:530][549]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:530][549]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:538][550]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:538][550]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:546][551]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:546][551]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:555][552]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:555][552]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:563][553]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:563][553]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.00:572][554]LogTemp: Warning: In Range!
+[2023.07.14-15.12.00:572][554]LogTemp: Warning: Tree Hit
+[2023.07.14-15.12.01:431][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.12.01:431][650]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.12.01:431][650]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.12.01:431][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.12.01:435][650]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.12.01:439][650]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.12.01:457][650]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.14-15.12.01:463][650]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2023.07.14-15.12.01:463][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.07.14-15.12.01:465][650]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2023.07.14-15.12.01:469][650]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.12.01:479][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.14-15.12.01:522][651]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.07.14-15.12.19:549][302]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.12.19:553][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.12.19:553][302]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:12:19 AM)
+[2023.07.14-15.12.19:591][302]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.12.19:593][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002579s)
+[2023.07.14-15.12.19:594][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002611s)
+[2023.07.14-15.12.19:594][302]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.12.19:594][302]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.12.19:594][302]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.12.19:594][302]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2023.07.14-15.12.19:613][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.07.14-15.12.19:615][302]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.07.14-15.12.19:615][302]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.12.19:615][302]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.12.19:615][302]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.12.19:615][302]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.12.19:615][302]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.12.19:615][302]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.12.19:615][302]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.12.19:615][302]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.12.19:616][302]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.12.19:616][302]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.12.19:616][302]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.12.19:617][302]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.12.19:651][302]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.12.19:651][302]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.12.19:651][302]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.12.19:651][302]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.12.19:652][302]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.07.14-15.12.19:652][302]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.07.14-15.12.19:653][302]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.07.14-15.12.19:653][302]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.07.14-15.12.19:653][302]LogInit: FAudioDevice initialized with ID 15.
+[2023.07.14-15.12.19:653][302]LogAudio: Display: Audio Device (ID: 15) registered with world 'StartupMap'.
+[2023.07.14-15.12.19:653][302]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.07.14-15.12.19:656][302]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.12.19:656][302]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.12.19
+[2023.07.14-15.12.19:656][302]LogWorld: Bringing up level for play took: 0.000755
+[2023.07.14-15.12.19:658][302]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.07.14-15.12.19:661][302]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.12.19:661][302]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.12.19:661][302]PIE: Server logged in
+[2023.07.14-15.12.19:662][302]PIE: Play in editor total start time 0.108 seconds.
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: ================================================
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: Total job queries 48, among them cache hits 2 (4.17%)
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: Tracking 46 distinct input hashes that result in 10 distinct outputs (21.74%)
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: RAM used: 956.58 KiB of 819.20 MiB budget. Usage: 0.11%
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.07.14-15.12.23:610][731]LogShaderCompilers: Display: ================================================
+[2023.07.14-15.12.23:614][731]LogViewport: Scene viewport resized to 494x222, mode Windowed.
+[2023.07.14-15.12.29:700][319]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.12.31:908][507]LogTemp: Warning: In Range!
+[2023.07.14-15.12.31:920][508]LogTemp: Warning: In Range!
+[2023.07.14-15.12.31:932][509]LogTemp: Warning: In Range!
+[2023.07.14-15.12.31:944][510]LogTemp: Warning: In Range!
+[2023.07.14-15.12.31:956][511]LogTemp: Warning: In Range!
+[2023.07.14-15.12.31:968][512]LogTemp: Warning: In Range!
+[2023.07.14-15.12.31:980][513]LogTemp: Warning: In Range!
+[2023.07.14-15.12.31:991][514]LogTemp: Warning: In Range!
+[2023.07.14-15.12.32:002][515]LogTemp: Warning: In Range!
+[2023.07.14-15.12.32:014][516]LogTemp: Warning: In Range!
+[2023.07.14-15.12.52:761][305]LogTemp: Warning: In Range!
+[2023.07.14-15.12.52:773][306]LogTemp: Warning: In Range!
+[2023.07.14-15.12.52:784][307]LogTemp: Warning: In Range!
+[2023.07.14-15.12.52:797][308]LogTemp: Warning: In Range!
+[2023.07.14-15.12.52:809][309]LogTemp: Warning: In Range!
+[2023.07.14-15.12.52:820][310]LogTemp: Warning: In Range!
+[2023.07.14-15.12.52:832][311]LogTemp: Warning: In Range!
+[2023.07.14-15.12.52:844][312]LogTemp: Warning: In Range!
+[2023.07.14-15.12.52:856][313]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:636][460]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:636][460]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:645][461]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:645][461]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:654][462]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:654][462]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:663][463]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:663][463]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:672][464]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:672][464]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:681][465]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:681][465]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:690][466]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:690][466]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:699][467]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:699][467]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:708][468]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:708][468]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:717][469]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:717][469]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:726][470]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:726][470]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:735][471]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:735][471]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:744][472]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:744][472]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:753][473]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:753][473]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:762][474]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:762][474]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:771][475]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:771][475]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:780][476]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:780][476]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:789][477]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:789][477]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.17:798][478]LogTemp: Warning: In Range!
+[2023.07.14-15.13.17:798][478]LogTemp: Warning: Tree Hit
+[2023.07.14-15.13.47:512][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.13.47:512][952]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.13.47:512][952]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.13.47:512][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.13.47:516][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.13.47:520][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.13.47:539][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.13.47:539][952]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.07.14-15.13.47:539][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.07.14-15.13.47:540][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.07.14-15.13.47:546][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.14-15.13.47:593][953]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.07.14-15.17.23:336][795]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0033.dll
+[2023.07.14-15.17.24:343][799]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.17.24:421][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.07.14-15.17.24:587][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.07.14-15.17.24:632][799]Display: HotReload took  0.3s.
+[2023.07.14-15.17.24:632][799]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.17.27:073][905]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.17.27:078][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.17.27:078][905]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:17:27 AM)
+[2023.07.14-15.17.27:078][905]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.17.27:081][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002575s)
+[2023.07.14-15.17.27:081][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002603s)
+[2023.07.14-15.17.27:081][905]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.17.27:081][905]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.17.27:081][905]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.17.27:081][905]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2023.07.14-15.17.27:146][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.07.14-15.17.27:147][905]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.07.14-15.17.27:147][905]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.17.27:147][905]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.17.27:147][905]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.17.27:147][905]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.17.27:147][905]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.17.27:147][905]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.17.27:147][905]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.17.27:147][905]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.17.27:148][905]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.17.27:148][905]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.17.27:148][905]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.17.27:150][905]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.17.27:184][905]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.17.27:185][905]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.17.27:185][905]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.17.27:185][905]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.17.27:185][905]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.07.14-15.17.27:185][905]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.07.14-15.17.27:187][905]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.07.14-15.17.27:187][905]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.07.14-15.17.27:187][905]LogInit: FAudioDevice initialized with ID 16.
+[2023.07.14-15.17.27:187][905]LogAudio: Display: Audio Device (ID: 16) registered with world 'StartupMap'.
+[2023.07.14-15.17.27:187][905]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.07.14-15.17.27:190][905]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.17.27:191][905]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.17.27
+[2023.07.14-15.17.27:191][905]LogWorld: Bringing up level for play took: 0.000845
+[2023.07.14-15.17.27:193][905]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.07.14-15.17.27:196][905]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.17.27:196][905]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.17.27:196][905]PIE: Server logged in
+[2023.07.14-15.17.27:197][905]PIE: Play in editor total start time 0.119 seconds.
+[2023.07.14-15.17.27:852][969]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:860][970]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:868][971]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:877][972]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:885][973]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:894][974]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:902][975]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:910][976]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:919][977]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:927][978]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:936][979]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:944][980]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:952][981]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:961][982]LogTemp: Warning: In Range!
+[2023.07.14-15.17.27:969][983]LogTemp: Warning: In Range!
+[2023.07.14-15.17.36:920][ 56]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.36:930][ 57]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.36:938][ 58]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.36:946][ 59]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.36:955][ 60]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.36:963][ 61]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.36:970][ 62]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.36:979][ 63]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.36:987][ 64]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.36:995][ 65]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:003][ 66]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:011][ 67]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:020][ 68]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:028][ 69]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:036][ 70]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:045][ 71]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:053][ 72]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:061][ 73]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:070][ 74]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:078][ 75]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:086][ 76]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:095][ 77]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:103][ 78]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:112][ 79]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:120][ 80]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:128][ 81]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.37:136][ 82]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.44:929][ 17]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:047][266]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:055][267]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:063][268]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:071][269]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:079][270]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:087][271]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:096][272]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:104][273]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:113][274]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:121][275]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:129][276]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:138][277]LogTemp: Warning: In Range!
+[2023.07.14-15.17.47:146][278]LogTemp: Warning: In Range!
+[2023.07.14-15.17.51:001][736]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:009][737]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:018][738]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:026][739]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:034][740]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:043][741]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:051][742]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:059][743]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:068][744]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:076][745]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:084][746]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:093][747]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:101][748]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:109][749]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:118][750]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:126][751]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:134][752]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:142][753]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.51:150][754]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:084][866]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:092][867]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:101][868]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:109][869]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:118][870]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:126][871]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:134][872]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:143][873]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:151][874]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:159][875]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:168][876]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:176][877]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:184][878]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:193][879]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:201][880]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:209][881]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:217][882]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:226][883]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:234][884]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:400][904]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:409][905]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:417][906]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:425][907]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:434][908]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:442][909]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:450][910]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:459][911]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:467][912]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:475][913]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:484][914]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:492][915]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:501][916]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:509][917]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.52:517][918]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:134][112]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:142][113]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:151][114]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:159][115]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:167][116]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:176][117]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:184][118]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:193][119]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:201][120]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:209][121]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:218][122]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:226][123]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:234][124]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:243][125]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:251][126]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:259][127]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:268][128]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:276][129]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:285][130]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:293][131]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:301][132]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:310][133]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:318][134]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:326][135]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.54:335][136]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.59:269][728]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.59:277][729]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.59:285][730]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.59:293][731]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.59:302][732]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.59:310][733]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.59:318][734]LogTemp: Warning: Tree Hit
+[2023.07.14-15.17.59:326][735]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.01:511][997]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:518][998]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:526][999]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:535][  0]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:543][  1]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:551][  2]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:560][  3]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:568][  4]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:576][  5]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:585][  6]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:593][  7]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:601][  8]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:610][  9]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:618][ 10]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:627][ 11]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:635][ 12]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:643][ 13]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:652][ 14]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:660][ 15]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:668][ 16]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:677][ 17]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:685][ 18]LogTemp: Warning: In Range!
+[2023.07.14-15.18.01:693][ 19]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:494][115]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:501][116]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:510][117]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:518][118]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:527][119]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:535][120]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:543][121]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:552][122]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:560][123]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:568][124]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:576][125]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:584][126]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:593][127]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:601][128]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:609][129]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:618][130]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:626][131]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:727][143]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:735][144]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:744][145]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:751][146]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:759][147]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:768][148]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:776][149]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:784][150]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:793][151]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:801][152]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:809][153]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:818][154]LogTemp: Warning: In Range!
+[2023.07.14-15.18.02:826][155]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:927][527]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:927][527]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.05:935][528]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:935][528]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.05:943][529]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:943][529]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.05:952][530]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:952][530]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.05:959][531]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:959][531]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.05:968][532]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:968][532]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.05:976][533]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:976][533]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.05:984][534]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:985][534]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.05:993][535]LogTemp: Warning: In Range!
+[2023.07.14-15.18.05:993][535]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:001][536]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:001][536]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:010][537]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:010][537]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:018][538]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:018][538]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:026][539]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:026][539]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:035][540]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:035][540]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:043][541]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:043][541]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:051][542]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:051][542]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:060][543]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:060][543]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:068][544]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:068][544]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:076][545]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:076][545]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:085][546]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:085][546]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:093][547]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:093][547]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:101][548]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:102][548]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:760][627]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:760][627]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:768][628]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:768][628]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:776][629]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:776][629]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:785][630]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:785][630]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:793][631]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:793][631]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:801][632]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:801][632]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:810][633]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:810][633]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:818][634]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:818][634]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:826][635]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:826][635]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:835][636]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:835][636]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:843][637]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:843][637]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:851][638]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:852][638]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:860][639]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:860][639]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:868][640]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:868][640]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:876][641]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:877][641]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:885][642]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:885][642]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:893][643]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:893][643]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:902][644]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:902][644]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:910][645]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:910][645]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:918][646]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:918][646]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:927][647]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:927][647]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.06:935][648]LogTemp: Warning: In Range!
+[2023.07.14-15.18.06:935][648]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.09:291][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.18.09:291][928]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.18.09:291][928]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.18.09:292][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.18.09:295][928]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.18.09:299][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.18.09:317][928]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.14-15.18.09:317][928]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.07.14-15.18.09:317][928]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.07.14-15.18.09:318][928]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.07.14-15.18.09:323][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.18.09:325][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.07.14-15.18.09:383][930]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.07.14-15.18.41:263][124]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0034.dll
+[2023.07.14-15.18.41:939][127]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.18.42:002][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.07.14-15.18.42:177][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.07.14-15.18.42:214][127]Display: HotReload took  0.3s.
+[2023.07.14-15.18.42:214][127]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.18.45:609][237]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.18.45:614][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.18.45:614][237]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:18:45 AM)
+[2023.07.14-15.18.45:651][237]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.18.45:653][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002417s)
+[2023.07.14-15.18.45:653][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002448s)
+[2023.07.14-15.18.45:653][237]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.18.45:653][237]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.18.45:654][237]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.18.45:654][237]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2023.07.14-15.18.45:712][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2023.07.14-15.18.45:714][237]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.07.14-15.18.45:714][237]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.18.45:714][237]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.18.45:714][237]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.18.45:714][237]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.18.45:714][237]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.18.45:714][237]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.18.45:714][237]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.18.45:714][237]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.18.45:715][237]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.18.45:715][237]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.18.45:715][237]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.18.45:716][237]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.18.45:751][237]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.18.45:752][237]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.18.45:752][237]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.18.45:752][237]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.18.45:752][237]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.07.14-15.18.45:752][237]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.07.14-15.18.45:754][237]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.07.14-15.18.45:754][237]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.07.14-15.18.45:754][237]LogInit: FAudioDevice initialized with ID 17.
+[2023.07.14-15.18.45:754][237]LogAudio: Display: Audio Device (ID: 17) registered with world 'StartupMap'.
+[2023.07.14-15.18.45:754][237]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.07.14-15.18.45:757][237]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.18.45:758][237]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.18.45
+[2023.07.14-15.18.45:758][237]LogWorld: Bringing up level for play took: 0.000838
+[2023.07.14-15.18.45:760][237]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.07.14-15.18.45:762][237]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.18.45:762][237]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.18.45:762][237]PIE: Server logged in
+[2023.07.14-15.18.45:763][237]PIE: Play in editor total start time 0.149 seconds.
+[2023.07.14-15.18.59:207][830]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:215][831]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:224][832]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:232][833]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:241][834]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:248][835]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:256][836]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:265][837]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:273][838]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:281][839]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:290][840]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:298][841]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:366][849]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:373][850]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:380][851]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:388][852]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:396][853]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:405][854]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:413][855]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:422][856]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:430][857]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:438][858]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:447][859]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:455][860]LogTemp: Warning: Tree Hit
+[2023.07.14-15.18.59:464][861]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.02:964][281]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.02:972][282]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.02:980][283]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.02:988][284]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.02:997][285]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.03:005][286]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.03:014][287]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.03:022][288]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.03:030][289]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.03:039][290]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.03:047][291]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.03:055][292]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.03:064][293]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.08:571][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.19.08:571][949]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.19.08:571][949]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.19.08:571][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.19.08:575][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.19.08:579][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.19.08:597][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.19.08:598][949]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.07.14-15.19.08:598][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.07.14-15.19.08:599][949]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.07.14-15.19.08:632][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.07.14-15.19.08:674][950]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.07.14-15.19.09:820][ 81]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.19.09:825][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.19.09:825][ 81]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:19:09 AM)
+[2023.07.14-15.19.09:872][ 81]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.19.09:873][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002424s)
+[2023.07.14-15.19.09:873][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002455s)
+[2023.07.14-15.19.09:873][ 81]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.19.09:873][ 81]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.19.09:874][ 81]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.19.09:874][ 81]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2023.07.14-15.19.09:893][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.14-15.19.09:900][ 81]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.07.14-15.19.09:900][ 81]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.19.09:900][ 81]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.19.09:900][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.19.09:900][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.19.09:901][ 81]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.19.09:901][ 81]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.19.09:901][ 81]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.19.09:901][ 81]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.19.09:901][ 81]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.19.09:901][ 81]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.19.09:901][ 81]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.19.09:903][ 81]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.19.09:937][ 81]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.19.09:937][ 81]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.19.09:937][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.19.09:937][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.19.09:938][ 81]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.07.14-15.19.09:938][ 81]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.07.14-15.19.09:939][ 81]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.07.14-15.19.09:939][ 81]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.07.14-15.19.09:939][ 81]LogInit: FAudioDevice initialized with ID 18.
+[2023.07.14-15.19.09:939][ 81]LogAudio: Display: Audio Device (ID: 18) registered with world 'StartupMap'.
+[2023.07.14-15.19.09:939][ 81]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.07.14-15.19.09:942][ 81]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.19.09:943][ 81]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.19.09
+[2023.07.14-15.19.09:943][ 81]LogWorld: Bringing up level for play took: 0.000760
+[2023.07.14-15.19.09:945][ 81]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.07.14-15.19.09:947][ 81]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.19.09:947][ 81]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.19.09:947][ 81]PIE: Server logged in
+[2023.07.14-15.19.09:948][ 81]PIE: Play in editor total start time 0.123 seconds.
+[2023.07.14-15.19.25:699][960]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:707][961]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:715][962]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:724][963]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:731][964]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:740][965]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:748][966]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:756][967]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:765][968]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:773][969]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:782][970]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.25:790][971]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.27:371][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.19.27:371][154]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.19.27:371][154]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.19.27:371][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.19.27:374][154]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.19.27:378][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.19.27:397][154]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.19.27:397][154]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.07.14-15.19.27:397][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.07.14-15.19.27:398][154]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.07.14-15.19.27:403][154]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.07.14-15.19.27:445][155]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.07.14-15.19.37:955][355]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0035.dll
+[2023.07.14-15.19.38:963][359]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.19.39:038][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.07.14-15.19.39:213][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.07.14-15.19.39:249][359]Display: HotReload took  0.3s.
+[2023.07.14-15.19.39:249][359]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.19.41:435][464]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.19.41:441][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.19.41:441][464]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:19:41 AM)
+[2023.07.14-15.19.41:471][464]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.19.41:473][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002540s)
+[2023.07.14-15.19.41:473][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002574s)
+[2023.07.14-15.19.41:473][464]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.19.41:473][464]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.19.41:474][464]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.19.41:474][464]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2023.07.14-15.19.41:538][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2023.07.14-15.19.41:541][464]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.07.14-15.19.41:541][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.19.41:541][464]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.19.41:541][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.19.41:541][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.19.41:541][464]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.19.41:541][464]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.19.41:541][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.19.41:541][464]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.19.41:541][464]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.19.41:541][464]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.19.41:541][464]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.19.41:543][464]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.19.41:576][464]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.19.41:576][464]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.19.41:576][464]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.19.41:576][464]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.19.41:577][464]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.07.14-15.19.41:577][464]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.07.14-15.19.41:579][464]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.07.14-15.19.41:579][464]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.07.14-15.19.41:579][464]LogInit: FAudioDevice initialized with ID 19.
+[2023.07.14-15.19.41:579][464]LogAudio: Display: Audio Device (ID: 19) registered with world 'StartupMap'.
+[2023.07.14-15.19.41:579][464]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.07.14-15.19.41:582][464]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.19.41:582][464]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.19.41
+[2023.07.14-15.19.41:582][464]LogWorld: Bringing up level for play took: 0.000768
+[2023.07.14-15.19.41:584][464]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.07.14-15.19.41:587][464]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.19.41:587][464]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.19.41:587][464]PIE: Server logged in
+[2023.07.14-15.19.41:587][464]PIE: Play in editor total start time 0.148 seconds.
+[2023.07.14-15.19.45:650][935]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:658][936]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:666][937]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:675][938]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:683][939]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:691][940]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:700][941]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:708][942]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:716][943]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:724][944]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:732][945]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:741][946]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:749][947]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.45:758][948]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:227][963]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:235][964]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:243][965]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:251][966]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:260][967]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:268][968]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:277][969]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:284][970]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:292][971]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:301][972]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:309][973]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:317][974]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.54:326][975]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:274][323]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:282][324]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:290][325]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:299][326]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:307][327]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:315][328]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:324][329]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:332][330]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:340][331]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:348][332]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:356][333]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.57:364][334]LogTemp: Warning: Tree Hit
+[2023.07.14-15.19.58:931][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.19.58:931][518]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.19.58:931][518]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.19.58:931][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.19.58:935][518]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.19.58:940][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.19.58:959][518]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.14-15.19.58:972][518]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.07.14-15.19.58:972][518]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.07.14-15.19.58:974][518]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.07.14-15.19.58:977][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.19.58:996][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.07.14-15.19.59:043][519]LogPlayLevel: Display: Destroying online subsystem :Context_28
