@@ -40,6 +40,17 @@ private:
 
 	void CursorTrace();
 	void ObjectClicked();
+	void FaceObject();
+	void PlayWoodcutAnimation();
+
 	TObjectPtr<ITargetInterface> LastActor;
 	TObjectPtr<ITargetInterface> ThisActor;
+
+	//timer handle
+	UFUNCTION()
+	void GetLog();
+	void StartTimer();
+	void EndTimer();
+
+	FTimerHandle TimerHandle;
 };

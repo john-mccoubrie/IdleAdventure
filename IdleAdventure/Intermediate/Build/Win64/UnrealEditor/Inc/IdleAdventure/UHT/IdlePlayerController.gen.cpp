@@ -16,8 +16,44 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 	IDLEADVENTURE_API UClass* Z_Construct_UClass_AIdlePlayerController_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_IdleAdventure();
 // End Cross Module References
+	DEFINE_FUNCTION(AIdlePlayerController::execGetLog)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->GetLog();
+		P_NATIVE_END;
+	}
 	void AIdlePlayerController::StaticRegisterNativesAIdlePlayerController()
 	{
+		UClass* Class = AIdlePlayerController::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "GetLog", &AIdlePlayerController::execGetLog },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AIdlePlayerController_GetLog_Statics
+	{
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AIdlePlayerController_GetLog_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "//timer handle\n" },
+		{ "ModuleRelativePath", "Public/Player/IdlePlayerController.h" },
+		{ "ToolTip", "timer handle" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AIdlePlayerController_GetLog_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AIdlePlayerController, nullptr, "GetLog", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AIdlePlayerController_GetLog_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AIdlePlayerController_GetLog_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AIdlePlayerController_GetLog()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AIdlePlayerController_GetLog_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AIdlePlayerController);
 	UClass* Z_Construct_UClass_AIdlePlayerController_NoRegister()
@@ -27,6 +63,7 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 	struct Z_Construct_UClass_AIdlePlayerController_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -49,6 +86,9 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 	UObject* (*const Z_Construct_UClass_AIdlePlayerController_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_APlayerController,
 		(UObject* (*)())Z_Construct_UPackage__Script_IdleAdventure,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AIdlePlayerController_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AIdlePlayerController_GetLog, "GetLog" }, // 63085697
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIdlePlayerController_Statics::Class_MetaDataParams[] = {
@@ -91,11 +131,11 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AIdlePlayerController_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AIdlePlayerController_Statics::PropPointers),
 		0,
 		0x009002A4u,
@@ -120,9 +160,9 @@ void EmptyLinkFunctionForGeneratedCodeIdlePlayerController() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AIdlePlayerController, AIdlePlayerController::StaticClass, TEXT("AIdlePlayerController"), &Z_Registration_Info_UClass_AIdlePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdlePlayerController), 1852746831U) },
+		{ Z_Construct_UClass_AIdlePlayerController, AIdlePlayerController::StaticClass, TEXT("AIdlePlayerController"), &Z_Registration_Info_UClass_AIdlePlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AIdlePlayerController), 1496544070U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_3792736654(TEXT("/Script/IdleAdventure"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_3203308859(TEXT("/Script/IdleAdventure"),
 		Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_John_Documents_GitHub_IdleAdventure_IdleAdventure_Source_IdleAdventure_Public_Player_IdlePlayerController_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

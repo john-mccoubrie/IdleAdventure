@@ -4291,3 +4291,2047 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.07.14-15.19.58:977][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.07.14-15.19.58:996][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
 [2023.07.14-15.19.59:043][519]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.07.14-15.34.58:661][242]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0036.dll
+[2023.07.14-15.34.59:336][245]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.34.59:413][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.07.14-15.34.59:431][245]LogClass: UPackage /Script/IdleAdventure Reload.
+[2023.07.14-15.34.59:431][245]LogClass: UClass IdlePlayerController Reload.
+[2023.07.14-15.34.59:446][245]LogClass: Could not find existing class IdlePlayerController in package /Script/IdleAdventure for reload, assuming new or modified class
+[2023.07.14-15.34.59:446][245]LogClass: Function GetLog is new or belongs to a modified class.
+[2023.07.14-15.34.59:482][245]Re-instancing IdlePlayerController after reload.
+[2023.07.14-15.34.59:642][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.07.14-15.34.59:684][245]Display: HotReload took  0.3s.
+[2023.07.14-15.34.59:684][245]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 13 classes unchanged, 1 scriptstruct unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.35.06:682][368]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.35.06:688][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.35.06:688][368]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:35:06 AM)
+[2023.07.14-15.35.06:731][368]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.35.06:733][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002519s)
+[2023.07.14-15.35.06:733][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002557s)
+[2023.07.14-15.35.06:733][368]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.35.06:733][368]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.35.06:734][368]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.35.06:734][368]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2023.07.14-15.35.06:796][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.07.14-15.35.06:799][368]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.07.14-15.35.06:799][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.35.06:799][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.35.06:799][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.35.06:799][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.35.06:799][368]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.35.06:799][368]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.35.06:799][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.35.06:799][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.35.06:800][368]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.35.06:800][368]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.35.06:800][368]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.35.06:802][368]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.35.06:838][368]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.35.06:838][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.35.06:838][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.35.06:838][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.35.06:839][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.07.14-15.35.06:839][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.07.14-15.35.06:840][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.07.14-15.35.06:840][368]LogInit: FAudioDevice initialized with ID 20.
+[2023.07.14-15.35.06:840][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.07.14-15.35.06:840][368]LogAudio: Display: Audio Device (ID: 20) registered with world 'StartupMap'.
+[2023.07.14-15.35.06:841][368]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.07.14-15.35.06:843][368]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.35.06:844][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.35.06
+[2023.07.14-15.35.06:844][368]LogWorld: Bringing up level for play took: 0.000847
+[2023.07.14-15.35.06:846][368]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.07.14-15.35.06:849][368]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.35.06:849][368]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.35.06:849][368]PIE: Server logged in
+[2023.07.14-15.35.06:849][368]PIE: Play in editor total start time 0.162 seconds.
+[2023.07.14-15.35.08:485][550]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:492][551]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:501][552]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:509][553]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:517][554]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:526][555]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:534][556]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:543][557]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:550][558]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:558][559]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:567][560]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:575][561]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:583][562]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:591][563]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:600][564]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:608][565]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:617][566]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:625][567]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:633][568]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:642][569]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:650][570]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:658][571]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:667][572]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:675][573]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:683][574]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:692][575]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:700][576]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:708][577]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:717][578]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:725][579]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:734][580]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:742][581]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:750][582]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:759][583]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:767][584]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:775][585]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:784][586]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:792][587]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:800][588]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:809][589]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:817][590]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:825][591]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:834][592]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:842][593]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:851][594]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:858][595]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:867][596]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:875][597]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:883][598]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:892][599]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:900][600]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:908][601]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:917][602]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:925][603]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:933][604]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:942][605]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:950][606]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:958][607]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:967][608]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:975][609]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:984][610]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.08:992][611]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:000][612]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:009][613]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:017][614]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:025][615]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:034][616]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:042][617]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:050][618]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:059][619]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:067][620]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:076][621]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:083][622]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:092][623]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:100][624]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:108][625]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:116][626]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:125][627]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:133][628]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:142][629]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:150][630]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:158][631]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:167][632]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:175][633]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:183][634]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:192][635]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:200][636]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:209][637]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:217][638]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:225][639]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:233][640]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:242][641]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:250][642]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:259][643]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:267][644]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:275][645]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:284][646]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:292][647]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:300][648]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:308][649]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:317][650]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:325][651]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:333][652]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:342][653]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:350][654]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:359][655]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:367][656]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:375][657]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:384][658]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:392][659]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:401][660]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:409][661]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:417][662]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:425][663]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:434][664]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:442][665]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:451][666]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:459][667]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:466][668]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:475][669]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:483][670]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:491][671]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:500][672]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:508][673]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:517][674]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:525][675]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:533][676]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:541][677]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:550][678]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:558][679]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:566][680]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:575][681]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:583][682]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:592][683]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:600][684]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:608][685]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:617][686]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:625][687]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:633][688]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:642][689]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:650][690]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:659][691]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:667][692]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:676][693]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:684][694]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:692][695]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:700][696]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:709][697]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:717][698]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:725][699]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:734][700]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:742][701]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:750][702]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:759][703]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:767][704]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:775][705]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:784][706]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:792][707]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:800][708]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:809][709]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:817][710]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:826][711]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:833][712]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:842][713]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:850][714]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:858][715]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:867][716]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:875][717]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:883][718]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:892][719]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:900][720]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:909][721]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:917][722]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:925][723]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:934][724]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:942][725]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:950][726]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:958][727]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:967][728]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:975][729]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:983][730]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.09:992][731]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:000][732]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:009][733]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:017][734]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:025][735]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:034][736]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:042][737]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:050][738]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:059][739]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:067][740]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:076][741]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:084][742]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:092][743]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:101][744]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:109][745]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:117][746]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:126][747]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:134][748]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:142][749]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:151][750]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:159][751]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:167][752]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:176][753]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:184][754]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:192][755]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:201][756]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:208][757]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:217][758]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:225][759]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:233][760]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:242][761]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:250][762]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:258][763]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:267][764]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:275][765]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:283][766]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:292][767]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:300][768]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:308][769]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:317][770]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:325][771]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:333][772]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:342][773]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:350][774]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:359][775]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:367][776]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:375][777]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:384][778]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:392][779]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:400][780]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:409][781]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:417][782]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:425][783]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:434][784]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:442][785]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:451][786]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:458][787]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:467][788]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:475][789]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:483][790]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:492][791]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:500][792]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:509][793]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:517][794]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:525][795]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:534][796]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:542][797]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:550][798]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:558][799]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:567][800]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:575][801]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:584][802]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:592][803]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:600][804]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:609][805]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:617][806]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:625][807]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:634][808]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:642][809]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:650][810]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:659][811]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:667][812]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:675][813]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:684][814]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:692][815]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:700][816]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:709][817]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:717][818]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:725][819]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:734][820]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:742][821]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:750][822]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:759][823]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:767][824]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:776][825]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:784][826]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:792][827]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:801][828]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:809][829]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:817][830]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:826][831]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:834][832]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:842][833]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:851][834]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:858][835]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:867][836]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:875][837]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:883][838]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:892][839]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:900][840]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:908][841]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:917][842]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:925][843]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:933][844]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:942][845]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:950][846]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:958][847]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:967][848]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:975][849]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:983][850]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.10:992][851]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:000][852]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:009][853]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:017][854]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:025][855]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:034][856]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:042][857]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:050][858]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:059][859]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:067][860]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:076][861]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:084][862]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:092][863]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:100][864]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:109][865]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:117][866]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:125][867]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:134][868]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:142][869]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:150][870]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:159][871]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:167][872]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:175][873]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:184][874]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:192][875]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:201][876]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:209][877]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:217][878]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:225][879]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:234][880]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:242][881]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:250][882]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:259][883]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:267][884]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:275][885]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:283][886]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:291][887]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:300][888]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:308][889]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:317][890]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:325][891]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:334][892]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:342][893]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:350][894]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:358][895]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:367][896]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:375][897]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:384][898]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:392][899]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:400][900]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:409][901]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:417][902]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:425][903]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:434][904]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:442][905]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:450][906]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:459][907]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:467][908]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:476][909]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:484][910]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:492][911]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:501][912]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:509][913]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:517][914]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:526][915]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:534][916]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:542][917]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:551][918]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:559][919]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:567][920]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:576][921]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:584][922]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:592][923]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:601][924]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:609][925]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:616][926]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:625][927]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:633][928]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:642][929]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:650][930]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:658][931]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:667][932]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:675][933]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:683][934]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:692][935]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:700][936]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:708][937]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:717][938]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:725][939]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:734][940]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:742][941]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:750][942]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:759][943]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:767][944]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:775][945]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:784][946]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:792][947]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:800][948]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:809][949]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:817][950]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:825][951]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:834][952]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:842][953]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:850][954]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:859][955]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:867][956]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:875][957]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:884][958]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:892][959]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:900][960]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:909][961]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:917][962]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:925][963]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:934][964]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:942][965]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:951][966]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:959][967]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:967][968]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:975][969]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:984][970]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.11:992][971]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:000][972]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:009][973]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:017][974]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:026][975]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:034][976]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:042][977]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:051][978]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:059][979]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:067][980]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:075][981]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:083][982]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:092][983]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:100][984]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:108][985]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:117][986]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:125][987]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:133][988]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:142][989]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:150][990]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:158][991]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:167][992]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:175][993]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:184][994]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:192][995]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:200][996]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:209][997]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:217][998]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:225][999]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:234][  0]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:242][  1]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:251][  2]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:259][  3]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:267][  4]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:275][  5]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:284][  6]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:292][  7]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:300][  8]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:309][  9]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:317][ 10]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:325][ 11]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:334][ 12]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:342][ 13]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:350][ 14]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:359][ 15]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:367][ 16]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:376][ 17]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:384][ 18]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:392][ 19]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:401][ 20]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:409][ 21]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:417][ 22]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:426][ 23]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:434][ 24]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:443][ 25]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:451][ 26]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:458][ 27]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:467][ 28]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:475][ 29]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:484][ 30]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:492][ 31]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:500][ 32]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:509][ 33]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:517][ 34]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:526][ 35]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:534][ 36]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:542][ 37]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:551][ 38]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:559][ 39]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:568][ 40]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:576][ 41]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:584][ 42]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:592][ 43]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:601][ 44]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:609][ 45]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:618][ 46]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:625][ 47]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:633][ 48]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:642][ 49]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:650][ 50]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:658][ 51]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:667][ 52]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:675][ 53]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:683][ 54]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:692][ 55]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:700][ 56]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:708][ 57]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:717][ 58]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:725][ 59]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:733][ 60]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:742][ 61]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:750][ 62]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:759][ 63]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:767][ 64]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:775][ 65]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:784][ 66]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:792][ 67]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:801][ 68]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:809][ 69]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:817][ 70]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:826][ 71]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:834][ 72]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:842][ 73]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:851][ 74]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:859][ 75]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:867][ 76]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:876][ 77]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:884][ 78]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:892][ 79]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:901][ 80]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:909][ 81]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:918][ 82]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:926][ 83]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:934][ 84]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:943][ 85]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:951][ 86]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:959][ 87]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:968][ 88]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:976][ 89]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:984][ 90]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.12:993][ 91]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:000][ 92]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:008][ 93]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:017][ 94]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:025][ 95]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:034][ 96]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:042][ 97]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:050][ 98]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:059][ 99]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:067][100]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:075][101]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:084][102]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:092][103]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:100][104]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:108][105]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:117][106]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:125][107]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:134][108]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:142][109]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:150][110]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:159][111]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:167][112]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:175][113]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:183][114]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:192][115]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:200][116]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:209][117]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:217][118]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:225][119]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:233][120]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:242][121]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:250][122]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:259][123]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:267][124]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:275][125]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:284][126]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:292][127]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:301][128]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:309][129]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:317][130]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:326][131]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:334][132]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:342][133]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:351][134]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:359][135]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:367][136]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:376][137]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:384][138]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:392][139]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:401][140]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:409][141]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:417][142]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:425][143]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:433][144]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:442][145]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:450][146]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:458][147]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:467][148]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:475][149]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:484][150]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:492][151]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:500][152]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:509][153]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:517][154]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:525][155]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:534][156]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:542][157]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:551][158]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:559][159]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:567][160]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:576][161]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:584][162]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:592][163]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:601][164]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:609][165]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:617][166]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:626][167]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:634][168]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:641][169]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:650][170]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:658][171]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:666][172]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:675][173]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:683][174]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:692][175]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:700][176]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:708][177]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:717][178]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:725][179]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:733][180]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:742][181]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:750][182]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:758][183]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:767][184]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:775][185]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:783][186]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:792][187]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:800][188]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:809][189]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:817][190]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:826][191]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:834][192]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:842][193]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:850][194]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:859][195]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:867][196]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:875][197]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:884][198]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:892][199]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:901][200]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:909][201]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:917][202]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:925][203]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:934][204]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:942][205]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:951][206]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:959][207]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:967][208]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:976][209]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:984][210]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.13:992][211]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:001][212]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:009][213]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:017][214]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:025][215]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:033][216]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:042][217]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:050][218]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:058][219]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:066][220]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:075][221]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:083][222]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:092][223]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:100][224]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:108][225]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:117][226]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:125][227]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:134][228]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:142][229]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:150][230]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:158][231]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:167][232]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:175][233]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:184][234]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:192][235]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:201][236]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:209][237]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:217][238]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:225][239]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:234][240]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:242][241]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:250][242]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:259][243]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:267][244]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:276][245]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:284][246]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:293][247]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:301][248]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:309][249]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:317][250]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:326][251]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:334][252]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:342][253]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:351][254]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:359][255]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:367][256]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:376][257]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:384][258]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:391][259]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:400][260]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:408][261]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:417][262]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:425][263]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:433][264]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:442][265]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:450][266]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:458][267]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:467][268]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:475][269]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:483][270]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:492][271]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:501][272]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:509][273]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:517][274]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:526][275]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:534][276]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:543][277]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:551][278]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:559][279]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:568][280]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:576][281]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:584][282]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:592][283]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:601][284]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:609][285]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:618][286]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:626][287]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:634][288]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:643][289]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:651][290]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:659][291]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:668][292]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:676][293]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:684][294]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:693][295]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:701][296]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:709][297]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:718][298]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:726][299]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:735][300]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:743][301]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:751][302]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:760][303]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:768][304]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:776][305]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:785][306]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:793][307]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:802][308]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:810][309]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:818][310]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:825][311]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:834][312]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:842][313]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:850][314]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:859][315]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:867][316]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:876][317]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:884][318]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:894][319]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:901][320]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:909][321]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:917][322]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:926][323]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:934][324]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:943][325]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:951][326]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:959][327]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:968][328]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:976][329]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:985][330]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.14:993][331]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:002][332]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:009][333]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:018][334]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:026][335]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:034][336]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:043][337]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:051][338]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:060][339]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:068][340]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:076][341]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:085][342]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:093][343]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:101][344]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:109][345]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:118][346]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:126][347]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:134][348]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:143][349]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:151][350]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:160][351]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:168][352]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:176][353]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:185][354]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:193][355]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:200][356]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:209][357]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:217][358]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:225][359]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:234][360]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:242][361]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:250][362]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:259][363]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:267][364]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:276][365]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:284][366]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:292][367]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:301][368]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:309][369]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:317][370]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:326][371]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:334][372]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:342][373]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:351][374]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:359][375]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:367][376]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:376][377]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:384][378]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:393][379]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:401][380]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:409][381]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:418][382]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:426][383]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:434][384]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:443][385]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:451][386]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:460][387]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:468][388]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:476][389]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:485][390]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:493][391]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:502][392]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:510][393]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:518][394]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:526][395]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:535][396]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:543][397]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:551][398]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:560][399]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:568][400]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:576][401]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:584][402]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:592][403]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:601][404]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:609][405]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:617][406]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:625][407]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:634][408]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:643][409]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:651][410]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:659][411]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:669][412]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:678][413]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:685][414]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:696][415]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:707][416]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:714][417]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:722][418]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:731][419]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:739][420]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:747][421]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:755][422]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:765][423]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:772][424]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:781][425]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:789][426]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:798][427]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:806][428]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:815][429]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:822][430]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:830][431]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:839][432]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:848][433]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:857][434]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:866][435]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:875][436]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:883][437]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:891][438]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:900][439]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:907][440]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:916][441]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:925][442]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:933][443]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:941][444]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:949][445]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:957][446]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:965][447]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:973][448]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:982][449]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:991][450]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.15:999][451]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:006][452]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:015][453]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:023][454]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:032][455]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:040][456]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:048][457]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:057][458]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:065][459]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:073][460]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:082][461]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:090][462]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:099][463]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:108][464]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:116][465]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:124][466]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:132][467]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:140][468]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:149][469]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:157][470]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:165][471]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:174][472]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:182][473]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:190][474]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:198][475]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:207][476]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:215][477]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:223][478]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:232][479]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:240][480]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:249][481]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:258][482]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:267][483]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:274][484]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:282][485]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:290][486]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:299][487]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:307][488]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:316][489]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:324][490]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:332][491]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:341][492]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.16:351][493]LogTemp: Warning: Add one log
+[2023.07.14-15.35.19:092][822]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:101][823]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:109][824]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:117][825]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:125][826]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:133][827]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:142][828]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:150][829]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:158][830]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:167][831]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:175][832]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:183][833]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:192][834]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.19:201][835]LogTemp: Warning: Add one log
+[2023.07.14-15.35.21:932][160]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.21:940][161]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.21:948][162]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.21:957][163]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.21:964][164]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.21:973][165]LogTemp: Warning: Add one log
+[2023.07.14-15.35.23:515][350]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:523][351]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:531][352]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:539][353]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:549][354]LogTemp: Warning: Add one log
+[2023.07.14-15.35.23:740][377]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:748][378]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:756][379]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:765][380]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:773][381]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:782][382]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:790][383]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:798][384]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:807][385]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:815][386]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:823][387]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:831][388]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:840][389]LogTemp: Warning: Add one log
+[2023.07.14-15.35.23:898][396]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:906][397]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:914][398]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:923][399]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:931][400]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:939][401]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:948][402]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:956][403]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:965][404]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:973][405]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:981][406]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:990][407]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.23:999][408]LogTemp: Warning: Add one log
+[2023.07.14-15.35.24:107][421]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:115][422]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:123][423]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:131][424]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:139][425]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:147][426]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:156][427]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:164][428]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:173][429]LogTemp: Warning: Add one log
+[2023.07.14-15.35.24:256][439]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:264][440]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:273][441]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:281][442]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:289][443]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:298][444]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:306][445]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:315][446]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:323][447]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:331][448]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:340][449]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:348][450]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:356][451]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:365][452]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:373][453]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:381][454]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:390][455]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:398][456]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:406][457]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:416][458]LogTemp: Warning: Add one log
+[2023.07.14-15.35.24:490][467]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:498][468]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:506][469]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:514][470]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:522][471]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:532][472]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:539][473]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:548][474]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:556][475]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:564][476]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:574][477]LogTemp: Warning: Add one log
+[2023.07.14-15.35.24:648][486]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:656][487]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:665][488]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:673][489]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:681][490]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:690][491]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:698][492]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:707][493]LogTemp: Warning: Add one log
+[2023.07.14-15.35.24:748][498]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:756][499]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:765][500]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:773][501]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:781][502]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:790][503]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:798][504]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:807][505]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.24:816][506]LogTemp: Warning: Add one log
+[2023.07.14-15.35.25:741][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.35.25:741][611]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.35.25:741][611]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.35.25:741][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.35.25:745][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.35.25:749][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.35.25:771][611]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.14-15.35.25:775][611]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.07.14-15.35.25:775][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.07.14-15.35.25:777][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.07.14-15.35.25:780][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.35.25:805][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.07.14-15.35.25:850][612]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.07.14-15.35.42:326][827]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.35.42:331][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.35.42:331][827]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:35:42 AM)
+[2023.07.14-15.35.42:371][827]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.35.42:373][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002434s)
+[2023.07.14-15.35.42:373][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002465s)
+[2023.07.14-15.35.42:373][827]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.35.42:373][827]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.35.42:374][827]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.35.42:374][827]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2023.07.14-15.35.42:393][827]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.07.14-15.35.42:401][827]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.07.14-15.35.42:401][827]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.35.42:401][827]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.35.42:401][827]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.35.42:401][827]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.35.42:401][827]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.35.42:401][827]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.35.42:401][827]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.35.42:401][827]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.35.42:402][827]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.35.42:402][827]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.35.42:402][827]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.35.42:403][827]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.35.42:437][827]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.35.42:437][827]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.35.42:438][827]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.35.42:438][827]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.35.42:438][827]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.07.14-15.35.42:438][827]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.07.14-15.35.42:440][827]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.07.14-15.35.42:440][827]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.07.14-15.35.42:440][827]LogInit: FAudioDevice initialized with ID 21.
+[2023.07.14-15.35.42:440][827]LogAudio: Display: Audio Device (ID: 21) registered with world 'StartupMap'.
+[2023.07.14-15.35.42:440][827]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.07.14-15.35.42:442][827]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.35.42:443][827]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.35.42
+[2023.07.14-15.35.42:443][827]LogWorld: Bringing up level for play took: 0.000749
+[2023.07.14-15.35.42:445][827]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.07.14-15.35.42:447][827]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.35.42:448][827]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.35.42:448][827]PIE: Server logged in
+[2023.07.14-15.35.42:448][827]PIE: Play in editor total start time 0.117 seconds.
+[2023.07.14-15.35.44:848][102]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.44:856][103]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.44:864][104]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.44:873][105]LogTemp: Warning: Tree Hit
+[2023.07.14-15.35.44:882][106]LogTemp: Warning: Add one log
+[2023.07.14-15.35.49:873][705]LogTemp: Warning: Add one log
+[2023.07.14-15.35.54:879][304]LogTemp: Warning: Add one log
+[2023.07.14-15.35.59:879][904]LogTemp: Warning: Add one log
+[2023.07.14-15.36.04:878][502]LogTemp: Warning: Add one log
+[2023.07.14-15.36.06:931][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.36.06:931][740]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.36.06:931][740]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.36.06:931][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.36.06:935][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.36.06:939][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.36.06:958][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.36.06:958][740]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.07.14-15.36.06:958][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.07.14-15.36.06:959][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.07.14-15.36.06:964][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.07.14-15.36.07:008][741]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.07.14-15.37.19:034][184]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0037.dll
+[2023.07.14-15.37.19:711][187]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.37.19:777][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.07.14-15.37.19:970][187]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.07.14-15.37.20:022][187]Display: HotReload took  0.3s.
+[2023.07.14-15.37.20:022][187]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 7 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.37.23:663][314]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.37.23:668][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.37.23:668][314]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:37:23 AM)
+[2023.07.14-15.37.23:668][314]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.37.23:670][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002477s)
+[2023.07.14-15.37.23:670][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002501s)
+[2023.07.14-15.37.23:670][314]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.37.23:670][314]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.37.23:671][314]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.37.23:671][314]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2023.07.14-15.37.23:736][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2023.07.14-15.37.23:740][314]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.07.14-15.37.23:740][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.37.23:740][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.37.23:740][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.37.23:740][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.37.23:740][314]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.37.23:740][314]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.37.23:740][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.37.23:740][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.37.23:740][314]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.37.23:740][314]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.37.23:740][314]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.37.23:742][314]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.37.23:776][314]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.37.23:776][314]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.37.23:777][314]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.37.23:777][314]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.37.23:777][314]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.07.14-15.37.23:777][314]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.07.14-15.37.23:779][314]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.07.14-15.37.23:779][314]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.07.14-15.37.23:779][314]LogInit: FAudioDevice initialized with ID 22.
+[2023.07.14-15.37.23:779][314]LogAudio: Display: Audio Device (ID: 22) registered with world 'StartupMap'.
+[2023.07.14-15.37.23:779][314]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.07.14-15.37.23:782][314]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.37.23:783][314]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.37.23
+[2023.07.14-15.37.23:783][314]LogWorld: Bringing up level for play took: 0.000831
+[2023.07.14-15.37.23:785][314]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.07.14-15.37.23:787][314]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.37.23:787][314]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.37.23:787][314]PIE: Server logged in
+[2023.07.14-15.37.23:788][314]PIE: Play in editor total start time 0.12 seconds.
+[2023.07.14-15.37.25:795][541]LogTemp: Warning: Tree Hit
+[2023.07.14-15.37.25:803][542]LogTemp: Warning: Tree Hit
+[2023.07.14-15.37.25:811][543]LogTemp: Warning: Tree Hit
+[2023.07.14-15.37.25:819][544]LogTemp: Warning: Tree Hit
+[2023.07.14-15.37.25:828][545]LogTemp: Warning: Tree Hit
+[2023.07.14-15.37.25:836][546]LogTemp: Warning: Tree Hit
+[2023.07.14-15.37.25:844][547]LogTemp: Warning: Tree Hit
+[2023.07.14-15.37.25:853][548]LogTemp: Warning: Tree Hit
+[2023.07.14-15.37.25:861][549]LogTemp: Warning: Tree Hit
+[2023.07.14-15.37.25:870][550]LogTemp: Warning: Add one log
+[2023.07.14-15.37.30:868][138]LogTemp: Warning: Add one log
+[2023.07.14-15.37.34:120][527]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:128][528]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:136][529]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:145][530]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:153][531]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:162][532]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:170][533]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:178][534]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:186][535]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:195][536]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:203][537]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:211][538]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:220][539]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:227][540]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:235][541]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:244][542]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:252][543]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:260][544]LogTemp: Warning: Out of range
+[2023.07.14-15.37.34:269][545]LogTemp: Warning: Out of range
+[2023.07.14-15.37.35:571][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.37.35:571][698]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.37.35:571][698]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.37.35:571][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.37.35:575][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.37.35:580][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.37.35:598][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.37.35:599][698]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.07.14-15.37.35:599][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.07.14-15.37.35:600][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.07.14-15.37.35:637][698]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2023.07.14-15.37.35:688][699]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.07.14-15.37.54:584][851]LogDerivedDataCache: C:/Users/John/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.298 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1227 files in 1985 folders with total size 200 MiB.
+[2023.07.14-15.39.22:301][114]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0038.dll
+[2023.07.14-15.39.22:976][117]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.39.23:060][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2023.07.14-15.39.23:242][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.07.14-15.39.23:279][117]Display: HotReload took  0.3s.
+[2023.07.14-15.39.23:279][117]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 7 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.39.24:929][215]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.07.14-15.39.24:934][215]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.07.14-15.39.24:934][215]PIE: New page: PIE session: StartupMap (Jul 14, 2023, 7:39:24 AM)
+[2023.07.14-15.39.24:971][215]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.39.24:973][215]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002463s)
+[2023.07.14-15.39.24:973][215]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.002494s)
+[2023.07.14-15.39.24:973][215]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.39.24:973][215]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.39.24:974][215]LogAIModule: Creating AISystem for world StartupMap
+[2023.07.14-15.39.24:974][215]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2023.07.14-15.39.25:038][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.07.14-15.39.25:043][215]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.07.14-15.39.25:043][215]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.07.14-15.39.25:043][215]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.07.14-15.39.25:043][215]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.07.14-15.39.25:043][215]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.07.14-15.39.25:043][215]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.07.14-15.39.25:043][215]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.07.14-15.39.25:043][215]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.07.14-15.39.25:043][215]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.07.14-15.39.25:044][215]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.07.14-15.39.25:044][215]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.07.14-15.39.25:044][215]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.07.14-15.39.25:046][215]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.07.14-15.39.25:080][215]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Focusrite Usb Audio)
+[2023.07.14-15.39.25:080][215]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.07.14-15.39.25:080][215]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.07.14-15.39.25:081][215]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.07.14-15.39.25:081][215]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.07.14-15.39.25:081][215]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.07.14-15.39.25:083][215]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.07.14-15.39.25:083][215]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.07.14-15.39.25:083][215]LogInit: FAudioDevice initialized with ID 23.
+[2023.07.14-15.39.25:083][215]LogAudio: Display: Audio Device (ID: 23) registered with world 'StartupMap'.
+[2023.07.14-15.39.25:083][215]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2023.07.14-15.39.25:085][215]LogLoad: Game class is 'BP_IdleGameMode_C'
+[2023.07.14-15.39.25:086][215]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2023.07.14-11.39.25
+[2023.07.14-15.39.25:086][215]LogWorld: Bringing up level for play took: 0.000778
+[2023.07.14-15.39.25:088][215]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.07.14-15.39.25:091][215]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.07.14-15.39.25:091][215]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.07.14-15.39.25:091][215]PIE: Server logged in
+[2023.07.14-15.39.25:092][215]PIE: Play in editor total start time 0.158 seconds.
+[2023.07.14-15.39.27:104][437]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.27:112][438]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.27:120][439]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.27:129][440]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.27:137][441]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.27:145][442]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.27:153][443]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.27:162][444]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.27:172][445]LogTemp: Warning: Add one log
+[2023.07.14-15.39.32:162][ 44]LogTemp: Warning: Add one log
+[2023.07.14-15.39.37:165][639]LogTemp: Warning: Add one log
+[2023.07.14-15.39.38:324][778]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:331][779]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:340][780]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:348][781]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:356][782]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:365][783]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:373][784]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:382][785]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:390][786]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:398][787]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:407][788]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:415][789]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:423][790]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:432][791]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:440][792]LogTemp: Warning: Out of range
+[2023.07.14-15.39.38:448][793]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:649][417]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:656][418]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:665][419]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:673][420]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:682][421]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:690][422]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:697][423]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:706][424]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:714][425]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:722][426]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:731][427]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:739][428]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:747][429]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:756][430]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:764][431]LogTemp: Warning: Out of range
+[2023.07.14-15.39.43:772][432]LogTemp: Warning: Out of range
+[2023.07.14-15.39.47:656][898]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:664][899]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:673][900]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:681][901]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:689][902]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:698][903]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:706][904]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:714][905]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:723][906]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:731][907]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:739][908]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:748][909]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:756][910]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:765][911]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:773][912]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.47:782][913]LogTemp: Warning: Add one log
+[2023.07.14-15.39.52:774][512]LogTemp: Warning: Add one log
+[2023.07.14-15.39.57:773][112]LogTemp: Warning: Add one log
+[2023.07.14-15.39.58:924][250]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.58:932][251]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.58:940][252]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.58:948][253]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.58:957][254]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.58:965][255]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.58:974][256]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.58:982][257]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.58:990][258]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.58:999][259]LogTemp: Warning: Tree Hit
+[2023.07.14-15.39.59:008][260]LogTemp: Warning: Add one log
+[2023.07.14-15.40.02:231][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.40.02:231][641]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2023.07.14-15.40.02:231][641]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.40.02:231][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.40.02:234][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.07.14-15.40.02:239][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.40.02:258][641]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.07.14-15.40.02:260][641]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2023.07.14-15.40.02:260][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.07.14-15.40.02:263][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.07.14-15.40.02:266][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.07.14-15.40.02:294][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2023.07.14-15.40.02:338][642]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.07.14-15.42.25:895][205]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0039.dll
+[2023.07.14-15.42.26:570][208]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.42.26:644][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.07.14-15.42.26:824][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.07.14-15.42.26:874][208]Display: HotReload took  0.3s.
+[2023.07.14-15.42.26:874][208]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 7 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.44.43:988][662]LogHotReload: New module detected: UnrealEditor-IdleAdventure-0040.dll
+[2023.07.14-15.44.44:657][665]LogHotReload: Starting Hot-Reload from IDE
+[2023.07.14-15.44.44:780][665]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.07.14-15.44.45:000][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.07.14-15.44.45:061][665]Display: HotReload took  0.4s.
+[2023.07.14-15.44.45:061][665]Display: Reload/Re-instancing Complete: 1 package changed, 14 classes unchanged, 1 scriptstruct unchanged, 7 functions remapped, 1 scriptstruct remapped
+[2023.07.14-15.46.24:514][680]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.46.24:514][680]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.46.31:987][509]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.46.31:993][509]LogActor: Warning: BP_TreeBase_C /Engine/Transient.World_10:PersistentLevel.BP_TreeBase_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.07.14-15.46.32:005][510]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.46.32:022][510]LogActor: Warning: BP_NormalTree_C /Engine/Transient.World_11:PersistentLevel.BP_NormalTree_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.07.14-15.46.51:173][688]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_IdlePlayerState.BP_IdlePlayerState
+[2023.07.14-15.46.51:173][688]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.46.51:173][688]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.47.10:518][477]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.07.14-15.47.10:522][477]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.07.14-15.47.10:584][477]LogSavePackage: Moving output files for package: /Game/Blueprints/Input/IMC_IdleContext
+[2023.07.14-15.47.10:585][477]LogSavePackage: Moving '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Saved/IMC_IdleContextDCECBA7748BB499E671096A3319FAC46.tmp' to '../../../../../../Users/John/Documents/GitHub/IdleAdventure/IdleAdventure/Content/Blueprints/Input/IMC_IdleContext.uasset'
+[2023.07.14-15.47.10:591][477]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 286 ms)
+[2023.07.14-15.47.10:596][477]AssetCheck: New page: Asset Save: IMC_IdleContext
+[2023.07.14-15.47.10:596][477]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Blueprints/Input/IMC_IdleContext.IMC_IdleContext
+[2023.07.14-15.47.20:073][529]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.47.20:118][530]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.47.22:358][746]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/IdleCharacter/BP_IdleCharacter.BP_IdleCharacter
+[2023.07.14-15.47.22:359][746]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.47.22:359][746]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.49.07:635][317]LogViewport: Scene viewport resized to 1525x979, mode Windowed.
+[2023.07.14-15.50.03:663][805]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/Player/BP_IdlePlayerController.BP_IdlePlayerController
+[2023.07.14-15.50.03:663][805]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.07.14-15.50.03:663][805]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.07.14-15.51.39:417][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.07.14-15.51.39:420][382]LogStall: Shutdown...
+[2023.07.14-15.51.39:425][382]LogStall: Shutdown complete.
+[2023.07.14-15.51.39:453][382]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.39:453][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.51.39:550][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.07.14-15.51.39:550][382]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.39:550][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.51.39:578][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.07.14-15.51.39:578][382]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.39:578][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.51.39:613][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.07.14-15.51.39:613][382]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.39:613][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.51.39:657][382]LogSlate: Window 'IdleAdventure - Unreal Editor' being destroyed
+[2023.07.14-15.51.39:827][383]Cmd: QUIT_EDITOR
+[2023.07.14-15.51.39:827][383]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.07.14-15.51.39:843][383]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.07.14-15.51.39:843][383]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.07.14-15.51.39:844][383]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.07.14-15.51.39:851][383]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.39:851][383]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.07.14-15.51.39:875][383]LogStylusInput: Shutting down StylusInput subsystem.
+[2023.07.14-15.51.39:892][383]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.07.14-15.51.40:415][383]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.07.14-15.51.40:415][383]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.07.14-15.51.40:415][383]LogAudio: Display: Audio Device unregistered from world 'StartupMap'.
+[2023.07.14-15.51.40:415][383]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2023.07.14-15.51.40:431][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.07.14-15.51.40:433][383]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.07.14-15.51.40:439][383]LogAudio: Display: Audio Device Manager Shutdown
+[2023.07.14-15.51.40:448][383]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.07.14-15.51.40:450][383]LogExit: Preparing to exit.
+[2023.07.14-15.51.40:521][383]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.07.14-15.51.40:531][383]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:532][383]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:534][383]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.40:535][383]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2023.07.14-15.51.41:234][383]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.41:236][383]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.41:239][383]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.41:241][383]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.41:243][383]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.41:245][383]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.41:247][383]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.41:250][383]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2023.07.14-15.51.41:350][383]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.07.14-15.51.41:394][383]LogExit: Editor shut down
+[2023.07.14-15.51.41:400][383]LogExit: Transaction tracking system shut down
+[2023.07.14-15.51.41:995][383]LogExit: Object subsystem successfully closed.
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: ================================================
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: Total job queries 48, among them cache hits 2 (4.17%)
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: Tracking 46 distinct input hashes that result in 10 distinct outputs (21.74%)
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: RAM used: 956.58 KiB of 819.20 MiB budget. Usage: 0.11%
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.07.14-15.51.42:002][383]LogShaderCompilers: Display: ================================================
+[2023.07.14-15.51.42:086][383]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.07.14-15.51.42:131][383]LogVirtualization: UE::Virtualization was shutdown
+[2023.07.14-15.51.42:431][383]LogModuleManager: Shutting down and abandoning module IdleAdventure (1051)
+[2023.07.14-15.51.42:432][383]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (1035)
+[2023.07.14-15.51.42:432][383]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1029)
+[2023.07.14-15.51.42:432][383]LogModuleManager: Shutting down and abandoning module Voice (1027)
+[2023.07.14-15.51.42:433][383]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1025)
+[2023.07.14-15.51.42:433][383]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (1023)
+[2023.07.14-15.51.42:433][383]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1021)
+[2023.07.14-15.51.42:433][383]LogModuleManager: Shutting down and abandoning module SceneOutliner (1019)
+[2023.07.14-15.51.42:433][383]LogModuleManager: Shutting down and abandoning module AddContentDialog (1017)
+[2023.07.14-15.51.42:437][383]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1016)
+[2023.07.14-15.51.42:438][383]LogModuleManager: Shutting down and abandoning module StatusBar (1013)
+[2023.07.14-15.51.42:438][383]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1011)
+[2023.07.14-15.51.42:438][383]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1009)
+[2023.07.14-15.51.42:438][383]LogModuleManager: Shutting down and abandoning module StatsViewer (1007)
+[2023.07.14-15.51.42:440][383]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1005)
+[2023.07.14-15.51.42:440][383]LogModuleManager: Shutting down and abandoning module AutomationWorker (1003)
+[2023.07.14-15.51.42:441][383]LogModuleManager: Shutting down and abandoning module SmartSnapping (1001)
+[2023.07.14-15.51.42:441][383]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (999)
+[2023.07.14-15.51.42:441][383]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (997)
+[2023.07.14-15.51.42:441][383]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (995)
+[2023.07.14-15.51.42:442][383]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (993)
+[2023.07.14-15.51.42:442][383]LogModuleManager: Shutting down and abandoning module WebMMedia (991)
+[2023.07.14-15.51.42:443][383]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (989)
+[2023.07.14-15.51.42:444][383]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (987)
+[2023.07.14-15.51.42:452][383]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (985)
+[2023.07.14-15.51.42:452][383]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (983)
+[2023.07.14-15.51.42:452][383]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (981)
+[2023.07.14-15.51.42:454][383]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (979)
+[2023.07.14-15.51.42:454][383]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (977)
+[2023.07.14-15.51.42:454][383]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (975)
+[2023.07.14-15.51.42:454][383]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (973)
+[2023.07.14-15.51.42:454][383]LogModuleManager: Shutting down and abandoning module PlanarCut (971)
+[2023.07.14-15.51.42:455][383]LogModuleManager: Shutting down and abandoning module FractureEngine (969)
+[2023.07.14-15.51.42:455][383]LogModuleManager: Shutting down and abandoning module CharacterAI (967)
+[2023.07.14-15.51.42:455][383]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (965)
+[2023.07.14-15.51.42:460][383]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (963)
+[2023.07.14-15.51.42:461][383]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (961)
+[2023.07.14-15.51.42:465][383]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (959)
+[2023.07.14-15.51.42:468][383]LogModuleManager: Shutting down and abandoning module TextureAlignMode (957)
+[2023.07.14-15.51.42:468][383]LogModuleManager: Shutting down and abandoning module BspMode (955)
+[2023.07.14-15.51.42:471][383]LogModuleManager: Shutting down and abandoning module GeometryMode (953)
+[2023.07.14-15.51.42:472][383]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (951)
+[2023.07.14-15.51.42:472][383]LogModuleManager: Shutting down and abandoning module WaveTableEditor (949)
+[2023.07.14-15.51.42:473][383]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (947)
+[2023.07.14-15.51.42:473][383]LogModuleManager: Shutting down and abandoning module GooglePADEditor (945)
+[2023.07.14-15.51.42:473][383]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (943)
+[2023.07.14-15.51.42:473][383]LogModuleManager: Shutting down and abandoning module SequenceRecorder (942)
+[2023.07.14-15.51.42:474][383]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (939)
+[2023.07.14-15.51.42:474][383]LogModuleManager: Shutting down and abandoning module IKRigEditor (937)
+[2023.07.14-15.51.42:477][383]LogModuleManager: Shutting down and abandoning module ControlRigEditor (935)
+[2023.07.14-15.51.42:485][383]LogModuleManager: Shutting down and abandoning module SessionServices (933)
+[2023.07.14-15.51.42:486][383]LogModuleManager: Shutting down and abandoning module MeshPaint (931)
+[2023.07.14-15.51.42:487][383]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (929)
+[2023.07.14-15.51.42:487][383]LogModuleManager: Shutting down and abandoning module PlacementMode (928)
+[2023.07.14-15.51.42:488][383]LogModuleManager: Shutting down and abandoning module FoliageEdit (925)
+[2023.07.14-15.51.42:490][383]LogModuleManager: Shutting down and abandoning module LandscapeEditor (923)
+[2023.07.14-15.51.42:497][383]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (921)
+[2023.07.14-15.51.42:498][383]LogModuleManager: Shutting down and abandoning module ActorPickerMode (919)
+[2023.07.14-15.51.42:498][383]LogModuleManager: Shutting down and abandoning module ViewportSnapping (917)
+[2023.07.14-15.51.42:498][383]LogModuleManager: Shutting down and abandoning module ViewportInteraction (915)
+[2023.07.14-15.51.42:498][383]LogModuleManager: Shutting down and abandoning module ClothPainter (913)
+[2023.07.14-15.51.42:501][383]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (912)
+[2023.07.14-15.51.42:504][383]LogModuleManager: Shutting down and abandoning module LogVisualizer (909)
+[2023.07.14-15.51.42:508][383]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (907)
+[2023.07.14-15.51.42:508][383]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (905)
+[2023.07.14-15.51.42:508][383]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (904)
+[2023.07.14-15.51.42:509][383]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (902)
+[2023.07.14-15.51.43:025][383]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (899)
+[2023.07.14-15.51.43:025][383]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (897)
+[2023.07.14-15.51.43:025][383]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (895)
+[2023.07.14-15.51.43:025][383]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (893)
+[2023.07.14-15.51.43:025][383]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (891)
+[2023.07.14-15.51.43:027][383]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (889)
+[2023.07.14-15.51.43:027][383]LogModuleManager: Shutting down and abandoning module AnimationSettings (887)
+[2023.07.14-15.51.43:027][383]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (885)
+[2023.07.14-15.51.43:027][383]LogModuleManager: Shutting down and abandoning module CSVtoSVG (883)
+[2023.07.14-15.51.43:027][383]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (881)
+[2023.07.14-15.51.43:027][383]LogModuleManager: Shutting down and abandoning module EditorConfig (879)
+[2023.07.14-15.51.43:027][383]LogModuleManager: Shutting down and abandoning module EditorFramework (877)
+[2023.07.14-15.51.43:027][383]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (875)
+[2023.07.14-15.51.43:029][383]LogModuleManager: Shutting down and abandoning module TraceInsights (873)
+[2023.07.14-15.51.43:043][383]MemoryProfiler: Shutdown
+[2023.07.14-15.51.43:044][383]NetworkingProfiler: Shutdown
+[2023.07.14-15.51.43:045][383]LoadingProfiler: Shutdown
+[2023.07.14-15.51.43:046][383]TimingProfiler: Shutdown
+[2023.07.14-15.51.43:050][383]LogModuleManager: Shutting down and abandoning module TraceServices (872)
+[2023.07.14-15.51.43:052][383]LogModuleManager: Shutting down and abandoning module TraceAnalysis (871)
+[2023.07.14-15.51.43:052][383]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (867)
+[2023.07.14-15.51.43:052][383]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (866)
+[2023.07.14-15.51.43:052][383]LogModuleManager: Shutting down and abandoning module InputBindingEditor (863)
+[2023.07.14-15.51.43:053][383]LogModuleManager: Shutting down and abandoning module MergeActors (861)
+[2023.07.14-15.51.43:055][383]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (859)
+[2023.07.14-15.51.43:056][383]LogModuleManager: Shutting down and abandoning module LocalizationService (858)
+[2023.07.14-15.51.43:057][383]LogModuleManager: Shutting down and abandoning module HardwareTargeting (855)
+[2023.07.14-15.51.43:057][383]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (853)
+[2023.07.14-15.51.43:057][383]LogModuleManager: Shutting down and abandoning module UndoHistory (851)
+[2023.07.14-15.51.43:058][383]LogModuleManager: Shutting down and abandoning module XmlParser (849)
+[2023.07.14-15.51.43:058][383]LogModuleManager: Shutting down and abandoning module Blutility (847)
+[2023.07.14-15.51.43:058][383]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (845)
+[2023.07.14-15.51.43:058][383]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (844)
+[2023.07.14-15.51.43:059][383]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (841)
+[2023.07.14-15.51.43:060][383]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (840)
+[2023.07.14-15.51.43:060][383]LogModuleManager: Shutting down and abandoning module SettingsEditor (837)
+[2023.07.14-15.51.43:060][383]LogModuleManager: Shutting down and abandoning module ProjectLauncher (835)
+[2023.07.14-15.51.43:061][383]LogModuleManager: Shutting down and abandoning module SessionFrontend (833)
+[2023.07.14-15.51.43:062][383]LogModuleManager: Shutting down and abandoning module ProfilerClient (831)
+[2023.07.14-15.51.43:062][383]LogModuleManager: Shutting down and abandoning module DeviceManager (829)
+[2023.07.14-15.51.43:063][383]LogModuleManager: Shutting down and abandoning module AutomationController (827)
+[2023.07.14-15.51.43:065][383]LogModuleManager: Shutting down and abandoning module AutomationWindow (825)
+[2023.07.14-15.51.43:067][383]LogModuleManager: Shutting down and abandoning module Layers (823)
+[2023.07.14-15.51.43:071][383]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (821)
+[2023.07.14-15.51.43:071][383]LogModuleManager: Shutting down and abandoning module DetailCustomizations (819)
+[2023.07.14-15.51.43:072][383]LogModuleManager: Shutting down and abandoning module PackagesDialog (817)
+[2023.07.14-15.51.43:073][383]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (815)
+[2023.07.14-15.51.43:075][383]LogModuleManager: Shutting down and abandoning module Persona (813)
+[2023.07.14-15.51.43:078][383]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (812)
+[2023.07.14-15.51.43:078][383]LogModuleManager: Shutting down and abandoning module Kismet (809)
+[2023.07.14-15.51.43:089][383]LogModuleManager: Shutting down and abandoning module KismetWidgets (808)
+[2023.07.14-15.51.43:089][383]LogModuleManager: Shutting down and abandoning module GraphEditor (805)
+[2023.07.14-15.51.43:089][383]LogModuleManager: Shutting down and abandoning module StructViewer (803)
+[2023.07.14-15.51.43:090][383]LogModuleManager: Shutting down and abandoning module ClassViewer (801)
+[2023.07.14-15.51.43:093][383]LogModuleManager: Shutting down and abandoning module NaniteTools (799)
+[2023.07.14-15.51.43:093][383]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (797)
+[2023.07.14-15.51.43:094][383]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (795)
+[2023.07.14-15.51.43:095][383]LogModuleManager: Shutting down and abandoning module SourceControlWindows (793)
+[2023.07.14-15.51.43:096][383]LogModuleManager: Shutting down and abandoning module OutputLog (791)
+[2023.07.14-15.51.43:097][383]LogModuleManager: Shutting down and abandoning module Documentation (789)
+[2023.07.14-15.51.43:097][383]LogModuleManager: Shutting down and abandoning module LiveCoding (787)
+[2023.07.14-15.51.43:099][383]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (785)
+[2023.07.14-15.51.43:099][383]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (783)
+[2023.07.14-15.51.43:100][383]LogModuleManager: Shutting down and abandoning module MovieScene (781)
+[2023.07.14-15.51.43:101][383]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (779)
+[2023.07.14-15.51.43:101][383]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (777)
+[2023.07.14-15.51.43:101][383]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (775)
+[2023.07.14-15.51.43:101][383]LogModuleManager: Shutting down and abandoning module AudioMixer (774)
+[2023.07.14-15.51.43:101][383]LogModuleManager: Shutting down and abandoning module AudioMixerCore (773)
+[2023.07.14-15.51.43:101][383]LogModuleManager: Shutting down and abandoning module LauncherPlatform (769)
+[2023.07.14-15.51.43:101][383]LogModuleManager: Shutting down and abandoning module AnalyticsET (767)
+[2023.07.14-15.51.43:102][383]LogModuleManager: Shutting down and abandoning module PortalServices (765)
+[2023.07.14-15.51.43:102][383]LogModuleManager: Shutting down and abandoning module PortalRpc (763)
+[2023.07.14-15.51.43:102][383]LogModuleManager: Shutting down and abandoning module MessagingRpc (761)
+[2023.07.14-15.51.43:102][383]LogModuleManager: Shutting down and abandoning module AIModule (759)
+[2023.07.14-15.51.43:104][383]LogModuleManager: Shutting down and abandoning module AITestSuite (758)
+[2023.07.14-15.51.43:104][383]LogModuleManager: Shutting down and abandoning module NavigationSystem (756)
+[2023.07.14-15.51.43:105][383]LogModuleManager: Shutting down and abandoning module DataLayerEditor (753)
+[2023.07.14-15.51.43:106][383]LogModuleManager: Shutting down and abandoning module EditorWidgets (752)
+[2023.07.14-15.51.43:106][383]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (749)
+[2023.07.14-15.51.43:106][383]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (747)
+[2023.07.14-15.51.43:106][383]LogModuleManager: Shutting down and abandoning module TypedElementFramework (745)
+[2023.07.14-15.51.43:107][383]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (743)
+[2023.07.14-15.51.43:119][383]LogModuleManager: Shutting down and abandoning module ProfilerService (741)
+[2023.07.14-15.51.43:280][383]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (739)
+[2023.07.14-15.51.43:282][383]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (737)
+[2023.07.14-15.51.43:282][383]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (735)
+[2023.07.14-15.51.43:282][383]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (733)
+[2023.07.14-15.51.43:284][383]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (731)
+[2023.07.14-15.51.43:284][383]LogModuleManager: Shutting down and abandoning module TakesCore (729)
+[2023.07.14-15.51.43:285][383]LogModuleManager: Shutting down and abandoning module MegascansPlugin (727)
+[2023.07.14-15.51.43:287][383]LogModuleManager: Shutting down and abandoning module Bridge (725)
+[2023.07.14-15.51.43:287][383]LogModuleManager: Shutting down and abandoning module LightMixer (723)
+[2023.07.14-15.51.43:288][383]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (721)
+[2023.07.14-15.51.43:289][383]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (719)
+[2023.07.14-15.51.43:289][383]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (717)
+[2023.07.14-15.51.43:289][383]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (715)
+[2023.07.14-15.51.43:289][383]LogModuleManager: Shutting down and abandoning module CollectionManager (714)
+[2023.07.14-15.51.43:290][383]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (711)
+[2023.07.14-15.51.43:291][383]LogModuleManager: Shutting down and abandoning module InterchangeTests (709)
+[2023.07.14-15.51.43:291][383]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (707)
+[2023.07.14-15.51.43:292][383]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (705)
+[2023.07.14-15.51.43:292][383]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (703)
+[2023.07.14-15.51.43:293][383]LogModuleManager: Shutting down and abandoning module InterchangePipelines (701)
+[2023.07.14-15.51.43:293][383]LogModuleManager: Shutting down and abandoning module InterchangeExport (699)
+[2023.07.14-15.51.43:293][383]LogModuleManager: Shutting down and abandoning module InterchangeMessages (697)
+[2023.07.14-15.51.43:293][383]LogModuleManager: Shutting down and abandoning module InterchangeImport (695)
+[2023.07.14-15.51.43:293][383]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (693)
+[2023.07.14-15.51.43:293][383]LogModuleManager: Shutting down and abandoning module InterchangeNodes (691)
+[2023.07.14-15.51.43:293][383]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (689)
+[2023.07.14-15.51.43:293][383]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (687)
+[2023.07.14-15.51.43:294][383]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (685)
+[2023.07.14-15.51.43:295][383]LogModuleManager: Shutting down and abandoning module InterchangeEditor (683)
+[2023.07.14-15.51.43:295][383]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (681)
+[2023.07.14-15.51.43:295][383]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (679)
+[2023.07.14-15.51.43:295][383]LogModuleManager: Shutting down and abandoning module UObjectPlugin (677)
+[2023.07.14-15.51.43:295][383]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (675)
+[2023.07.14-15.51.43:296][383]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (673)
+[2023.07.14-15.51.43:297][383]LogModuleManager: Shutting down and abandoning module PluginUtils (671)
+[2023.07.14-15.51.43:297][383]LogModuleManager: Shutting down and abandoning module GitSourceControl (669)
+[2023.07.14-15.51.43:299][383]LogModuleManager: Shutting down and abandoning module DumpGPUServices (667)
+[2023.07.14-15.51.43:299][383]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (665)
+[2023.07.14-15.51.43:299][383]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (663)
+[2023.07.14-15.51.43:299][383]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (661)
+[2023.07.14-15.51.43:299][383]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (659)
+[2023.07.14-15.51.43:299][383]LogModuleManager: Shutting down and abandoning module Paper2DEditor (657)
+[2023.07.14-15.51.43:303][383]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (655)
+[2023.07.14-15.51.43:303][383]LogModuleManager: Shutting down and abandoning module MediaPlate (653)
+[2023.07.14-15.51.43:303][383]LogModuleManager: Shutting down and abandoning module MediaCompositing (651)
+[2023.07.14-15.51.43:303][383]LogModuleManager: Shutting down and abandoning module ImgMedia (649)
+[2023.07.14-15.51.43:304][383]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (647)
+[2023.07.14-15.51.43:304][383]LogModuleManager: Shutting down and abandoning module UVEditorTools (645)
+[2023.07.14-15.51.43:305][383]LogModuleManager: Shutting down and abandoning module UVEditor (643)
+[2023.07.14-15.51.43:305][383]LogModuleManager: Shutting down and abandoning module PresetAsset (641)
+[2023.07.14-15.51.43:305][383]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (639)
+[2023.07.14-15.51.43:305][383]LogOpenImageDenoise: OIDN shutting down
+[2023.07.14-15.51.43:305][383]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (637)
+[2023.07.14-15.51.43:306][383]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (635)
+[2023.07.14-15.51.43:309][383]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (633)
+[2023.07.14-15.51.43:310][383]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (631)
+[2023.07.14-15.51.43:311][383]LogModuleManager: Shutting down and abandoning module MeshLODToolset (629)
+[2023.07.14-15.51.43:311][383]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (627)
+[2023.07.14-15.51.43:312][383]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (625)
+[2023.07.14-15.51.43:313][383]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (623)
+[2023.07.14-15.51.43:313][383]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (621)
+[2023.07.14-15.51.43:314][383]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (619)
+[2023.07.14-15.51.43:314][383]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (618)
+[2023.07.14-15.51.43:315][383]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (616)
+[2023.07.14-15.51.43:315][383]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (613)
+[2023.07.14-15.51.43:315][383]LogModuleManager: Shutting down and abandoning module DataflowNodes (611)
+[2023.07.14-15.51.43:316][383]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (609)
+[2023.07.14-15.51.43:316][383]LogModuleManager: Shutting down and abandoning module DataflowEditor (607)
+[2023.07.14-15.51.43:316][383]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (605)
+[2023.07.14-15.51.43:316][383]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (603)
+[2023.07.14-15.51.43:316][383]LogModuleManager: Shutting down and abandoning module ChaosNiagara (601)
+[2023.07.14-15.51.43:317][383]LogModuleManager: Shutting down and abandoning module FractureEditor (599)
+[2023.07.14-15.51.43:320][383]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (597)
+[2023.07.14-15.51.43:321][383]LogModuleManager: Shutting down and abandoning module BackChannel (595)
+[2023.07.14-15.51.43:322][383]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (593)
+[2023.07.14-15.51.43:322][383]LogModuleManager: Shutting down and abandoning module AutomationUtils (591)
+[2023.07.14-15.51.43:322][383]LogModuleManager: Shutting down and abandoning module VariantManager (589)
+[2023.07.14-15.51.43:329][383]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (588)
+[2023.07.14-15.51.43:330][383]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (585)
+[2023.07.14-15.51.43:333][383]LogModuleManager: Shutting down and abandoning module TemplateSequence (583)
+[2023.07.14-15.51.43:333][383]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (581)
+[2023.07.14-15.51.43:333][383]LogModuleManager: Shutting down and abandoning module SequencerScripting (579)
+[2023.07.14-15.51.43:333][383]LogModuleManager: Shutting down and abandoning module VisualStudioTools (577)
+[2023.07.14-15.51.43:333][383]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (575)
+[2023.07.14-15.51.43:333][383]LogModuleManager: Shutting down and abandoning module StylusInput (573)
+[2023.07.14-15.51.43:333][383]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (571)
+[2023.07.14-15.51.43:333][383]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (569)
+[2023.07.14-15.51.43:333][383]LogModuleManager: Shutting down and abandoning module PluginBrowser (567)
+[2023.07.14-15.51.43:338][383]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (565)
+[2023.07.14-15.51.43:347][383]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (563)
+[2023.07.14-15.51.43:348][383]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (561)
+[2023.07.14-15.51.43:349][383]LogModuleManager: Shutting down and abandoning module GLTFImporter (559)
+[2023.07.14-15.51.43:350][383]LogModuleManager: Shutting down and abandoning module GLTFCore (557)
+[2023.07.14-15.51.43:350][383]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (555)
+[2023.07.14-15.51.43:350][383]LogModuleManager: Shutting down and abandoning module EditorDebugTools (553)
+[2023.07.14-15.51.43:351][383]LogModuleManager: Shutting down and abandoning module CurveEditorTools (551)
+[2023.07.14-15.51.43:352][383]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (549)
+[2023.07.14-15.51.43:352][383]LogModuleManager: Shutting down and abandoning module CryptoKeys (547)
+[2023.07.14-15.51.43:352][383]LogModuleManager: Shutting down and abandoning module ChangelistReview (545)
+[2023.07.14-15.51.43:352][383]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (543)
+[2023.07.14-15.51.43:353][383]LogModuleManager: Shutting down and abandoning module SynthesisEditor (541)
+[2023.07.14-15.51.43:353][383]LogModuleManager: Shutting down and abandoning module ResonanceAudio (539)
+[2023.07.14-15.51.43:353][383]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (537)
+[2023.07.14-15.51.43:354][383]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (535)
+[2023.07.14-15.51.43:354][383]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (533)
+[2023.07.14-15.51.43:354][383]LogModuleManager: Shutting down and abandoning module ModelingOperators (531)
+[2023.07.14-15.51.43:354][383]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (529)
+[2023.07.14-15.51.43:354][383]LogModuleManager: Shutting down and abandoning module ModelingComponents (527)
+[2023.07.14-15.51.43:355][383]LogModuleManager: Shutting down and abandoning module GeometryFramework (526)
+[2023.07.14-15.51.43:356][383]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (523)
+[2023.07.14-15.51.43:356][383]LogModuleManager: Shutting down and abandoning module MeshModelingTools (521)
+[2023.07.14-15.51.43:356][383]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (519)
+[2023.07.14-15.51.43:356][383]LogModuleManager: Shutting down and abandoning module InputDebugging (517)
+[2023.07.14-15.51.43:356][383]LogModuleManager: Shutting down and abandoning module GooglePAD (515)
+[2023.07.14-15.51.43:356][383]LogModuleManager: Shutting down and abandoning module DynamicMesh (513)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (511)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (509)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (507)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (505)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module AudioCapture (503)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (502)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module AssetTags (499)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (497)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (495)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module AppleImageUtils (493)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module AndroidPermission (491)
+[2023.07.14-15.51.43:358][383]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (489)
+[2023.07.14-15.51.43:359][383]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (487)
+[2023.07.14-15.51.43:359][383]LogModuleManager: Shutting down and abandoning module ControlRigSpline (485)
+[2023.07.14-15.51.43:359][383]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (483)
+[2023.07.14-15.51.43:359][383]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (481)
+[2023.07.14-15.51.43:359][383]LogModuleManager: Shutting down and abandoning module TakeSequencer (479)
+[2023.07.14-15.51.43:359][383]LogModuleManager: Shutting down and abandoning module TakeMovieScene (477)
+[2023.07.14-15.51.43:359][383]LogModuleManager: Shutting down and abandoning module AlembicImporter (475)
+[2023.07.14-15.51.43:359][383]LogModuleManager: Shutting down and abandoning module AlembicLibrary (474)
+[2023.07.14-15.51.43:359][383]LogModuleManager: Shutting down and abandoning module GeometryCache (473)
+[2023.07.14-15.51.43:360][383]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (472)
+[2023.07.14-15.51.43:360][383]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (465)
+[2023.07.14-15.51.43:363][383]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (463)
+[2023.07.14-15.51.43:363][383]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (461)
+[2023.07.14-15.51.43:363][383]LogModuleManager: Shutting down and abandoning module TraceUtilities (459)
+[2023.07.14-15.51.43:363][383]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (457)
+[2023.07.14-15.51.43:364][383]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (455)
+[2023.07.14-15.51.43:365][383]LogModuleManager: Shutting down and abandoning module InputEditor (453)
+[2023.07.14-15.51.43:366][383]LogModuleManager: Shutting down and abandoning module BlueprintGraph (452)
+[2023.07.14-15.51.43:367][383]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (447)
+[2023.07.14-15.51.43:369][383]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (445)
+[2023.07.14-15.51.43:369][383]LogModuleManager: Shutting down and abandoning module AnimationSharing (443)
+[2023.07.14-15.51.43:369][383]LogModuleManager: Shutting down and abandoning module Paper2D (441)
+[2023.07.14-15.51.43:369][383]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (439)
+[2023.07.14-15.51.43:369][383]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (437)
+[2023.07.14-15.51.43:370][383]LogModuleManager: Shutting down and abandoning module PBIK (435)
+[2023.07.14-15.51.43:370][383]LogModuleManager: Shutting down and abandoning module FullBodyIK (433)
+[2023.07.14-15.51.43:370][383]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (431)
+[2023.07.14-15.51.43:370][383]LogModuleManager: Shutting down and abandoning module TakeRecorder (430)
+[2023.07.14-15.51.43:373][383]LogModuleManager: Shutting down and abandoning module ChaosCaching (427)
+[2023.07.14-15.51.43:374][383]LogModuleManager: Shutting down and abandoning module GameplayCameras (425)
+[2023.07.14-15.51.43:375][383]LogModuleManager: Shutting down and abandoning module ActorSequence (423)
+[2023.07.14-15.51.43:375][383]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (421)
+[2023.07.14-15.51.43:375][383]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (419)
+[2023.07.14-15.51.43:375][383]LogModuleManager: Shutting down and abandoning module FacialAnimation (417)
+[2023.07.14-15.51.43:375][383]LogModuleManager: Shutting down and abandoning module DataValidation (415)
+[2023.07.14-15.51.43:375][383]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (413)
+[2023.07.14-15.51.43:376][383]LogModuleManager: Shutting down and abandoning module LevelEditor (412)
+[2023.07.14-15.51.43:384][383]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (411)
+[2023.07.14-15.51.43:385][383]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (409)
+[2023.07.14-15.51.43:386][383]LogModuleManager: Shutting down and abandoning module MainFrame (407)
+[2023.07.14-15.51.43:386][383]LogModuleManager: Shutting down and abandoning module HotReload (406)
+[2023.07.14-15.51.43:387][383]LogModuleManager: Shutting down and abandoning module TreeMap (402)
+[2023.07.14-15.51.43:388][383]LogModuleManager: Shutting down and abandoning module Synthesis (399)
+[2023.07.14-15.51.43:389][383]LogModuleManager: Shutting down and abandoning module SoundFields (397)
+[2023.07.14-15.51.43:390][383]LogModuleManager: Shutting down and abandoning module SignificanceManager (395)
+[2023.07.14-15.51.43:390][383]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (393)
+[2023.07.14-15.51.43:390][383]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (391)
+[2023.07.14-15.51.43:390][383]LogModuleManager: Shutting down and abandoning module MetasoundEditor (389)
+[2023.07.14-15.51.43:394][383]LogModuleManager: Shutting down and abandoning module AudioWidgets (388)
+[2023.07.14-15.51.43:394][383]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (387)
+[2023.07.14-15.51.43:396][383]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (383)
+[2023.07.14-15.51.43:396][383]LogModuleManager: Shutting down and abandoning module MetasoundEngine (381)
+[2023.07.14-15.51.43:396][383]LogModuleManager: Shutting down and abandoning module WaveTable (380)
+[2023.07.14-15.51.43:396][383]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (378)
+[2023.07.14-15.51.43:396][383]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (375)
+[2023.07.14-15.51.43:396][383]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (373)
+[2023.07.14-15.51.43:397][383]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (371)
+[2023.07.14-15.51.43:397][383]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (369)
+[2023.07.14-15.51.43:397][383]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (367)
+[2023.07.14-15.51.43:397][383]LogModuleManager: Shutting down and abandoning module GameplayAbilitiesEditor (365)
+[2023.07.14-15.51.43:399][383]LogModuleManager: Shutting down and abandoning module GameplayAbilities (363)
+[2023.07.14-15.51.43:399][383]LogModuleManager: Shutting down and abandoning module GameplayDebugger (362)
+[2023.07.14-15.51.43:400][383]LogModuleManager: Shutting down and abandoning module DataRegistryEditor (359)
+[2023.07.14-15.51.43:401][383]LogModuleManager: Shutting down and abandoning module DataRegistry (357)
+[2023.07.14-15.51.43:401][383]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (355)
+[2023.07.14-15.51.43:401][383]LogModuleManager: Shutting down and abandoning module CableComponent (353)
+[2023.07.14-15.51.43:401][383]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (351)
+[2023.07.14-15.51.43:401][383]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (350)
+[2023.07.14-15.51.43:401][383]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (347)
+[2023.07.14-15.51.43:401][383]LogModuleManager: Shutting down and abandoning module TcpMessaging (345)
+[2023.07.14-15.51.43:502][383]LogModuleManager: Shutting down and abandoning module UdpMessaging (343)
+[2023.07.14-15.51.43:604][383]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (341)
+[2023.07.14-15.51.43:604][383]LogModuleManager: Shutting down and abandoning module IKRig (339)
+[2023.07.14-15.51.43:604][383]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (337)
+[2023.07.14-15.51.43:604][383]LogModuleManager: Shutting down and abandoning module ControlRig (335)
+[2023.07.14-15.51.43:604][383]LogModuleManager: Shutting down and abandoning module Constraints (334)
+[2023.07.14-15.51.43:605][383]LogModuleManager: Shutting down and abandoning module LevelSequence (332)
+[2023.07.14-15.51.43:605][383]LogModuleManager: Shutting down and abandoning module AnimationData (329)
+[2023.07.14-15.51.43:605][383]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (327)
+[2023.07.14-15.51.43:605][383]LogModuleManager: Shutting down and abandoning module Niagara (325)
+[2023.07.14-15.51.43:608][383]LogModuleManager: Shutting down and abandoning module SignalProcessing (324)
+[2023.07.14-15.51.43:609][383]LogModuleManager: Shutting down and abandoning module NiagaraEditor (322)
+[2023.07.14-15.51.43:611][383]LogModuleManager: Shutting down and abandoning module ContentBrowser (321)
+[2023.07.14-15.51.43:611][383]LogModuleManager: Shutting down and abandoning module ToolMenus (320)
+[2023.07.14-15.51.43:611][383]LogModuleManager: Shutting down and abandoning module ContentBrowserData (318)
+[2023.07.14-15.51.43:611][383]LogModuleManager: Shutting down and abandoning module NiagaraCore (313)
+[2023.07.14-15.51.43:611][383]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (311)
+[2023.07.14-15.51.43:613][383]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (309)
+[2023.07.14-15.51.43:613][383]LogModuleManager: Shutting down and abandoning module EnhancedInput (307)
+[2023.07.14-15.51.43:614][383]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (305)
+[2023.07.14-15.51.43:640][383]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (303)
+[2023.07.14-15.51.43:640][383]LogModuleManager: Shutting down and abandoning module AndroidFileServer (301)
+[2023.07.14-15.51.43:640][383]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (299)
+[2023.07.14-15.51.43:640][383]LogModuleManager: Shutting down and abandoning module PacketHandler (297)
+[2023.07.14-15.51.43:640][383]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (295)
+[2023.07.14-15.51.43:641][383]LogModuleManager: Shutting down and abandoning module AnimGraph (293)
+[2023.07.14-15.51.43:641][383]LogModuleManager: Shutting down and abandoning module TimeManagement (291)
+[2023.07.14-15.51.43:641][383]LogModuleManager: Shutting down and abandoning module AnimationDataController (289)
+[2023.07.14-15.51.43:641][383]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (287)
+[2023.07.14-15.51.43:641][383]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (285)
+[2023.07.14-15.51.43:641][383]LogModuleManager: Shutting down and abandoning module MediaAssets (283)
+[2023.07.14-15.51.43:641][383]LogModuleManager: Shutting down and abandoning module Overlay (281)
+[2023.07.14-15.51.43:641][383]LogModuleManager: Shutting down and abandoning module OverlayEditor (280)
+[2023.07.14-15.51.43:641][383]LogModuleManager: Shutting down and abandoning module VREditor (277)
+[2023.07.14-15.51.43:642][383]LogModuleManager: Shutting down and abandoning module StringTableEditor (275)
+[2023.07.14-15.51.43:643][383]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (273)
+[2023.07.14-15.51.43:643][383]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (271)
+[2023.07.14-15.51.43:645][383]LogModuleManager: Shutting down and abandoning module FunctionalTesting (269)
+[2023.07.14-15.51.43:645][383]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (267)
+[2023.07.14-15.51.43:647][383]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (266)
+[2023.07.14-15.51.43:652][383]LogModuleManager: Shutting down and abandoning module UMG (263)
+[2023.07.14-15.51.43:653][383]LogModuleManager: Shutting down and abandoning module UMGEditor (262)
+[2023.07.14-15.51.43:656][383]LogModuleManager: Shutting down and abandoning module EditorStyle (257)
+[2023.07.14-15.51.43:657][383]LogModuleManager: Shutting down and abandoning module SlateReflector (255)
+[2023.07.14-15.51.43:663][383]LogModuleManager: Shutting down and abandoning module Slate (253)
+[2023.07.14-15.51.43:663][383]LogModuleManager: Shutting down and abandoning module SlateCore (251)
+[2023.07.14-15.51.43:665][383]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (249)
+[2023.07.14-15.51.43:665][383]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (247)
+[2023.07.14-15.51.43:665][383]LogModuleManager: Shutting down and abandoning module UnrealEd (245)
+[2023.07.14-15.51.43:665][383]LogModuleManager: Shutting down and abandoning module MRMesh (243)
+[2023.07.14-15.51.43:665][383]LogModuleManager: Shutting down and abandoning module Messaging (241)
+[2023.07.14-15.51.43:665][383]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (239)
+[2023.07.14-15.51.43:665][383]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (237)
+[2023.07.14-15.51.43:665][383]LogModuleManager: Shutting down and abandoning module Networking (235)
+[2023.07.14-15.51.43:666][383]LogModuleManager: Shutting down and abandoning module Core (233)
+[2023.07.14-15.51.43:666][383]LogModuleManager: Shutting down and abandoning module AssetDefinition (231)
+[2023.07.14-15.51.43:666][383]LogModuleManager: Shutting down and abandoning module MovieSceneTools (229)
+[2023.07.14-15.51.43:669][383]LogModuleManager: Shutting down and abandoning module CurveEditor (228)
+[2023.07.14-15.51.43:672][383]LogModuleManager: Shutting down and abandoning module Sequencer (226)
+[2023.07.14-15.51.43:676][383]LogModuleManager: Shutting down and abandoning module KismetCompiler (223)
+[2023.07.14-15.51.43:676][383]LogModuleManager: Shutting down and abandoning module MeshBuilder (221)
+[2023.07.14-15.51.43:677][383]LogModuleManager: Shutting down and abandoning module NaniteBuilder (219)
+[2023.07.14-15.51.43:678][383]LogModuleManager: Shutting down and abandoning module MeshUtilities (217)
+[2023.07.14-15.51.43:679][383]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (216)
+[2023.07.14-15.51.43:680][383]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (215)
+[2023.07.14-15.51.43:680][383]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (214)
+[2023.07.14-15.51.43:680][383]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (212)
+[2023.07.14-15.51.43:680][383]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (210)
+[2023.07.14-15.51.43:688][383]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (208)
+[2023.07.14-15.51.43:688][383]LogModuleManager: Shutting down and abandoning module MaterialBaking (204)
+[2023.07.14-15.51.43:689][383]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (201)
+[2023.07.14-15.51.43:700][383]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (197)
+[2023.07.14-15.51.43:700][383]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (195)
+[2023.07.14-15.51.43:700][383]LogModuleManager: Shutting down and abandoning module DerivedDataCache (193)
+[2023.07.14-15.51.43:728][383]LogModuleManager: Shutting down and abandoning module TargetPlatform (191)
+[2023.07.14-15.51.43:729][383]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (190)
+[2023.07.14-15.51.43:729][383]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (188)
+[2023.07.14-15.51.43:730][383]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (186)
+[2023.07.14-15.51.43:734][383]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (184)
+[2023.07.14-15.51.43:734][383]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (182)
+[2023.07.14-15.51.43:735][383]LogModuleManager: Shutting down and abandoning module AudioFormatBink (180)
+[2023.07.14-15.51.43:735][383]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (177)
+[2023.07.14-15.51.43:735][383]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (175)
+[2023.07.14-15.51.43:735][383]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (173)
+[2023.07.14-15.51.43:736][383]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (171)
+[2023.07.14-15.51.43:736][383]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2023.07.14-15.51.43:737][383]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (167)
+[2023.07.14-15.51.43:738][383]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (165)
+[2023.07.14-15.51.43:738][383]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (163)
+[2023.07.14-15.51.43:738][383]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (161)
+[2023.07.14-15.51.43:738][383]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (159)
+[2023.07.14-15.51.43:739][383]LogModuleManager: Shutting down and abandoning module TextureFormat (157)
+[2023.07.14-15.51.43:739][383]LogModuleManager: Shutting down and abandoning module ImageWrapper (156)
+[2023.07.14-15.51.43:739][383]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (154)
+[2023.07.14-15.51.43:745][383]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (152)
+[2023.07.14-15.51.43:746][383]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (150)
+[2023.07.14-15.51.43:746][383]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (148)
+[2023.07.14-15.51.43:747][383]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (146)
+[2023.07.14-15.51.43:747][383]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (144)
+[2023.07.14-15.51.43:747][383]LogModuleManager: Shutting down and abandoning module TurnkeySupport (141)
+[2023.07.14-15.51.43:747][383]LogModuleManager: Shutting down and abandoning module InputCore (138)
+[2023.07.14-15.51.43:748][383]LogModuleManager: Shutting down and abandoning module Settings (136)
+[2023.07.14-15.51.43:748][383]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (134)
+[2023.07.14-15.51.43:749][383]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (132)
+[2023.07.14-15.51.43:749][383]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (131)
+[2023.07.14-15.51.43:749][383]LogModuleManager: Shutting down and abandoning module Chaos (128)
+[2023.07.14-15.51.43:750][383]LogModuleManager: Shutting down and abandoning module GeometryCore (127)
+[2023.07.14-15.51.43:750][383]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (124)
+[2023.07.14-15.51.43:751][383]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (123)
+[2023.07.14-15.51.43:751][383]LogModuleManager: Shutting down and abandoning module AVEncoder (122)
+[2023.07.14-15.51.43:752][383]LogModuleManager: Shutting down and abandoning module D3D12RHI (118)
+[2023.07.14-15.51.43:752][383]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (116)
+[2023.07.14-15.51.43:752][383]RenderDocPlugin: plugin has been unloaded.
+[2023.07.14-15.51.43:752][383]LogModuleManager: Shutting down and abandoning module PixWinPlugin (114)
+[2023.07.14-15.51.43:753][383]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (112)
+[2023.07.14-15.51.43:753][383]LogModuleManager: Shutting down and abandoning module WmfMedia (110)
+[2023.07.14-15.51.43:758][383]LogModuleManager: Shutting down and abandoning module Media (109)
+[2023.07.14-15.51.43:760][383]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (106)
+[2023.07.14-15.51.43:760][383]LogModuleManager: Shutting down and abandoning module ChaosCloth (104)
+[2023.07.14-15.51.43:760][383]LogModuleManager: Shutting down and abandoning module VariantManagerContent (102)
+[2023.07.14-15.51.43:760][383]LogModuleManager: Shutting down and abandoning module GLTFExporter (100)
+[2023.07.14-15.51.43:760][383]LogModuleManager: Shutting down and abandoning module DatasmithContent (98)
+[2023.07.14-15.51.43:761][383]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (96)
+[2023.07.14-15.51.43:761][383]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (94)
+[2023.07.14-15.51.43:761][383]LogModuleManager: Shutting down and abandoning module ChunkDownloader (92)
+[2023.07.14-15.51.43:761][383]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (90)
+[2023.07.14-15.51.43:761][383]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (88)
+[2023.07.14-15.51.43:761][383]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2023.07.14-15.51.43:765][383]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2023.07.14-15.51.43:767][383]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2023.07.14-15.51.43:792][383]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2023.07.14-15.51.43:792][383]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2023.07.14-15.51.43:792][383]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC0CB2B89-4D88-430F-DCD7-2EAF644055E4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.0-25360045%2B%2B%2BUE5%2BRelease-5.2&UserID=1e65ddb34ea4802ddbdc338533faa468%7C3f590407b7384ebb9e635dbda31e8360%7Cf1c0bf67-5e5d-4e15-bce2-9cb5aaa7bb05&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.07.14-15.51.43:813][383]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2023.07.14-15.51.43:828][383]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (72)
+[2023.07.14-15.51.43:828][383]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (70)
+[2023.07.14-15.51.43:829][383]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (68)
+[2023.07.14-15.51.43:829][383]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (66)
+[2023.07.14-15.51.43:829][383]LogModuleManager: Shutting down and abandoning module NiagaraShader (64)
+[2023.07.14-15.51.43:829][383]LogModuleManager: Shutting down and abandoning module AISupportModule (62)
+[2023.07.14-15.51.43:829][383]LogModuleManager: Shutting down and abandoning module DesktopPlatform (60)
+[2023.07.14-15.51.43:831][383]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (58)
+[2023.07.14-15.51.43:833][383]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (56)
+[2023.07.14-15.51.43:835][383]LogModuleManager: Shutting down and abandoning module SourceControl (55)
+[2023.07.14-15.51.43:836][383]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (52)
+[2023.07.14-15.51.43:837][383]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (50)
+[2023.07.14-15.51.43:837][383]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (48)
+[2023.07.14-15.51.43:837][383]LogModuleManager: Shutting down and abandoning module PlatformCrypto (46)
+[2023.07.14-15.51.43:837][383]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2023.07.14-15.51.43:838][383]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2023.07.14-15.51.43:839][383]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2023.07.14-15.51.43:840][383]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2023.07.14-15.51.43:845][383]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2023.07.14-15.51.43:849][383]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2023.07.14-15.51.43:849][383]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2023.07.14-15.51.43:849][383]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.07.14-15.51.43:849][383]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.07.14-15.51.43:849][383]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.07.14-15.51.43:849][383]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.07.14-15.51.43:855][383]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.07.14-15.51.43:855][383]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.07.14-15.51.43:856][383]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.07.14-15.51.43:857][383]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.07.14-15.51.43:857][383]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.07.14-15.51.43:857][383]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.07.14-15.51.43:860][383]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.07.14-15.51.43:860][383]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.07.14-15.51.43:860][383]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.07.14-15.51.43:860][383]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.07.14-15.51.43:861][383]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.07.14-15.51.46:375][383]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.07.14-15.51.46:405][383]LogExit: Exiting.
+[2023.07.14-15.51.46:441][383]Log file closed, 07/14/23 11:51:46
