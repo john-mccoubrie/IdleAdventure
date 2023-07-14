@@ -14,6 +14,7 @@ void AIdlePlayerController::PlayerTick(float DeltaTime)
 	Super::PlayerTick(DeltaTime);
 
 	CursorTrace();
+	ObjectClicked();
 }
 
 void AIdlePlayerController::BeginPlay()
@@ -119,4 +120,20 @@ void AIdlePlayerController::CursorTrace()
 		}
 	}
 
+}
+
+void AIdlePlayerController::ObjectClicked()
+{
+	//player clicks the tree and faces it (needs to be in radius using WASD)
+	FHitResult TreeHit;
+	GetHitResultUnderCursor(ECC_Visibility, false, TreeHit);
+	if (!TreeHit.bBlockingHit) return;
+
+	//LastActor = ThisActor;
+	//ThisActor = Cast<ITargetInterface>(TreeHit.GetComponent());
+
+	if (TreeHit.GetComponent()->ComponentTags.Contains("Tree"))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Tree Hit"));
+	}
 }

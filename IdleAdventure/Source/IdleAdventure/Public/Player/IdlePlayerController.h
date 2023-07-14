@@ -36,6 +36,8 @@ private:
 	void Move(const FInputActionValue& InputActionValue);
 
 	void CursorTrace();
+	void ObjectClicked();
+	//FActor OtherTree;
 	TObjectPtr<ITargetInterface> LastActor;
 	TObjectPtr<ITargetInterface> ThisActor;
 };

@@ -25,7 +25,16 @@ void AIdleEffectActor::OnOverlap(UPrimitiveComponent* OverlappedComponent, AActo
 
 		UIdleAttributeSet* MutableIdleAttributeSet = const_cast<UIdleAttributeSet*>(IdleAttributeSet);
 		MutableIdleAttributeSet->SetWoodcutExp(IdleAttributeSet->GetWoodcutExp() + 25.f);
-		Destroy();
+		//Destroy();
+
+		//the player is within the radius
+		//gauge the distance
+		// enter woodcutting "state"
+		//start the woodcutting animation
+		//run the wooductting exp algoritm
+		//add the logs to the inventory
+		//destroy the tree after a certain time
+		//add exp until player level up
 	}
 }
 
