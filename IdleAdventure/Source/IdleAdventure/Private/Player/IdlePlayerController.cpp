@@ -3,6 +3,7 @@
 #include "EnhancedInputSubsystems.h"
 #include "EnhancedInputComponent.h"
 #include "Interact/TargetInterface.h"
+#include "TimerManager.h"
 
 AIdlePlayerController::AIdlePlayerController()
 {
@@ -66,6 +67,8 @@ void AIdlePlayerController::Move(const FInputActionValue& InputActionValue)
 void AIdlePlayerController::ClickTree(const FInputActionValue& InputActionValue)
 {
 	ObjectClicked();
+	FaceObject();
+	PlayWoodcutAnimation();
 }
 
 void AIdlePlayerController::CursorTrace()
@@ -127,6 +130,8 @@ void AIdlePlayerController::CursorTrace()
 
 }
 
+
+//maybe need to push this in idleeffectactor??
 void AIdlePlayerController::ObjectClicked()
 {
 	//player clicks the tree and faces it (needs to be in radius using WASD)
@@ -134,9 +139,8 @@ void AIdlePlayerController::ObjectClicked()
 	GetHitResultUnderCursor(ECC_Visibility, false, TreeHit);
 	if (!TreeHit.bBlockingHit) return;
 
-	//and in range of the tree
-	//player location - hit location = desired range
-	//maybe handle the click here
+
+	//if the player is in range of the tree and hovering over the tree, return
 	float InRange = 400.f;
 	APawn* PlayerPawn = GetPawn<APawn>();
 	FVector PlayerLocation = PlayerPawn->GetActorLocation();
@@ -145,5 +149,40 @@ void AIdlePlayerController::ObjectClicked()
 	if (TreeHit.GetComponent()->ComponentTags.Contains("Tree") && Distance < InRange)
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Tree Hit"));
+		StartTimer();
+	}
+	else if (Distance > InRange)
+	{
+		EndTimer();
+		UE_LOG(LogTemp, Warning, TEXT("Out of range"));
+		//figure out another way to get out of range -- relies on the click event and not the range (click must be called
+		//for this entire function to fire)
 	}
 }
+
+void AIdlePlayerController::FaceObject()
+{
+	//player faces the object that was clicked
+}
+
+void AIdlePlayerController::PlayWoodcutAnimation()
+{
+	//plays the woodcut animation
+}
+
+void AIdlePlayerController::GetLog()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Add one log"));
+	//add random logic here
+}
+
+void AIdlePlayerController::StartTimer()
+{
+	GetWorldTimerManager().SetTimer(TimerHandle, this, &AIdlePlayerController::GetLog, 5.f, true, 0.0f);
+}
+
+void AIdlePlayerController::EndTimer()
+{
+	GetWorldTimerManager().ClearTimer(TimerHandle);
+}
+
